@@ -997,6 +997,8 @@ return 0;
 
 Setting up the DFMini
 
+
+
 The DFMini Player module is a small music player. It is low cost and low power and reproduces sounds stored on a memory card.
 Based on this, the module can be controlled via the standalone mode, that is, in this mode, there will only be the DFMini module, a battery to power, the speaker, buttons to control it, and the SD card with the songs.
 Another way to control it is to use an Arduino or another control device. The Arduino, for example, will send commands through serial communication with the DFMini Player Module.
@@ -1013,6 +1015,8 @@ With a quick touch the system returns to the previous song, however, if you pres
 The button connected to pin IO2 is used to go to the next track and increase the volume.
 With a quick touch the system advances to the next song, however, if you press the button for more than 1 second, the system will increase the volume of the song.
 In this standalone method, the songs must be saved on the memory card
+
+
  
 This way, each time the buttons are pressed, the system will play each song in ascending or descending order.
 However, when using Arduino or another control device, we must modify the way of organizing the musical files on the SD Card.
@@ -1024,6 +1028,8 @@ The Arduino must communicate via the serial with the DFMini Player and send the 
 First, we must assemble the circuit shown in the Figure below.
 After assembling this circuit, you must add the songs on your memory card. In this step, the songs should be renamed as 01, 02, 03, for example.
 You cannot leave the songs with their names, as there will be a problem when the Arduino sends the command to execute the specific track. Therefore, you must configure as shown below.
+
+
  
 After naming the files, write the following code on your Arduino.
 #include "SoftwareSerial.h"

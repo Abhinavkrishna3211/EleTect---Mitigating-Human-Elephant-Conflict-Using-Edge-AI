@@ -2183,9 +2183,10 @@ The board runs on 5V via USB-C or DC input and is designed for outdoor enclosure
 <img width="1187" height="1600" alt="image" src="https://github.com/user-attachments/assets/d457c848-7bc4-443a-8af6-f1524d6cf3c1" />
 
 
-Custom model using google collab and Roboflow
+Custom model using google collab and Roboflow for Vehicle detection
 
-image.png
+<img width="740" height="531" alt="image" src="https://github.com/user-attachments/assets/2d7979bb-a2b3-4a31-bb3e-53818236653a" />
+
 
 In this part, we'll kick off by labeling our dataset with the intuitive tools provided by Roboflow. From there, we'll advance to training our model within Google Colab's collaborative environment. Next up, we'll explore deploying our trained model using the SenseCraft Model Assistant, a process designed to smoothly bridge the gap between training and real-world applications. By the conclusion of this part, you'll have your very own custom model ready to detect vehicles, operational on Grove Vision AI V2.
 
@@ -2199,13 +2200,15 @@ From dataset to model deployment, our journey consists of the following key stag
 
 Step 1.Create a free Roboflow account
 
-image.png
+<img width="740" height="407" alt="image" src="https://github.com/user-attachments/assets/c586fb13-1ddb-412c-bd7b-3329595667b4" />
+
 
 Roboflow provides everything you need to label, train, and deploy computer vision solutions. To get started, create a free Roboflow account.
 
 Step 2. Creating a New Project and Uploading images
 
-image.png
+<img width="740" height="402" alt="image" src="https://github.com/user-attachments/assets/1af0e128-e486-4742-9a32-ea66f378b998" />
+
 
 Once you've logged into Roboflow, Click on Create Project.\
 
@@ -2225,7 +2228,8 @@ After uploading, you'll need to annotate the images by labeling vehicle.
 
 Roboflow offers three different ways of labelling images: Auto Label, Roboflow Labeling and Manual Labeling.
 
-image.png
+<img width="471" height="555" alt="image" src="https://github.com/user-attachments/assets/39840ba1-3f03-4e53-865c-c57aab9b2161" />
+
 
 Auto Label: Use a large generalized model to automatically label images.
 
@@ -2259,15 +2263,18 @@ Click Generate in the left toolbar and click Continue in the third Preprocessing
 
 In the Augmentation in step 4, select Mosaic, which increases generalisation.
 
-image.png
+<img width="569" height="555" alt="image" src="https://github.com/user-attachments/assets/a93e509e-959b-41e6-9c1d-8b38a325e581" />
 
-image.png
+
+<img width="600" height="555" alt="image" src="https://github.com/user-attachments/assets/9f592e31-ee49-4df9-8d3e-bbda278810be" />
+
 
 In the final Create step, please calculate the number of images reasonably according to Roboflow's boost; in general, the more images you have, the longer it takes to train the model. However, the more pictures you have will not necessarily make the model more accurate, it mainly depends on whether the dataset is good enough or not.
 
 Click on Create to create a version of your dataset. Roboflow will process the images and annotations, creating a versioned dataset. After the dataset is generated, click Export Dataset. Choose the COCO format that matches the requirements of the model you'll be training.
 
-image.png
+<img width="740" height="517" alt="image" src="https://github.com/user-attachments/assets/cfa3a661-ba5f-4c82-9cd5-45ccfcb015e8" />
+
 
 Click on Continue and you'll then get the Raw URL for this model. Keep it, we'll use the link in the model training step a bit later.
 
@@ -2279,13 +2286,15 @@ Step 1. Access the Colab Notebook​
 
 You can find different kinds of model Google Colab code files on the SenseCraft Model Assistant's Wiki. If you don't know which code you should choose, you can choose any one of them, depending on the class of your model (object detection or image classification).
 
-image.png
+<img width="740" height="405" alt="image" src="https://github.com/user-attachments/assets/f6eab48b-f1c8-43bc-a512-62ea641cafc5" />
+
 
 If you are not already signed into your Google account, please sign in to access the full functionalities of Google Colab.
 
 Click on "Connect" to allocate resources for your Colab session.
 
-image.png
+<img width="740" height="394" alt="image" src="https://github.com/user-attachments/assets/3a84845f-df18-4921-8dd9-6f27d2a81de8" />
+
 
 select the panel showing RAM and Disk
 
@@ -2293,29 +2302,36 @@ image.png
 
 select "Change runtime type"
 
-image.png
+<img width="472" height="267" alt="image" src="https://github.com/user-attachments/assets/fa7d077d-67cb-4748-9701-23fccbd7a404" />
+
 
 Select "T4 GPU"
 
-image.png
+<img width="508" height="422" alt="image" src="https://github.com/user-attachments/assets/26b71a71-755a-4b12-9f23-22b1b5c9852e" />
+
 
 Now run the "Setup SSCMA"
 
-image.png
+<img width="740" height="307" alt="image" src="https://github.com/user-attachments/assets/23753601-ddcd-4a8d-90c4-ae419faa62a5" />
+
+
 
 you will get a warning like this click on "Run anyways"
 
-image.png
+<img width="740" height="345" alt="image" src="https://github.com/user-attachments/assets/37ffebd6-3467-41f9-b8cc-755f01d691c0" />
+
 
 Wait untill the repositary is fully clonedand installed all the dependencies.
 
-image.png
+<img width="740" height="321" alt="image" src="https://github.com/user-attachments/assets/9fe83857-aaf5-4e49-a6db-b023c5a58a71" />
+
 
 now its finished
 
 Now run the "download the pretrain model weights file
 
-image.png
+<img width="740" height="65" alt="image" src="https://github.com/user-attachments/assets/776c26be-7a76-4d30-977f-84c9054babc7" />
+
 
 Step 2. Add your Roboflow Dataset​
 
@@ -2325,7 +2341,7 @@ To customize this code for your own model link from Roboflow:
 
 1)Replace Gesture_Detection_Swift-YOLO_192 with the desired directory name where you want to store your dataset.
 
-2)Replace the Roboflow dataset URL (https://universe.roboflow.com/ds/xaMM3ZTeWy?key=5bznPZyI0t)
+2)Replace the Roboflow dataset URL (https://app.roboflow.com/ds/uQS9v4ZUkd?key=8d2CgUki6U)
 
 with the link to your exported dataset (It's the Raw URL we got in the last step in Labelled Datasets). Make sure to include the key parameter if required for access.
 
@@ -2355,7 +2371,8 @@ To customize this command for your own training, you would:
 
 7)If you have a different pre-trained model file, update the load_from path accordingly.
 
-image.png
+<img width="740" height="219" alt="image" src="https://github.com/user-attachments/assets/b9042c6f-7f29-42aa-b4b5-759af0bc6992" />
+
 
 
 
@@ -2371,7 +2388,8 @@ Step 6. Download the exported model file​
 
 After the Export the model section, you will get the model files in various formats, which will be stored in the Model Assistant folder by default. Our stored directory is EleTect 1.5.
 
-image.png
+<img width="518" height="459" alt="image" src="https://github.com/user-attachments/assets/9fe2b64f-071c-4339-a2e2-be9404915d27" />
+
 
 select "ModelAssistatnt"
 
@@ -2383,7 +2401,8 @@ Upload models to Grove Vision V2 via SenseCraft Model Assistant
 
 Please connect the device after selecting Grove Vision AI V2 and then select Upload Custom AI Model at the bottom of the page.
 
-image.png
+<img width="740" height="405" alt="image" src="https://github.com/user-attachments/assets/f76a26ca-b5ff-4f5a-adf1-517d996c4393" />
+
 
 You will then need to prepare the name of the model, the model file, and the labels. I want to highlight here how this element of the label ID is determined.
 
@@ -2973,11 +2992,11 @@ After completing the first version of the EleTect Signage node, we designed and 
 
 <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/a998a3d8-1215-48d3-a0ba-1d8ca41bfe47" />
 
-![Uploading image.png…]()
+<img width="1200" height="900" alt="image" src="https://github.com/user-attachments/assets/8d65bafa-9d66-44b1-974a-315e5915f416" />
 
-![Uploading image.png…]()
+<img width="555" height="555" alt="image" src="https://github.com/user-attachments/assets/aa573d28-acbb-47fd-be4e-234aa39c78cf" />
 
-![Uploading image.png…]()
+<img width="555" height="555" alt="image" src="https://github.com/user-attachments/assets/dfb51538-81c6-469e-bc41-bcce0569a590" />
 
 
 The entire signage housing was redesigned in Fusion 360 and is now 100% 3D-printed, making it:
@@ -2997,7 +3016,7 @@ The new enclosure includes proper mounting slots, structured ribs for reinforcem
 
 [Initial test video](https://youtube.com/shorts/t8Q6Qv7HXrM?si=4E1iOYaPRBNmvcE8)
  
-![Uploading image.png…]()
+<img width="555" height="555" alt="image" src="https://github.com/user-attachments/assets/ead70b69-7d91-4987-93e2-44d7400d840b" />
 
 
 
@@ -3091,10 +3110,12 @@ This improved version is now the recommended design for future field installatio
 🌏 Exhibition at Maker Faire Shenzhen 2025
 
 
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/40417e60-4a88-450f-ac2a-be9648d6dca9" />
 
 
 The EleTect Signage system was officially exhibited at Maker Faire Shenzhen 2025, one of Asia’s largest community-driven innovation events.
  
+![Uploading image.png…]()
 
 
 
@@ -3111,6 +3132,7 @@ The real-time demo of vehicle detection using Grove Vision AI V2
 Live explanation of the LoRa communication pipeline and how alerts propagate
  
 
+https://youtu.be/5J3gPbpJmuA
 
 
 The project received strong interest from makers, engineers, educators, and sustainability-oriented groups, especially due to its focus on wildlife protection, rural safety, and low-power distributed sensing.
@@ -3119,6 +3141,7 @@ Participating in Maker Faire Shenzhen 2025 helped validate the design, gather fe
 
 🌍 Future Plans
 
+![Uploading image.png…]()
 
 
 One of the most impactful upgrades we are planning for EleTect is the integration of Google Maps into the system. Currently, EleTect is capable of detecting elephant movement and triggering local deterrents or alerts. However, by incorporating Google Maps, we aim to create a real-time, centralized monitoring system that will drastically improve response times and ensure safer coexistence between humans and elephants.
@@ -3145,7 +3168,9 @@ Community Awareness – Local communities gain accessible, visual information, f
 
 While designed for mitigating human-elephant conflict, the system can also be adapted for other regions and animals, such as kangaroos, deer, or bison, with only minimal modifications required. The overall goal remains the same: to reduce accidents, save human lives, and protect wildlife.
 
-IMG_4563.jpeg
+![Uploading image.png…]()
+
+![Uploading image.png…]()
 
 
 

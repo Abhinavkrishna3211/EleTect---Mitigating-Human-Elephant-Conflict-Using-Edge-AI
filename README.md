@@ -61,6 +61,17 @@ Initial trials showed promising outcomes:
 •	The bee-buzz deterrent effectively turned elephants away without harm.
 The positive community feedback and official validation confirm that EleTect can be scaled safely for real-world conservation use.
 
+🏆 IEEE IAS CMD Humanitarian Award 2025
+
+
+
+We are proud to share that EleTect was awarded the IEEE IAS CMD Humanitarian Project Award for the year 2025, in recognition of its innovative, impactful, and humanitarian approach to addressing the growing crisis of human–elephant conflict. As lives continue to be lost in forest-border regions, our team proposed a non-lethal, intelligent, and community-centered solution that fuses traditional tribal practices—such as the use of honeybee deterrents—with modern TinyML and edge AI technologies. EleTect demonstrates how technology can honor ecological wisdom while enhancing safety and peaceful coexistence.
+ 
+
+
+As part of this recognition, we were invited to present EleTect at the IEEE IAS Annual Meeting 2025 in Taiwan, where we showcased the system’s design, field deployments, and real-world impact to an international audience of researchers and engineers. The smart signage module, developed under EleTect 1.5, is a functional extension of the project, aimed at solving additional dimensions of the problem—including early detection, deterrence, communication, and public awareness.
+
+<img width="450" height="150" alt="image" src="https://github.com/user-attachments/assets/f6f6ac96-17e1-4aa1-952f-4c5b75e09e24" />
 
 Setting up the Nodes
 
@@ -996,6 +1007,7 @@ return 0;
 
 
 Setting up the DFMini
+<img width="450" height="477" alt="image" src="https://github.com/user-attachments/assets/c63694dc-9cf6-432a-a82b-794272fe6ad5" />
 
 
 
@@ -1007,6 +1019,7 @@ Another way to control it is to use an Arduino or another control device. The Ar
  
 To control it, it is important to use the basic standalone circuit
 
+<img width="740" height="358" alt="image" src="https://github.com/user-attachments/assets/537649c8-c17a-4c10-bd3d-0954ad3078a7" />
 
  
 The two buttons shown in the circuit above are used to change the music tracks and control the volume of the sound.
@@ -1016,6 +1029,7 @@ The button connected to pin IO2 is used to go to the next track and increase the
 With a quick touch the system advances to the next song, however, if you press the button for more than 1 second, the system will increase the volume of the song.
 In this standalone method, the songs must be saved on the memory card
 
+<img width="450" height="476" alt="image" src="https://github.com/user-attachments/assets/efe4a1da-54c2-4c26-ab73-6e6442f514f7" />
 
  
 This way, each time the buttons are pressed, the system will play each song in ascending or descending order.
@@ -1024,11 +1038,15 @@ Now, I'll explain how to control the DFMini Player using the Arduino through ser
 Controlling the DFMini Player with Arduino
 In this step, the volume control, range control, equalization commands and other features will be sent by Arduino.
 The Arduino must communicate via the serial with the DFMini Player and send the control commands.
+
+<img width="740" height="389" alt="image" src="https://github.com/user-attachments/assets/d168bafb-9a3a-419c-8213-e1c986de8bbd" />
+
  
 First, we must assemble the circuit shown in the Figure below.
 After assembling this circuit, you must add the songs on your memory card. In this step, the songs should be renamed as 01, 02, 03, for example.
 You cannot leave the songs with their names, as there will be a problem when the Arduino sends the command to execute the specific track. Therefore, you must configure as shown below.
 
+<img width="740" height="389" alt="image" src="https://github.com/user-attachments/assets/4c7454f8-833b-4e70-89be-05b3b1755fe7" />
 
  
 After naming the files, write the following code on your Arduino.
@@ -1328,15 +1346,20 @@ Serial.println(myDFPlayer.readVolume());
 menu_opcoes();
 }
 }
+
+
 LoRa communication from Nodes to Master
-LoRa is a low-power wireless modulation technology that enables devices to communicate over long distances with minimal energy consumption. "P2P" stands for "point-to-point, " meaning devices can communicate directly with each other without the need for intermediate network infrastructure such as base stations or routers.
-By leveraging LoRa P2P, IoT devices can communicate directly with each other in environments requiring long-distance communication and low power consumption.
+
+LoRa is a low-power wireless modulation technology that enables devices to communicate over long distances with minimal energy consumption.
+By leveraging LoRa , IoT devices can communicate directly with each other in environments requiring long-distance communication and low power consumption.
 We can connect the Wio-E5 module to the UART socket directly as the below picture shows.
  
 Download Library
 The u8g2 library must be installed for this demo. Click to download the library and install it (How to install an Arduino Library).
 Download the example
 Copy the code stick on the Aruino IDE then upload it. One of them is used as a master, and the NODE_SLAVE macro definition in the code needs to be commented out, and the other is used as a slave, and the NODE_SLAVE macro definition in the code needs to be turned on.
+
+
 # include <Arduino.h>
 # include <U8x8lib.h>
 // #define NODE_SLAVE
@@ -1550,6 +1573,9 @@ delay(3000);
 
 
 Setting up the Master
+
+<img width="536" height="452" alt="image" src="https://github.com/user-attachments/assets/e698ebe4-6a6b-4de4-ab76-beab8c9c6639" />
+
  
 The master will house the
 •	Lora and Antenna
@@ -1558,9 +1584,15 @@ The master will house the
 •	Power system
 The master will collect the data from all of the deployes data and will send alert to the local people when an elephant is spotted near them and will send the data to the base station where we will be able to monitor the data from all the nodes.
 Using the SIM800L Module for Alert from Master
+
+<img width="740" height="445" alt="image" src="https://github.com/user-attachments/assets/7062e57f-9fbb-4962-9e3f-d8fda558f2d3" />
+
  
 The SIM800L is a quad-band GPRS module that is a highly integrated module developed with a TCP/IP protocol stack. SIM800L is a small cellular module allowing GPRS communication, sending and receiving SMS, and making and receiving voice calls.
 it works on frequencies EGSM 900MHz, DCS 1800MHz, and PCS 1900MHz It supports a GPRS connection with download speeds of up to 85.6kbps. The module has an inbuilt TCP/IP stack that allows it to connect to the internet. The SIM800L also has an inbuilt RTC and can be used to send and receive text messages (SMS). making this module an excellent solution for any project that needs long-range connectivity.
+
+<img width="250" height="555" alt="image" src="https://github.com/user-attachments/assets/dc272502-da42-4c59-9120-2bfb94bdae12" />
+
  
 Now, insert the SIM card into the back of the SIM800 module. Then, attach the SIM800 TX and RX to the Arduino D8 and D7 respectively. These are the serial UART connections that allow communication between the two modules.
 If the power to the SIM800L is enough, the onboard LED starts blinking. If there’s not enough power, the LED blinks for almost three seconds and then turns off.
@@ -1603,14 +1635,18 @@ Arsp = Serial.readString();
 gsm.println(Arsp);
 }
 }
+
+
 Once you upload the code to the Arduino board, you’ll be able to send all the AT commands in order to send/receive text messages or make calls.
 The FONA library is a library for interfacing with the SIM800 module. It allows you to send and receive SMS messages, make and receive calls, and connect to the internet. The SIM800 FONA library is open source and is released under the MIT license. The SIM800 FONA library is easy to use and is well documented. I would recommend this library to anyone looking for an easy way to interface with the SIM800 module.
 The library I recommend is Adafruit’s FONA library you can go to Sketch > Include Library > Manage Libraries and type “FONA” in the search bar.
 Download the source and click the library:
-•	Library SIM800L: Adafruit FONA
+•	Library SIM800L: Adafruit FONA https://drive.google.com/open?id=1DAVvBwXJJ4Y6k7LKiGhHueCHFCYkekYu
 The library comes with a number of examples. The FONA_test sketch provides us access to all the SIM800l functions! If you upload the sketch and use the same wiring diagram.
 The FONA library owns a simple send SMS() function that takes the number and message as parameters and returns true if the message was sent through the network successfully. Here’s an example code that sends one SMS:
 Now we will make code the Arduino mega to send a message to the local people near the device to warn them of elephant sightings.
+
+
 #include &lt;SoftwareSerial.h&gt;
 #include "Adafruit_FONA.h"
 #define FONA_RX 2
@@ -1635,6 +1671,10 @@ gsm.sendSMS(sendto, message);
 delay(1000);
 }
 void loop() {}
+
+
+<img width="579" height="555" alt="image" src="https://github.com/user-attachments/assets/6b6a29f3-5429-40ac-8646-27c09ad24b7f" />
+
  
 Data monitoring and logging using NodeRed from Master
 A Master will be collecting the information from all the deployed nodes and sending the data to the base station so that the authorities can monitor elephant spotting and the data can be used to analyze the elephant sighting pattern and behaviours so that we can make the solution more efficient and bring in necessary changes and take better actions to avoid elephant-human conflicts and for a better co-existence
@@ -1648,7 +1688,6 @@ Using Powershell: node --version; npm --version
 Using cmd: node --version && npm --version
 You should receive back output that looks similar to:
 v18.15.0
-
 9.5.0
 2. Install Node-RED
 Installing Node-RED as a global module adds the command node-red to your system path. Execute the following at the command prompt:
@@ -1658,40 +1697,66 @@ Once installed, you are ready to run Node-RED
 Then open your comment prompt and type
 node-red
 It will show the initialization of the Node-red in the cmd
+
+<img width="740" height="336" alt="image" src="https://github.com/user-attachments/assets/744de5b9-f94c-4d22-a76c-2ed3c50c39fa" />
+
  
 from there copy the http://127.0.0.1:1880/
 and paste it into chrome browser
 and this workspace will open up
+
+<img width="740" height="503" alt="image" src="https://github.com/user-attachments/assets/427bb149-61ad-46d6-b100-6dc8aaaf46a8" />
+
  
 After that workspace has opened up we need something called the node-red-dashboard
 inorder to install it :
 click on the three bars you see on the top right and then click on manage palette and then go to install section and paste "node-red-dashboard" there and install it
 the window will look like this :
+
+<img width="740" height="407" alt="image" src="https://github.com/user-attachments/assets/be451a78-a2b2-4a26-90c4-ae54a41d000e" />
+
  
 Now we can start setting up the flow in node-red and we will show the data in a table in the dashboard where we can monitor and log the data of elephant sighting from the nodes with the date, time and location
+
+<img width="312" height="555" alt="image" src="https://github.com/user-attachments/assets/a6eed073-5c9b-422c-a0df-267556d89ac0" />
+
  
 The EleTect dashboard will look like this.
 Designing and manufacturing the Casing for Nodes and Master
 A casing for the Nodes and Master was designed using SolidWorks.
+
 Design of Node
+
+https://youtu.be/Fs8tWA_q1AM
+
 Design of Master
+
+https://youtu.be/XL0--xHIrCQ
+
 Manufacturing
-The entire casing was fabricated using 3D printing, I used PLA+ as the material.I will give you the product link.If you need it you can purchase it.I found it quite good.Click on this link to purchase it.The manufacturing was done using Prusa and Ultimaker.
+
+https://youtu.be/xgO9uVvKEzs
+
+The entire casing was fabricated using 3D printing in our college fablab, I used PLA+ as the material.I will give you the product link.If you need it you can purchase it.I found it quite good.Click on this link to purchase it.The manufacturing was done using Prusa and Ultimaker.
 After the 3D printing process we finally assembled eveything and this is the final product.
+
+<img width="740" height="416" alt="image" src="https://github.com/user-attachments/assets/d1f36288-0709-411a-ae1f-32d578cdfbd7" />
+
+![Uploading image.png…]()
+
  
  
 Demonstration
 
+https://youtu.be/SIgVDPAxZdk
 
 
-
-
-
-
+https://youtu.be/JUwJKVzlODY
 
 
 
 Scalability of the Project
+
 1) Modular Design:TinyML-enabled nodes enable quick deployment over large elephant corridors. According to a 2021 International Union for Conservation of Nature (IUCN) study, TinyML and other modular technology are especially well-suited for wildlife conservation applications because of their low infrastructure requirements and simplicity of scalability.
 2) Range Adjustment: Depending on the length of the forest boundary is, the system can be scaled up or down by adding or removing nodes. Elephant migration patterns were used to determine the optimal node density for cost-effectiveness, as shown by a 2023 deployment in Kenya's Namunyak Wildlife Conservancy.
 3) Habitat Diversity: Eletect isn't just for certain kinds of forests. A 2022 study that was published in the journal Ecological Applications discovered that elephants in different African and Asian settings showed aversion to bee noises, indicating the deterrent's universality.

@@ -1,18 +1,32 @@
 Introduction
+
+<img width="584" height="555" alt="image" src="https://github.com/user-attachments/assets/2b3768e9-0758-4859-8eb0-c0033813d4c9" />
+
  
 Communities in Kerala that live close to forest boundaries are seriously threatened by conflicts between humans and elephants. Tragic events that result in death, wild elephants have destroyed families and uprooted livelihoods. The number of human casualties were 3930 during an eight-year period which requires immediate response. "EleTect, " our endeavor, uses technology to facilitate early detection. At the margins of forests, nodes with TinyML capabilities keep watch and swiftly notify authorities. Our inventiveness doesn't stop there, though. We use the sound elephants naturally dread, the drone of honey bees as a harmless deterrent. "EleTect" seeks to alter the narrative by encouraging safer coexistence, reducing conflicts, and supporting conservation efforts—one in which people and elephants coexist together
 Problem Statement
+
+<img width="740" height="430" alt="image" src="https://github.com/user-attachments/assets/6fe8af1a-7ff6-4d33-8b6a-e87cf3d75366" />
+
  
 Kerala, a state known for its lush forests and diverse wildlife, has faced a growing hazard :Human- Elephant Conflicts. Tragic incidents involving wild elephants turning deadly have occurred in areas such as Wayanad, Mananthavady, Munnar, and Idukki. An angry elephant crushed a tribal woman who was collecting honey in the wild. A man in Mananthavady lost his life as a result of a tusker breaking into a residential area. In the same way, another guy was attacked by an elephant on the Kannimala estate, which is close to Munnar. And an elephant in the Idukki district killed a 70-year-old woman. These tragic occurrences highlight how urgent it is to develop workable answers. With an emphasis on early detection, deterrents, and communication, the "Eletect" project seeks to protect lives, foster coexistence, and make a positive contribution to wildlife conservation. "Eletect" uses technology to identify elephants early in order to lessen the impact of these conflicts. Despite their majesty and strength, elephants have a startling weakness: they are afraid of some noises. The sound of bees buzzing is the most noticeable among them. The sound of bees is a surefire way for these gentle giants, despite their great strength, to become wary and even retreat. We may use this amazing natural occurrence to our advantage and the benefit of elephants as well as people. Using this knowledge in the "Eletect" project to develop a long-term resolution to conflicts between people and elephants. We carefully use honey bee noise to discourage elephants from approaching residential areas where people live. As a harmless deterrent, the buzzing noise guides elephants away without endangering them. It's a peaceful strategy that honors both species. At the boundaries of forests, nodes with TinyML capabilities are placed in a thoughtful way. Elephants are deterred and conflicts avoided by using deterrents like playing honey bees noises. Costeffective warnings are ensured through the use of LoRa or LoRaWAN technologies to promote communication between nodes and central systems. The project aims to reduce conflict, support conservation efforts, and encourage a safer cohabitation between humans and elephants. Scalability guarantees that the solution may be successfully implemented in various locations, safeguarding both human life and natural environments.
 
 
 Solution Overview
+
+<img width="740" height="416" alt="image" src="https://github.com/user-attachments/assets/f3d91c2e-cb06-46c8-b04b-beacd8ce2faf" />
+
  
 By integrating the Seeed Studio Grove Vision AI V2 module and Xiao ESP32S3 Sense within the same enclosure, equipped with a speaker for emitting deterrent sounds, we've created a comprehensive system for elephant detection and mitigation. The Grove Vision AI V2 module runs a vision-based TinyML model using the onboard camera to detect elephants, while the ESP32S3 Sense employs a sound-based TinyML model to detect elephant presence through surrounding sounds. This combination not only ensures multiple layers of detection but also allows for real-time decision-making without relying on external servers, thanks to TinyML's efficiency and autonomy. Furthermore, by harnessing solar power for all components, the system becomes self-sustainable, making it ideal for deployment in remote areas. The use of TinyML on low-power IoT devices not only minimizes energy consumption but also facilitates rapid response to detected events, such as activating deterrent measures like playing honeybee sounds to prevent elephants from entering human habitats. This holistic approach addresses the challenges of human-elephant conflicts by offering a sustainable, efficient, and effective solution.
+
+<img width="740" height="365" alt="image" src="https://github.com/user-attachments/assets/a9f9e683-b935-403f-bcf5-1220c0fc8f81" />
+
  
 This is how we planned to deploy the project.We will be having multiple nodes in the elephant attack prone area which wil spot the elephant and produce deterrent sounds and also a master to which all the nodes will send the information through LoRa and The master willsend alert to the locals when an elephant is spotted near them and aslo will send all of the collected data to the base station from where we can monitor everything and study about the elephant behaviours and track the pattern of elephant sighting which can be used to improve the projects accuracy and make the life of those who are affected safer.
 Some studies shows that elephants are afraid of bee sounds, so we decided to use it as the deterrent sound.
- 
+
+ <img width="740" height="370" alt="image" src="https://github.com/user-attachments/assets/e79a0649-fefb-4b22-8515-b6b3eb52dd75" />
+
 🌿 Field Survey, Government Approval & Real-World Testing
 To ensure that EleTect truly addresses on-ground challenges of human-elephant conflict (HEC), we conducted an extensive community survey and received official clearance for field testing from the Divisional Forest Officer (DFO) Kothamangalam, Mr. Varun Dalia IFS, and Forest Range Officer, Mr. Jaleel.
 🧭 Survey & Study Area
@@ -21,14 +35,26 @@ Using household surveys, we collected firsthand data from residents to understan
 •	Crop damage: Reported by 66% of respondents
 •	Injury or death of people: Reported by 38.4% of respondents
 These alarming numbers reinforced the urgency of deploying a technological mitigation solution like EleTect.
- 
+
+ <img width="710" height="516" alt="image" src="https://github.com/user-attachments/assets/eece9b90-8922-4bef-ba75-1c0a62a89f83" />
+
+ <img width="530" height="361" alt="image" src="https://github.com/user-attachments/assets/e181e6d6-e318-4125-b8a9-996dd6c69441" />
+
+
 🏛️ Official Approval & Collaboration
 We formally presented EleTect to the DFO office, Kothamangalam, and the Forest Range Office, discussing both its safety and community benefits. After technical evaluation, the forest department approved live field trials of the system within designated buffer zones around Kothamangalam and Kottapady.
- 
+
+<img width="530" height="296" alt="image" src="https://github.com/user-attachments/assets/0ba49ed2-4612-4312-9c6e-c00d34b01178" />
+
+<img width="527" height="286" alt="image" src="https://github.com/user-attachments/assets/172a7af4-5012-48c6-8007-153d11060195" />
+
+
 The department’s involvement ensured ethical deployment — protecting both wildlife and local communities — and validated EleTect as a practical conservation technology.
 🌍 Field Testing & Early Results
 Following approval, EleTect prototypes were installed along forest boundaries where elephant movement was frequent. Each node combined vision + audio TinyML with LoRa connectivity to relay detections in real time.
  
+ <img width="501" height="273" alt="image" src="https://github.com/user-attachments/assets/0aee2a8a-952d-48a5-813e-ac6e523f9f77" />
+
 Initial trials showed promising outcomes:
 •	Locals reported fewer night-time elephant entries after installation.
 •	Forest officers received consistent detection logs and LoRa alerts.
@@ -37,7 +63,9 @@ The positive community feedback and official validation confirm that EleTect can
 
 
 Setting up the Nodes
- 
+
+ <img width="312" height="555" alt="image" src="https://github.com/user-attachments/assets/9e41fd1f-93bd-459b-833c-c1a3dea8cb96" />
+
 We will deploy Nodes like this in the areas prone to elephant attacks.The node consists of :
 •	Seeed studio Grove vision module V2 and OV5647 Camera
 •	Seeed studio XIAO ESP32C3
@@ -48,7 +76,9 @@ We will deploy Nodes like this in the areas prone to elephant attacks.The node c
 •	Speaker(Which will produce Honey bee voice as deterrent sounds)
 •	Solar panel, Solar battery charger and battery
 Grove Vision AI Module V2 Overview
- 
+
+ <img width="740" height="555" alt="image" src="https://github.com/user-attachments/assets/05b3b3a2-441b-4fb4-a6dc-8def95004f6c" />
+
 The Grove Vision AI Module V2 is a game-changer in the world of microcontroller-based AI vision modules. Powered by the ARM Cortex-M55, it outperforms regular ESP32 CAM-based boards while consuming significantly less power. After extensive testing, we found it to be exceptionally powerful and precise.
 Comparison with Xiao ESP32-S3 Sense Board
 In our tests, we compared the Grove Vision AI Module V2 with the Xiao ESP32-S3 Sense board. The difference is clear in the comparison video. The Grove Vision AI Module V2 delivers a higher frame rate while maintaining low power consumption, outperforming the Xiao ESP32-S3 Sense board.
@@ -86,64 +116,113 @@ Our tests confirmed that the Grove Vision AI Module V2 is suitable for a variety
 •	Mobile IoT Devices: Wearable and handheld devices
 We can declare with confidence that the Grove Vision AI Module V2 delivers unmatched AI processing capabilities, flexible model support, a wealth of peripheral possibilities, high compatibility, and an entirely open-source environment after conducting rigorous testing. It is a great option for a variety of AI and computer vision applications because to its low power consumption and great performance.
 Hardware Overview
+
+<img width="740" height="463" alt="image" src="https://github.com/user-attachments/assets/ff10b444-4e1c-4941-9ef8-97491f91feb6" />
+
  
 Refer this article, 2024 MCU AI Vision Boards: Performance Comparison, it is possible to confirm how powerful Grove Vision AI (V2) is when compared to Seeed Studio Grove - Vision AI Module, Espressif ESP-EYE, XIAO ESP32S3 and on an Arduino Nicla Vision. Do check it out.
 Connecting to a CSI interface camera
 Once you have the Grove Vision AI V2 and camera ready to go, then you can connect them via the CSI connection cable. When connecting, please pay attention to the direction of the row of pins and don't plug them in backwards.
- 
+
+ <img width="500" height="280" alt="image" src="https://github.com/user-attachments/assets/14d51ee8-1185-436b-a7db-048924221651" />
+
 Boot / Reset / Flashed Driver
 Boot
 If you have used some unusual method that has caused the Grove Vision AI to not work properly at all (at the software level), then you may need to put the device into BootLoader mode to revive the device. Here is how to enter BootLoader mode.
 Method 1
 Please disconnect the connection cable between the Grove Vision AI and your computer, then press and hold the Boot button on the device without releasing it. At this time, please connect Grove Vision AI to your computer with a Type-C type data cable, and then release it again. At this point the device will enter BootLoader mode.
+
+<img width="400" height="224" alt="image" src="https://github.com/user-attachments/assets/84406df0-7335-41fa-9070-d7fe0d13f4e8" />
+
  
 Method 2
 With the Grove Vision AI connected to your computer, you can enter BootLoader mode by pressing the Boot button and then quickly pressing the Reset button.
+
+<img width="400" height="224" alt="image" src="https://github.com/user-attachments/assets/cf6989ab-8fd2-4b28-8038-5c6f9846e29e" />
+
  
 Reset
 If you're experiencing problems with device data suddenly not uploading or images getting stuck, you can try restarting your device using the Reset button.
+
+<img width="500" height="280" alt="image" src="https://github.com/user-attachments/assets/728572c5-ac27-4e29-9d0e-f88d3ffeb13e" />
+
  
 Driver
 If you find that the Grove Vision AI V2 is not recognised after connecting it to your computer. Then you may need to install the CH343 driver on your computer. Here are some links to download and install the CH343 driver.
-Windows Vendor VCP Driver One-Click Installer: CH343SER.EXE
-Windows Vendor VCP Driver: CH343SER.ZIP
-Windows CDC driver one-click installer: CH343CDC.EXE
-Windows CDC driver: CH343CDC.ZIP
-macOS Vendor VCP Driver: CH34xSER_MAC.ZIP
+Windows Vendor VCP Driver One-Click Installer: CH343SER.EXE https://files.seeedstudio.com/wiki/grove-vision-ai-v2/res/CH343SER.EXE
+Windows Vendor VCP Driver: CH343SER.ZIP https://files.seeedstudio.com/wiki/grove-vision-ai-v2/res/CH343SER.ZIP
+Windows CDC driver one-click installer: CH343CDC.EXE https://files.seeedstudio.com/wiki/grove-vision-ai-v2/res/CH343CDC.EXE
+Windows CDC driver: CH343CDC.ZIP https://files.seeedstudio.com/wiki/grove-vision-ai-v2/res/CH343SER.ZIP
+macOS Vendor VCP Driver: CH34xSER_MAC.ZIP https://files.seeedstudio.com/wiki/grove-vision-ai-v2/res/CH341SER_MAC.ZIP
 Below is a block Diagram of the Grove Vision AI (V2) system, including a camera and a master controller.
+
+<img width="740" height="411" alt="image" src="https://github.com/user-attachments/assets/ffaadd94-d9ff-48d6-881b-abc4a61b0430" />
+
  
 Getting started with SenseCraft Web Toolkit.
 SenseCraft AI empowers users to effortlessly deploy a vast library of publicly available AI models on tot heir edge devices such as Recomputer(Jetson), XIAOS3, and more, and provides a seamless and user-friendly experience, allowing you to deploy public AI models directly on to your edge devices with just a few clicks.Say good bye to complex configurations and coding – with SenseCraft AI, you can efftortlessly unlock the power of AI on your devices. SenseCraft AI also allows you to upload and share your own trained AI models with the community. By publishing your models, you contribute to a growing library of shared knowledge, fostering collaboration and innovation among AI enthusiasts.Now we will quickly get started the modules with SenseCraft AI, and this will only require the module only.
 Step 1. Connect the Grove Vision AI V2 to the SenseCraft AI Model Assistant
 First, we need to open the main SenseCraft AI Model Assistant page.
-Go to SenseCraft AI
+Go to SenseCraft AI https://seeed-studio.github.io/SenseCraft-Web-Toolkit/#/setup/process
 Create an account and login
+
+<img width="740" height="343" alt="image" src="https://github.com/user-attachments/assets/4b17a2f2-dfa9-4dc6-ad30-d7b144399d47" />
+
  
 Please use a Type-C type cable to connect Grove Vision AI V2 to your computer.
 Here we are using a public model for testing the Grove Vision V2.
+
+<img width="740" height="331" alt="image" src="https://github.com/user-attachments/assets/6cbe139c-bc4a-44e1-ab08-d7387e7e5521" />
+
  
 we selected the "Gesture Detection" model to deploy.
+
+<img width="740" height="379" alt="image" src="https://github.com/user-attachments/assets/8442e205-e8d5-4c7c-9e86-e2448f7bc9c4" />
+
  
 Click on "Deploy Model"
- 
+
+ <img width="740" height="236" alt="image" src="https://github.com/user-attachments/assets/624009d6-6135-4e31-9b1a-34abd9942286" />
+
 Then click on "connect"
+
+<img width="740" height="400" alt="image" src="https://github.com/user-attachments/assets/02e61c94-85ce-4d4e-a696-cd9c3b7ee5cd" />
+
  
 Click on "Confirm" and select the connected serial port
+
+<img width="740" height="552" alt="image" src="https://github.com/user-attachments/assets/fc2cc137-7575-473f-8f63-c58de0692451" />
+
  
 Now the model will begin to get uploaded to the Grove vision V2
- 
- 
+
+ <img width="715" height="341" alt="image" src="https://github.com/user-attachments/assets/dd6565ce-ffb6-455e-b86c-f3e7e3c9854c" />
+
+ <img width="740" height="411" alt="image" src="https://github.com/user-attachments/assets/674c857c-6fba-44ad-bc27-2193307d18e3" />
+
 Now you can see that we have successfully uploaded the model.Now we can test it by showing different gestures
  
- 
+ <img width="740" height="402" alt="image" src="https://github.com/user-attachments/assets/511b8be1-a738-4334-8dc3-07e42e499824" />
+<img width="740" height="402" alt="image" src="https://github.com/user-attachments/assets/91ad0106-f6c7-4535-b98a-2c366f6a734a" />
+<img width="740" height="492" alt="image" src="https://github.com/user-attachments/assets/e6748fa9-165b-42f2-9e5c-f280cf6cce97" />
+
  
 we can see how good the new Grove vision V2 is when compared to other MCUs and the previous version, we really got a massive upgrade in every terms, Really Loved it.
 We can see that in the Preview Settings on the right hand side, there are two setting options that can be changed to optimise the recognition accuracy of the model.
 •	Confidence: Confidence refers to the level of certainty or probability assigned by a model to its predictions.
+
+<img width="400" height="394" alt="image" src="https://github.com/user-attachments/assets/715c4357-b2a1-41fe-8ec0-41e06b669422" />
+
  
 •	IoU: IoU is used to assess the accuracy of predicted bounding boxes compared to truth bounding boxes.
+
+<img width="400" height="392" alt="image" src="https://github.com/user-attachments/assets/bb801e47-cfc3-4ae1-8c53-974e61468b08" />
+
  
 Arduino Environment Preparation
+
+<img width="740" height="402" alt="image" src="https://github.com/user-attachments/assets/8bac9197-267c-4183-ae5e-e4b72c37daf9" />
+
  
 1. Visit the official Arduinowebsite: https://www.arduino.cc/en/software
 2. Click on the "Windows" or "Mac"buttonbased on your operatingsystem.
@@ -157,21 +236,31 @@ Downloading the necessary libraries
 1. Open your web browser and navigate to the GitHub repository:
 https://github.com/Seeed-Studio/Seeed_Arduino_SSCMA
 2. Click on the green "Code" button and select "Download ZIP" to download the library as a ZIP file.
- 
+
+ <img width="604" height="555" alt="image" src="https://github.com/user-attachments/assets/afaa48bc-9eac-4111-9889-e6f7401b42ec" />
+
 3. Save the ZIP file to a location on your computer where you can easily find it.
 4. Open the Arduino IDE.
 5. Go to Sketch > Include Library >Add.ZIPLibrary.
+
+<img width="740" height="294" alt="image" src="https://github.com/user-attachments/assets/d75b4c42-c9ba-4e5e-9514-e5cc359bf883" />
+
  
 6. In the file browser window that appears, navigate to the location where you saved the downloaded ZIP file.
 7. Select the ZIP file and click "Open" to add the library to your Arduino IDE.
 8. The Seeed_Arduino_SSCMAlibrary should now be installed and ready to use.
 9. To verify the installation, go to Sketch>Include Library and check if "Seeed_Arduino_SSCMA" appears in the list of installed libraries.
-You also need to downloadone more library
- 
+You also need to download one more library
+
+<img width="740" height="439" alt="image" src="https://github.com/user-attachments/assets/759ae0b5-32dd-4eb5-9e84-93400e46422d" />
+
+
 Go to the Sketch menu, then select Include Library>Manage Libraries.... This will open the Library Manager.In the search bar at the top of the Library Manager, type in ArduinoJSON. The search results will list the ArduinoJSON library. There will be an Install button next to the library. Click the Install button. The ArduinoIDE will automatically download and install the library into your Arduino development environment.
 Installing the board to Arduino IDE
 1. Open theArduinoIDE.
- 
+
+ <img width="740" height="478" alt="image" src="https://github.com/user-attachments/assets/b319c80f-4037-45eb-a8a7-077ed3294366" />
+
 2. Go to File>Preferences.
 3. In the "Additional BoardsManager URLs" field, enter the following URL:
 https://raw.githubusercontent.com/espressif/arduinoesp32/gh-pages/package_esp32_index.json
@@ -179,11 +268,17 @@ https://raw.githubusercontent.com/espressif/arduinoesp32/gh-pages/package_esp32_
 5. Navigate to Tools >Board>Boards Manager.
 6. In the Boards Manager window, search for "ESP32".
 7. Locate the "ESP32 by Espressif Systems" entry and click on it.
+
+<img width="740" height="416" alt="image" src="https://github.com/user-attachments/assets/77880219-f1da-45f6-be42-9464b1b36fb9" />
+
  
 8. Select the latest version from the drop down menu and click "Install".
 9. Wait for the installation process to complete. This may take a few minutes.
 10. Once the installation is finished, close the Boards Manager window
 Custom model for Elephant detection
+
+<img width="740" height="531" alt="image" src="https://github.com/user-attachments/assets/1d6b3ceb-8bbc-415e-95c0-803343a9a356" />
+
  
 In this part, we'll kick off by labeling our dataset with the intuitive tools provided by Roboflow. From there, we'll advance to training our model within Google Colab's collaborative environment. Next up, we'll explore deploying our trained model using the SenseCraft Model Assistant, a process designed to smoothly bridge the gap between training and real-world applications. By the conclusion of this part, you'll have your very own custom model ready to detect elephants, operational on Grove Vision AI V2.
 From dataset to model deployment, our journey consists of the following key stages:
@@ -191,10 +286,16 @@ From dataset to model deployment, our journey consists of the following key stag
 2. Model Training with Google Colab — Here, we focus on training a model capable of deployment on Grove Vision AI V2, leveraging the dataset obtained in the previous step via the Google Colab platform.
 3. Model Upload via SenseCraft Model Assistant — This segment explains how to employ the exported model file to upload our elephant detection model to Grove Vision AI V2 using the SenseCraft Model Assistant.
 Step 1.Create a free Roboflow account
+
+<img width="740" height="402" alt="image" src="https://github.com/user-attachments/assets/3018355b-514c-4254-bfe9-65f0c408d4be" />
+
  
 Roboflow provides everything you need to label, train, and deploy computer vision solutions. To get started, create a free Roboflow account.
 Step 2. Creating a New Project and Uploading images
 Once you've logged into Roboflow, Click on Create Project.\
+
+<img width="740" height="404" alt="image" src="https://github.com/user-attachments/assets/67134213-871c-4bea-85a8-46459a1aa823" />
+
  
 Name your project ("EleTect"). Define your project as Object Detection. Set the Output Labels as Categorical
 .Step 2. Creating a New Project and Uploading images
@@ -203,14 +304,26 @@ Once you've logged into Roboflow, Click on Create Project
 Name your project ("EleTect"). Define your project as Object Detection. Set the Output Labels as Categorical
 Now it's time to upload elephant images.
 Collect images of elephants. Ensure you have a variety of backgrounds and lighting conditions. On your project page, click "Add Images".
+
+<img width="740" height="404" alt="image" src="https://github.com/user-attachments/assets/bb71659b-82a8-496a-ac3d-0a1d5d8b9722" />
+
  
-You can drag and drop your images or select them from your computer. Upload at least 100 images for a robust dataset.
+You can drag and drop your images or select them from your computer. Upload at least 2000 images for a robust dataset.
+
+<img width="740" height="334" alt="image" src="https://github.com/user-attachments/assets/9e0028fc-d7db-4291-ac03-bb4d382f4ca7" />
+
  
 click on Save and Continue
+
+<img width="471" height="555" alt="image" src="https://github.com/user-attachments/assets/7f121b32-ae54-4d96-8369-25d4ee675b81" />
+
  
 Step 3: Annotating Images
 After uploading, you'll need to annotate the images by labeling elephant.
 Roboflow offers three different ways of labelling images: Auto Label, Roboflow Labeling and Manual Labeling.
+
+<img width="740" height="393" alt="image" src="https://github.com/user-attachments/assets/3a5d9f9d-cc14-48c2-9830-765e11e69cc9" />
+
  
 Auto Label: Use a large generalized model to automatically label images.
 Auto Label: Use a large generalized model to automatically label images.
@@ -223,57 +336,116 @@ Manual Labeling: You and your team label your own images.
 •	Manual Labeling: You and your team label your own images.
 The following describes the most commonly used method of manual labelling.
 Click on "Manual Labeling" button. Roboflow will load the annotation interface.
+
+<img width="740" height="369" alt="image" src="https://github.com/user-attachments/assets/2694a3c0-6039-49b4-966b-d213ec0d9fc6" />
+
  
 Select the "Start Annotating" button. Draw bounding boxes around the elephant in each image.
+
+<img width="740" height="410" alt="image" src="https://github.com/user-attachments/assets/544e10d6-61bd-4ae8-917e-586a957a3df6" />
+
  
 Label each bounding box as elephant.
 Use the ">" button to move through your dataset, repeating the annotation process for each image.
 Step 4: Review and Edit Annotations
 It's essential to ensure annotations are accurate.
 Review each image to make sure the bounding boxes are correctly drawn and labeled. If you find any mistakes, select the annotation to adjust the bounding box or change the label.
+
+<img width="277" height="555" alt="image" src="https://github.com/user-attachments/assets/4e60a828-3136-4190-b29d-2d4911feca71" />
+
  
 Step 5: Generating and Exporting the Dataset
 Once all images are annotated. In Annotate click the Add x images to Dataset button in the top right corner.
 Then click the Add Images button at the bottom of the new pop-up window.
+
+<img width="740" height="402" alt="image" src="https://github.com/user-attachments/assets/3ec1b3f3-9cd2-4e9d-94c4-3824cc5f9035" />
+
  
 Click Generate in the left toolbar and click Continue in the third Preprocessing step.
+
+<img width="569" height="555" alt="image" src="https://github.com/user-attachments/assets/5e95c499-ef50-4e75-96ac-a886b11b2845" />
+
  
 In the Augmentation in step 4, select Mosaic, which increases generalisation.
- 
+<img width="600" height="555" alt="image" src="https://github.com/user-attachments/assets/f0149f26-2d53-40ed-87ad-90f1b1e00b37" />
+
+ <img width="740" height="393" alt="image" src="https://github.com/user-attachments/assets/aa88bba5-1a7e-4e40-a571-56af3917f765" />
+
  
 In the final Create step, please calculate the number of images reasonably according to Roboflow's boost; in general, the more images you have, the longer it takes to train the model. However, the more pictures you have will not necessarily make the model more accurate, it mainly depends on whether the dataset is good enough or not.
+
+<img width="740" height="425" alt="image" src="https://github.com/user-attachments/assets/7f4423ba-f207-4d52-9c85-663183a0a278" />
+
  
 Click on Create to create a version of your dataset. Roboflow will process the images and annotations, creating a versioned dataset. After the dataset is generated, click Export Dataset. Choose the COCO format that matches the requirements of the model you'll be training.
- 
+
+ <img width="740" height="517" alt="image" src="https://github.com/user-attachments/assets/824b2869-76f0-4454-b13e-0e435601185d" />
+<img width="740" height="503" alt="image" src="https://github.com/user-attachments/assets/bf9a114c-8570-4ae2-bd36-659cb07da394" />
+
  
 Click on Continue and you'll then get the Raw URL for this model. Keep it, we'll use the link in the model training step a bit later.
+
+<img width="740" height="405" alt="image" src="https://github.com/user-attachments/assets/4a9726b6-9f09-42c9-90b9-db44045d7931" />
+
  
 Congratulations! You have successfully used Roboflow to upload, annotate, and export a dataset for elephant detection model. With your dataset ready, you can proceed to train a machine learning model using platforms like Google Colab.
+
 Training Dataset Exported Model 
 Step 1. Access the Colab Notebook
-You can find different kinds of model Google Colab code files on the SenseCraft Model Assistant's Wiki. If you don't know which code you should choose, you can choose any one of them, depending on the class of your model (object detection or image classification).
+You can find different kinds of model Google Colab code files on the SenseCraft Model Assistant's Wiki. If you don't know which code you should choose, you can choose any one of them, depending on the class of your model (object detection or image classification). https://wiki.seeedstudio.com/ModelAssistant_Introduce_Quick_Start/#model-training
+
+<img width="740" height="394" alt="image" src="https://github.com/user-attachments/assets/c118d027-6c17-49d1-b37c-007bfbcbcc60" />
+
  
 If you are not already signed into your Google account, please sign in to access the full functionalities of Google Colab.
 Click on "Connect" to allocate resources for your Colab session.
+
+<img width="472" height="267" alt="image" src="https://github.com/user-attachments/assets/97c1f92f-38ee-46c9-818f-3c5700be52ff" />
+
  
 select the panel showing RAM and Disk
- 
+
+ <img width="508" height="422" alt="image" src="https://github.com/user-attachments/assets/765fc4d2-1262-47ec-a8d6-4ef39628ce60" />
+
 select "Change runtime type"
+
+<img width="625" height="555" alt="image" src="https://github.com/user-attachments/assets/3d0e189b-5bb0-4b03-b736-0973b21352f0" />
+
  
 Select "T4 GPU"
- 
+
+ <img width="740" height="307" alt="image" src="https://github.com/user-attachments/assets/eec253b3-c244-47ae-9d39-8b6624d584ba" />
+
 Now run the "Setup SSCMA"
+
+<img width="740" height="345" alt="image" src="https://github.com/user-attachments/assets/b72cddac-fcc8-4355-b0c4-e095f40e2663" />
+
  
 you will get a warning like this click on "Run anyways"
+
+<img width="740" height="321" alt="image" src="https://github.com/user-attachments/assets/02a1e658-a0a3-4653-b4ed-c6deefe5b71b" />
+
  
 Wait untill the repositary is fully clonedand installed all the dependencies.
+
+<img width="740" height="306" alt="image" src="https://github.com/user-attachments/assets/78da2375-2ee2-446b-a67b-044deb60519c" />
+
  
 now its finished
+
+<img width="740" height="65" alt="image" src="https://github.com/user-attachments/assets/21b52d7e-23be-4b78-a4ff-b1c1808c5584" />
+
  
 Now run the "download the pretrain model weights file
+
+<img width="740" height="73" alt="image" src="https://github.com/user-attachments/assets/02f54b9a-794d-4ac1-a6bc-1845a17215b1" />
+
  
 Step 2. Add your Roboflow Dataset
 Before officially running the code block step-by-step, we need to modify the code's content so that the code can use the dataset we prepared. We have to provide a URL to download the dataset directly into the Colab filesystem.
+
+<img width="740" height="72" alt="image" src="https://github.com/user-attachments/assets/ef409b63-6899-45a3-9712-c8308a847990" />
+
  
 To customize this code for your own model link from Roboflow:
 1)Replace Gesture_Detection_Swift-YOLO_192 with the desired directory name where you want to store your dataset.
@@ -282,41 +454,75 @@ with the link to your exported dataset (It's the Raw URL we got in the last step
 3)Adjust the output filename in the wget command if necessary
 (-O your_directory/your_filename.zip).4)Make sure the output directory in the unzip command matches the directory you created and the filename matches the one you set in the wget command.
  
- 
+ <img width="740" height="384" alt="image" src="https://github.com/user-attachments/assets/54350944-1401-4dcc-9b80-c8cd5b000951" />
+
 Step 3. Adjustment of model parameters
 The next step is to adjust the input parameters of the model. Please jump to the Train a model with SSCMA section and you will see the following code snippet.
+
+<img width="740" height="219" alt="image" src="https://github.com/user-attachments/assets/6f589300-1ab6-436a-a115-1bc6461a3528" />
+
  
 This command is used to start the training process of a machine learning model, specifically a YOLO (You Only Look Once) model, using the SSCMA (Seeed Studio SenseCraft Model Assistant) framework.
 To customize this command for your own training, you would:
 1)Replace configs/swift_yolo/swift_yolo_tiny_1xb16_300e_coco.py with the path to your own configuration file if you have a custom one.2)Change work_dir to the directory where you want your training outputs to be saved.3)Update num_classes to match the number of classes in your own dataset. It depends on the number of tags you have, for example rock, paper, scissors should be three tags.4)Adjust epochs to the desired number of training epochs for your model. Recommended values are between 50 and 100.5)Set height and width to match the dimensions of the input images for your model.6)Change data_root to point to the root directory of your dataset.7)If you have a different pre-trained model file, update the load_from path accordingly.
+
+<img width="740" height="305" alt="image" src="https://github.com/user-attachments/assets/a70ff84e-f1ff-468c-b40d-f72e9d4a25a7" />
+
  
 Step 5. Exportthe model
 After training, you can export the model to the format for deployment. SSCMA supports exporting to ONNX, and TensorFlow Lite at present
+
+<img width="740" height="187" alt="image" src="https://github.com/user-attachments/assets/024070c0-2acd-4aba-bf41-ef2c79b839ee" />
+
  
 Step 6. Evaluate the model
 When you get to the Evaluate the model section, you have the option of executing the Evaluate the TFLite INT8 model code block.
+
+<img width="518" height="459" alt="image" src="https://github.com/user-attachments/assets/efb987d6-87c5-433a-8808-d93273f73ac1" />
+
  
-Step 6. Download the exported model file
+Step 7. Download the exported model file
 After the Export the model section, you will get the model files in various formats, which will be stored in the Model Assistant folder by default. Our stored directory is EleTect.
- 
+
+ <img width="519" height="420" alt="image" src="https://github.com/user-attachments/assets/4cb3dd34-997d-4d9f-978b-898f60b503eb" />
+
 select "ModelAssistatnt"
+
+<img width="588" height="285" alt="image" src="https://github.com/user-attachments/assets/8832e6a6-9c21-4790-8be8-b33b48dcd146" />
+
  
 In the directory above, the .tflite model files are available for XIAO ESP32S3 and Grove Vision AI V2. For Grove Vision AI V2, we prefer to use the vela.tflite files, which are accelerated and have better operator support. And due to the limitation of the device memory size, we recommend you to choose INT8 model.
+
+<img width="740" height="405" alt="image" src="https://github.com/user-attachments/assets/47f04a55-8eb5-46ba-a02e-e7aaf7b15cb9" />
+
  
 After locating the model files, it's essential to promptly download them to your local computer. Google Colab might clear your storage directory if there's prolonged inactivity. With these steps completed, we now have exported model files compatible with Grove Vision AI V2. Next, let's proceed to deploy the model onto the device.
+
 Upload models to Grove Vision V2 via SenseCraft Model Assistant
 Please connect the device after selecting Grove Vision AI V2 and then select Upload Custom AI Model at the bottom of the page.
- 
+
+ <img width="740" height="505" alt="image" src="https://github.com/user-attachments/assets/b7325f91-0a12-49a6-a118-2b0776c8741d" />
+
 You will then need to prepare the name of the model, the model file, and the labels. I want to highlight here how this element of the label ID is determined.
 If you are using a custom dataset, then you can view the different categories and its order on the Health Check page. Just install the order entered here.
 Then click Send Model in the bottom right corner. This may take about 3 to 5 minutes or so. If all goes well, then you can see the results of your model in the Model Name and Preview windows above.
 Or you could use the model published by Us.Go to search and in public models search for "EleTect", you can find it.
  
- 
+<img width="740" height="391" alt="image" src="https://github.com/user-attachments/assets/300979c0-18f1-42d7-a51e-fecdf1a753a6" />
+
+ <img width="696" height="555" alt="image" src="https://github.com/user-attachments/assets/b18c4489-9e08-4bb0-99f0-149940f163d5" />
+
 Click on deploy and connect your grove vision V2.
  
  
+<img width="740" height="422" alt="image" src="https://github.com/user-attachments/assets/455701d6-3bc3-47af-b77b-8a5cfa637059" />
+![Uploading image.png…]()
+
 Press Confirm and you are good to go.Now that we have done training the vision based model, now we can train the audio model also for increased accuracy
+
+Check the video:https://youtu.be/5A9LV7e6Xzg
+https://youtu.be/vQQ53FgJ9pc
+
 Now that we have done training the vision based model, now we can train the audio model also for increased accuracy
 Training audio based TinyML model on XIAO ESP32S3 Sense
 XIAO ESP32S3 Sense Introduction

@@ -1831,7 +1831,7 @@ Architecture
 
 Signages will be placed like below.
 
-![Uploading image.png…]()
+<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/418e25c9-5fa8-44cb-ba61-3f184684bed7" />
 
 
 🔗 Components Used
@@ -1883,17 +1883,20 @@ Cooling film
 
 Create a Design in Fusion360 for the enclosure.
 
-IMG-20250802-WA0012.jpg
+<img width="740" height="529" alt="image" src="https://github.com/user-attachments/assets/843a544c-b730-464f-8542-c7d42fd8d08f" />
+
 
 Sketch the front panel dimensions based on your component layout (camera, LEDs, LoRa antenna, etc.).Ensure the box has enough depth to house the electronics.
 
-IMG-20250802-WA0037.jpg
+<img width="589" height="555" alt="image" src="https://github.com/user-attachments/assets/3a363351-7b09-4226-8aea-428d2f409f6b" />
 
-IMG-20250802-WA0043.jpg
+<img width="740" height="469" alt="image" src="https://github.com/user-attachments/assets/078604ce-0230-49be-ac81-a2ad810068c3" />
+
 
 Export each face of the enclosure as a DXF file for laser cutting.
 
-image.png
+<img width="312" height="555" alt="image" src="https://github.com/user-attachments/assets/fc2c763d-40eb-45e6-934a-5ca885266535" />
+
 
 🔥 Step 1.2: Laser Cut the Acrylic Panels
 
@@ -1905,52 +1908,58 @@ Carefully cut each panel and label them as you go to avoid confusion during asse
 
 👉 Safety first! Wear proper eye protection and operate the cutter in a ventilated area.
 
-IMG-20250802-WA0013.jpg
+<img width="740" height="555" alt="image" src="https://github.com/user-attachments/assets/e9f591d6-f2fe-42fc-87d2-6c895c079955" />
 
 
 
-
+https://youtu.be/p9OrC6K7Lsw
 
 
  
 
-IMG-20250802-WA0015.jpg
+<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/158af12c-25f5-4142-b64d-9a0ae27d2845" />
+
 
 🧷 Step 1.3: Assemble the Enclosure
 
 Lay out all the cut pieces on a clean surface.
 
-IMG-20250802-WA0032.jpg
+<img width="555" height="555" alt="image" src="https://github.com/user-attachments/assets/877961db-79a1-4ace-89a5-096d72a4d476" />
+
 
 Begin with the base and edges.Apply acrylic glue along the joining edges and press pieces together.Use clamps or masking tape to hold parts in place until dry.
 
 
-
+https://youtu.be/pcny2LYDyHY
 
 
 Continue assembling all sides until the box is complete.
 
-IMG-20250802-WA0045.jpg
+<img width="740" height="555" alt="image" src="https://github.com/user-attachments/assets/432a9ff7-d8d1-4f58-919a-543d3c9c35b2" />
+
 
 Let the entire assembly cure for several hours to ensure strong bonding.
 
 👉 Tip: Double-check the alignment before applying glue — acrylic bonds instantly!Grind and smoothen the irregular edges using a grinding tool.
 
-
+https://youtu.be/9nwdK971FR8
 
 ✨ Step 1.4: Apply the Reflective Graphics
 
 Design an elephant silhouette and the text “ELEPHANTS AHEAD” using vector software (e.g., Adobe Illustrator or Inkscape).
 
-IMG-20250802-WA0036.jpg
+<img width="312" height="555" alt="image" src="https://github.com/user-attachments/assets/97314987-435d-4efc-9fe1-3215ba5ddb30" />
+
 
 Cut the design using a vinyl cutter from reflective vinyl sheet.
 
 Clean the front acrylic panel with a microfiber cloth.Carefully transfer the reflective vinyl design onto the panel using transfer tape.
 
-IMG-20250802-WA0016.jpg
+<img width="312" height="555" alt="image" src="https://github.com/user-attachments/assets/c3696e8b-8479-46bc-9251-31b8f18e1adf" />
 
-IMG-20250802-WA0031.jpg
+
+<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/a602cb34-3355-4429-929b-7224ca0f4764" />
+
 
 Cover the remaining  back and side edges with matte black vinyl to block internal components and focus attention on the warning.
 
@@ -1962,9 +1971,11 @@ In this step, we’ll design and assemble a high-visibility LED panel in the sha
 
 🧰 Materials Required
 
-IMG-20250802-WA0055.jpg
+<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/8d85229b-2cbc-40c7-8836-9271187f8755" />
 
-IMG-20250802-WA0053.jpg
+
+<img width="312" height="555" alt="image" src="https://github.com/user-attachments/assets/912ed693-d8ae-45c5-b725-198f60ff93ed" />
+
 
 4x generic dotted PCBs (perforated board)
 
@@ -1990,7 +2001,8 @@ Heat shrink, glue, basic tools
 
 Take your four dotted PCBs paint them with matte black paint — this step is optional but gives a professional look and improves contrast against the red LEDs.
 
-IMG-20250802-WA0014.jpg
+<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/3830dfd2-b593-4113-8c22-831547e6f04f" />
+
 
 Let them dry completely.
 
@@ -1998,13 +2010,14 @@ Let them dry completely.
 
 Measure and cut the boards to your desired dimensions.
 
-IMG-20250802-WA0023.jpg
+<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/7252401c-1fe9-48cc-afbe-fa4b670a977d" />
+
 
 Carefully align and glue the four PCBs together to create a larger panel.
 
-IMG-20250802-WA0042.jpg
+<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/54ed9dca-0b8a-41a7-91f6-4011187259b2" />
 
-IMG-20250802-WA0046.jpg
+<img width="640" height="555" alt="image" src="https://github.com/user-attachments/assets/4dc32b07-0fb1-4ca6-bcbf-1b9266356099" />
 
 
 
@@ -2014,7 +2027,8 @@ Make sure all the solder pads align properly and the board is flat.
 
 Place the vinyl elephant signage or sticker over the panel as a reference.Using a white marker or chalk, roughly trace the outline of the elephant and the text “ELEPHANTS AHEAD”.
 
-IMG-20250802-WA0056.jpg
+<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/7fdc8d25-e76e-491a-bfe7-25c048fde940" />
+
 
 Plan the LED positions inside this trace to match the shape as closely as possible
 
@@ -2028,7 +2042,8 @@ We’ll use a simple and efficient wiring scheme:
 
 Multiple such chains are wired in parallel across the panel
 
-image.png
+<img width="312" height="555" alt="image" src="https://github.com/user-attachments/assets/f785c09b-4d5e-4378-bea2-3193d9fa172a" />
+
 
 Why this config?With a 3S (11.1V) LiPo battery, 2 red LEDs (approx. 2V each) + 68Ω resistor draws safe current and provides balanced brightness.
 
@@ -2038,12 +2053,14 @@ First, build one LED chain on a breadboard.
 
 Power it using a bench power supply.
 
-IMG-20250802-WA0017.jpg
-
-IMG-20250802-WA0020.jpg
+<img width="740" height="416" alt="image" src="https://github.com/user-attachments/assets/fc1475b2-6803-4b3b-9e22-a7ca6bfee753" />
 
 
+<img width="312" height="555" alt="image" src="https://github.com/user-attachments/assets/a9c58f05-14ac-474b-ab27-256f345c9483" />
 
+
+
+https://youtu.be/GQ8ii498P9E
 
 
 Confirm brightness and measure current draw.Once satisfied, continue soldering the full design onto the board.
@@ -2052,11 +2069,13 @@ Confirm brightness and measure current draw.Once satisfied, continue soldering t
 
 Start from the top of the board, following your traced outline.
 
-IMG-20250802-WA0025.jpg
+<img width="403" height="555" alt="image" src="https://github.com/user-attachments/assets/455fa115-dcb7-43c6-aff3-bf8540d8e824" />
+
 
 Insert 2 LEDs in series and connect the 68Ω resistor to complete the chain.Continue placing and soldering LED chains across the board, following your elephant outline and text.
 
-IMG-20250802-WA0029.jpg
+<img width="480" height="202" alt="image" src="https://github.com/user-attachments/assets/465c93c6-3c4d-4213-9640-c0c7b5526b2a" />
+
 
 Use thin wires to connect common positive and negative rails at the back.
 
@@ -2066,7 +2085,7 @@ After soldering, check for shorts and test small sections individually.
 
 Connect all the negative lines from each LED chain to a MOSFET drain.Connect the MOSFET source to ground.Use a 220Ω resistor on the MOSFET gate and connect it to your microcontroller’s digital output (for PWM or ON/OFF control).The positive rail of all LED chains goes directly to the power supply.
 
-
+https://youtu.be/qenyklmx56E
 
 Check heat levels and ensure no resistors or LEDs are overheating.
 
@@ -2074,21 +2093,24 @@ Check heat levels and ensure no resistors or LEDs are overheating.
 
 Securely mount the pack inside the enclosure and wire it to the LED panel via a toggle switch or microcontroller control..Turn on the system and ensure all LEDs light up in the correct pattern.
 
-IMG-20250802-WA0018.jpg
+<img width="740" height="416" alt="image" src="https://github.com/user-attachments/assets/7da9a4b6-32ee-436e-93e9-be671e594a08" />
 
+https://youtu.be/64pGLh4sXxg
 
 
 But unfortunately, it didn’t quite meet my expectations. During the first test, I wasn’t fully satisfied, as it didn’t look as refined or close to the vision I had in mind.
 
-giphy.gif
+<img width="498" height="498" alt="image" src="https://github.com/user-attachments/assets/0f2cbbc7-d7d6-41ca-9b5b-7c209d0fb117" />
+
 
 But then I had a small idea — if I could diffuse the LED light, it might look much cleaner and more aesthetically pleasing. To quickly test this, I placed a simple A4 sheet between the front acrylic panel and the LED panel.
 
-
+https://youtu.be/2vTdIML7QeQ
 
 After diffusing it with an A4 sheet, the display looked even better—cleaner and clearer. There were some dead LEDs ,so i replaced them and it worked perfect.
 
-minions-the-rise-of-gru-bob-smiling-5gar7g2sgrl7d5wx.gif
+<img width="500" height="226" alt="image" src="https://github.com/user-attachments/assets/1d2bb59a-aebe-4f9e-a006-c5a799ea31c0" />
+
 
 Initially, my idea was to keep the elephant silhouette completely black when the sign was inactive and then illuminate it in red once activated. To match this concept, I painted the PCB black so that the LEDs would remain invisible until turned on. However, when I tried adding a simple A4 sheet as a diffuser, it disrupted the clean aesthetic I was aiming for, as the sheet made the panel look less appealing.
 
@@ -2096,357 +2118,36 @@ To tackle this, I thought of using smoked acrylic. This material would give the 
 
 The challenge, however, was that smoked acrylic was not easily available at the time, and even if sourced, it would add to the cost and overall weight of the system. To find a more practical alternative, I came up with the idea of applying car window cooling film to the back of the front panel to replicate the smoked effect. For light diffusion, I could then use a lightweight and low-cost option like a thin plastic sheet or even butter paper. This way, I could preserve both the aesthetics and the functionality without compromising on budget or weight. Firstly apply the cooling film on the back of the front acrylic panel.
 
-WhatsApp Image 2025-08-21 at 10.41.58_9c101382.jpg
+
 
 Then use a thin plastic sheet or butter paper to diffuse the light on top of that.
 
-WhatsApp Image 2025-08-21 at 10.42.26_d8901155.jpg
+<img width="739" height="555" alt="image" src="https://github.com/user-attachments/assets/2ee1c420-6ce5-450a-91b5-b965ccb637d6" />
+
 
 So to test it i quickly made a setup and tested it.
 
-
+https://youtu.be/UoSKB1phJbM
 
 Finally, after several trials, I was able to achieve exactly the result I had envisioned: a signage system that remains sleek and minimal when inactive, but transforms into a striking, attention-grabbing warning when activated.
 
-minion4 (1).gif
+<img width="740" height="555" alt="image" src="https://github.com/user-attachments/assets/314d5508-1854-48a1-b6e8-bc7f06ce1c09" />
+
 
 Step 3:Custom model for vehicle detection
 
-Grove Vision AI Module V2  Overview
-
-
-
-The Grove Vision AI Module V2 is a game-changer in the world of microcontroller-based AI vision modules. Powered by the ARM Cortex-M55, it outperforms regular ESP32 CAM-based boards while consuming significantly less power. After extensive testing, we found it to be exceptionally powerful and precise.
-
-Comparison with Xiao ESP32-S3 Sense Board
-
-In our tests, we compared the Grove Vision AI Module V2 with the Xiao ESP32-S3 Sense board. The difference is clear in the comparison video. The Grove Vision AI Module V2 delivers a higher frame rate while maintaining low power consumption, outperforming the Xiao ESP32-S3 Sense board.
-
-The product arrives in standard Seeed Studio packaging. Inside the box, you'll find:
-
-The Vision AI Module V2
-
-A connecting wire
-
-A sticker with a brief introduction to the module
-
-Specifications
-
-The module features the WiseEye2 HX6538 processor, which includes:
-
-Dual Core ARM Cortex M55:
-
-High Performance Core clocked at 400MHz
-
-High Efficiency Core clocked at 150MHz
-
-ARM Ethos-U55 microNPU (Neural Processing Unit) clocked at 400MHz
-
-PUF (Physical Unclonable Function) hardware security
-
-These features enable rapid AI and ML processing, making it ideal for computer vision projects requiring high frame rates and low power consumption.
-
-Memory and Connectivity
-
-60MB of onboard flash memory
-
-PDM microphone
-
-SD card slot
-
-External camera connectivity
-
-CSI port
-
-Grove connector
-
-Dedicated pinout for connecting Xiao series microcontroller boards from Seeed Studio
-
-Software Compatibility
-
-The module supports a wide range of AI models and frameworks:
-
-SenseCraft AI models, including Mobilenet V1/V2, EfficientNet-Lite, YOLO v5/v8
-
-TensorFlow and PyTorch frameworks
-
-It is compatible with popular development platforms like Arduino, Raspberry Pi, and ESP dev boards, making it versatile for further development.
-
-Applications
-
-Our tests confirmed that the Grove Vision AI Module V2 is suitable for a variety of applications, including:
-
-Industrial Automation: Quality inspection, predictive maintenance, voice control
-
-Smart Cities:Device monitoring, energy management
-
-Transportation: Status monitoring, location tracking
-
-Smart Agriculture: Environmental monitoring
-
-Mobile IoT Devices: Wearable and handheld devices
-
-We can declare with confidence that the Grove Vision AI Module V2 delivers unmatched AI processing capabilities, flexible model support, a wealth of peripheral possibilities, high compatibility, and an entirely open-source environment after conducting rigorous testing. It is a great option for a variety of AI and computer vision applications because to its low power consumption and great performance.
-
-Hardware Overview
-
-
-
-Refer this article, 2024 MCU AI Vision Boards: Performance Comparison, it is possible to confirm how powerful Grove Vision AI (V2) is when compared to Seeed Studio Grove - Vision AI Module, Espressif ESP-EYE, XIAO ESP32S3 and on an Arduino Nicla Vision. Do check it out.
-
-Refer this article, 2024 MCU AI Vision Boards: Performance Comparison, it is possible to confirm how powerful Grove Vision AI (V2) is when compared to Seeed Studio Grove - Vision AI Module, Espressif ESP-EYE, XIAO ESP32S3 and on an Arduino Nicla Vision. Do check it out.
-
-Connecting to a CSI interface camera
-
-Once you have the Grove Vision AI V2 and camera ready to go, then you can connect them via the CSI connection cable. When connecting, please pay attention to the direction of the row of pins and don't plug them in backwards.
-
-
-
-Boot / Reset / Flashed Driver
-
-Boot
-
-If you have used some unusual method that has caused the Grove Vision AI to not work properly at all (at the software level), then you may need to put the device into BootLoader mode to revive the device. Here is how to enter BootLoader mode.
-
-Method 1
-
-Please disconnect the connection cable between the Grove Vision AI and your computer, then press and hold the Boot button on the device without releasing it. At this time, please connect Grove Vision AI to your computer with a Type-C type data cable, and then release it again. At this point the device will enter BootLoader mode.
-
-
-
-Method 2
-
-With the Grove Vision AI connected to your computer, you can enter BootLoader mode by pressing the Boot button and then quickly pressing the Reset button.
-
-
-
-Reset
-
-If you're experiencing problems with device data suddenly not uploading or images getting stuck, you can try restarting your device using the Reset button.
-
-
-
-Driver
-
-If you find that the Grove Vision AI V2 is not recognised after connecting it to your computer. Then you may need to install the CH343 driver on your computer. Here are some links to download and install the CH343 driver.
-
-Windows Vendor VCP Driver One-Click Installer: CH343SER.EXE
-
-Windows Vendor VCP Driver: CH343SER.ZIP
-
-Windows CDC driver one-click installer: CH343CDC.EXE
-
-Windows CDC driver: CH343CDC.ZIP
-
-macOS Vendor VCP Driver: CH34xSER_MAC.ZIP
-
-Below is a block Diagram of the Grove Vision AI (V2) system, including a camera and a master controller.
-
-
-
-Getting started with SenseCraft Web Toolkit.
-
-SenseCraft AI empowers users to effortlessly deploy a vast library of publicly available AI models on tot heir edge devices such as Recomputer(Jetson), XIAOS3, and more, and provides a seamless and user-friendly experience, allowing you to deploy public AI models directly on to your edge devices with just a few clicks.Say good bye to complex configurations and coding – with SenseCraft AI, you can efftortlessly unlock the power of AI on your devices. SenseCraft AI also allows you to upload and share your own trained AI models with the community. By publishing your models, you contribute to a growing library of shared knowledge, fostering collaboration and innovation among AI enthusiasts.Now we will quickly get started the modules with SenseCraft AI, and this will only require the module only.
-
-Step 1. Connect the Grove Vision AI V2 to the SenseCraft AI Model Assistant​
-
-First, we need to open the main SenseCraft AI Model Assistant page.
-
-Go to SenseCraft AI
-
-Create an account and login
-
-
-
-Please use a Type-C type cable to connect Grove Vision AI V2 to your computer.
-
-Here we are using a public model for testing the Grove Vision V2.
-
-
-
-we selected the "Gesture Detection" model to deploy.
-
-
-
-Click on "Deploy Model"
-
-
-
-Then click on "connect"
-
-
-
-Click on "Confirm" and select the connected serial port
-
-
-
-Now the model will begin to get uploaded to the Grove vision V2
-
-
-
-
-
-
-
-Now you can see that we have successfully uploaded the model.Now we can test it by showing different gestures
-
-
-
-
-
-
-
-we can see how good the new Grove vision V2 is when compared to other MCUs and the previous version, we really got a massive upgrade in every terms, Really Loved it.
-
-We can see that in the Preview Settings on the right hand side, there are two setting options that can be changed to optimise the recognition accuracy of the model.
-
-Confidence: Confidence refers to the level of certainty or probability assigned by a model to its predictions.
-
-Confidence: Confidence refers to the level of certainty or probability assigned by a model to its predictions.
-
-
-
-IoU: IoU is used to assess the accuracy of predicted bounding boxes compared to truth bounding boxes.
-
-IoU: IoU is used to assess the accuracy of predicted bounding boxes compared to truth bounding boxes.
-
-
-
-Arduino Environment Preparation
-
-
-
-1. Visit the official Arduinowebsite: https://www.arduino.cc/en/software
-
-2. Click on the "Windows" or "Mac"buttonbased on your operatingsystem.
-
-3. Download the ArduinoIDE1.8.19installer.
-
-4. Once the downloadis complete, runtheinstaller.
-
-5. Follow the installation wizard, acceptingthe license agreement and choosing the installation directory.
-
-6. If prompted, allow the installer to install device drivers.
-
-7. Once the installationis finished, click"Close" to exit the installer.
-
-8. Open the Arduino IDE fromthedesktopshortcut or the start menu. 9. You're now ready tostart usingArduinoIDE 1.8.19!
-
-Downloading the necessary libraries
-
-1. Open your web browser and navigate to the GitHub repository:
-
-https://github.com/Seeed-Studio/Seeed_Arduino_SSCMA
-
-2. Click on the green "Code" button and select "Download ZIP" to download the library as a ZIP file.
-
-
-
-
-
-3. Save the ZIP file to a location on your computer where you can easily find it.
-
-4. Open the Arduino IDE.
-
-5. Go to Sketch > Include Library >Add.ZIPLibrary.
-
-
-
-6. In the file browser window that appears, navigate to the location where you saved the downloaded ZIP file.
-
-7. Select the ZIP file and click "Open" to add the library to your Arduino IDE.
-
-8. The Seeed_Arduino_SSCMAlibrary should now be installed and ready to use.
-
-9. To verify the installation, go to Sketch>Include Library and check if "Seeed_Arduino_SSCMA" appears in the list of installed libraries.
-
-You also need to downloadone more library
-
-
-
-Go to the Sketch menu, then select Include Library>Manage Libraries.... This will open the Library Manager.In the search bar at the top of the Library Manager, type in ArduinoJSON. The search results will list the ArduinoJSON library. There will be an Install button next to the library. Click the Install button. The ArduinoIDE will automatically download and install the library into your Arduino development environment.
-
-Installing the board to Arduino IDE
-
-1. Open theArduinoIDE.
-
-
-
-2. Go to File>Preferences.
-
-3. In the "Additional BoardsManager URLs" field, enter the following URL:
-
-https://raw.githubusercontent.com/espressif/arduinoesp32/gh-pages/package_esp32_index.json
-
-https://raw.githubusercontent.com/espressif/arduinoesp32/gh-pages/package_esp32_index.json
-
-4.Click "OK" to close the Preferences window.
-
-5. Navigate to Tools >Board>Boards Manager.
-
-6. In the Boards Manager window, search for "ESP32".
-
-7. Locate the "ESP32 by Espressif Systems" entry and click on it.
-
-
-
-8. Select the latest version from the drop down menu and click "Install".
-
-9. Wait for the installation process to complete. This may take a few minutes.
-
-10. Once the installation is finished, close the Boards Manager window
-
 🧠 Central Controller: ESP32-C6-DevKitC-1
 ESP32-C6-DevKitC-1
+<img width="3329" height="2583" alt="esp32-c6-devkitc-1-isometric" src="https://github.com/user-attachments/assets/b31baa94-d35d-4b44-811e-ef33c85f29f2" />
 
 At the heart of our smart signage system is the ESP32-C6-DevKitC-1, a powerful and flexible development board from Espressif, designed for modern IoT applications. This board is responsible for receiving elephant detection alerts from EleTect nodes, interpreting camera-based AI inferences from the Grove Vision AI module, and triggering appropriate responses—like visual signage alerts or honeybee deterrent playback.
 
 We chose this board for its cutting-edge wireless connectivity, generous memory, and support for RISC-V-based on-device processing.
 
-🔧 Key Specifications
+<img width="637" height="384" alt="image" src="https://github.com/user-attachments/assets/6d5cb87e-2ad5-4805-8bf3-e007e886b66a" />
 
-Feature
+<img width="754" height="459" alt="image" src="https://github.com/user-attachments/assets/42fb6bc1-2a7d-45ff-8db8-0b7ba5219ceb" />
 
-Description
-
-Processor
-
-32-bit RISC-V single-core @ up to 160 MHz
-
-Wireless
-
-Wi-Fi 6 (802.11ax), Bluetooth 5.0, LoRa (via external module)
-
-Memory
-
-512 KB SRAM + 8 MB Flash (ESP32-C6-DevKitC-1-N8 variant)
-
-GPIOs
-
-Rich set of I/O including SPI, I2C, UART, PWM, ADC
-
-USB Interface
-
-USB Type-C for power, programming, and CDC serial
-
-Power Supply
-
-5V via USB-C or external source (regulates to 3.3V logic)
-
-Operating Voltage
-
-3.3V logic level
-
-Dev Board Features
-
-Reset/boot buttons, status LEDs, and onboard debug interface
-
-Dimensions
-
-Compact form factor for embedded use (54 mm × 25.5 mm)
-
-ESP32-C6-DevKitC-1 - front
-More details: ESP32-C6-DevKitC-1 on DigiKey
 
 🧩 How It Works in the EleTect Signage System
 
@@ -2476,8 +2177,10 @@ Power & Deployment
 The board runs on 5V via USB-C or DC input and is designed for outdoor enclosure integration. It’s lightweight, low-power, and ideal for long-term signage deployment.
 
 
+<img width="1200" height="869" alt="image" src="https://github.com/user-attachments/assets/e2420c45-f833-4253-9b85-6ad60ac6dab0" />
 
 
+<img width="1187" height="1600" alt="image" src="https://github.com/user-attachments/assets/d457c848-7bc4-443a-8af6-f1524d6cf3c1" />
 
 
 Custom model using google collab and Roboflow
@@ -2695,18 +2398,23 @@ Press Confirm and you are good to go.
 
 📦 Camera Enclosure Design and Fabrication
 
+<img width="1200" height="913" alt="image" src="https://github.com/user-attachments/assets/1af98669-1b09-4e62-90da-4d0b80ae5edd" />
 
 
 To enable reliable visual monitoring in forest-edge and roadside environments, we designed a custom enclosure for the Grove Vision AI V2 Module using Autodesk Fusion 360. This case houses the camera securely and is optimized for outdoor use, with a snug lens window, mounting slots, and environmental protection. The enclosure was 3D printed using PLA filament and tested for hardware alignment and field durability.
 
+<img width="1200" height="1067" alt="image" src="https://github.com/user-attachments/assets/c9904c16-88f1-4300-b7d1-17d2f1929832" />
 
+<img width="312" height="555" alt="image" src="https://github.com/user-attachments/assets/d24846ee-8222-4736-bd37-95231b74ce01" />
 
+<img width="567" height="555" alt="image" src="https://github.com/user-attachments/assets/65c20cad-28a6-479a-ae74-5d464b7695bb" />
 
 
 
 
 The camera system is mounted on top of the smart signage unit, giving it an elevated, unobstructed view of the road ahead. Its primary role is to detect the presence of vehicles near the signage location, enabling dynamic decision-making. If an elephant is detected  and remains in the elephant corridor for a prolonged time—potentially blocking the road—the system uses camera input to verify the presence of halted vehicles. In such cases, it automatically triggers the honeybee deterrent and visual warning mechanisms, encouraging the elephant to move away and clear the path safely.
 
+<img width="544" height="429" alt="image" src="https://github.com/user-attachments/assets/9e8ded4c-453c-4e0a-870a-df06534c369a" />
 
 
 For field reliability and modular maintenance, the camera module connects to the signage base using aviation-grade connectors, ensuring secure power and signal transmission in harsh outdoor conditions.
@@ -2714,7 +2422,8 @@ For field reliability and modular maintenance, the camera module connects to the
 
 Where to place the camera
 
-ezgif-14aecfa3a2595d.gif
+<img width="1200" height="1012" alt="image" src="https://github.com/user-attachments/assets/ce9f617d-e1d0-4cd5-a954-8657e8dd496b" />
+
 
 
  
@@ -2723,7 +2432,7 @@ Now that we have done training the vision based model, now we can connect it to 
 
 🧠 Step 4: Connecting the Signboard to EleTect Node
 
-image.png
+<img width="312" height="555" alt="image" src="https://github.com/user-attachments/assets/6e0242ae-47fc-4cd1-861d-5f6f072c1029" />
 
 Now that we have our physical enclosure and the custom LED warning panel ready, it's time to connect the system to the EleTect detection node using LoRa communication.
 
@@ -3125,20 +2834,23 @@ CAD Modeling:
 
 Using Fusion 360 design a mounting bracket that matches the dimensions of the acrylic signboard enclosure
 
-image.png
+<img width="1200" height="1044" alt="image" src="https://github.com/user-attachments/assets/11ff694e-0069-4f8e-84b6-fc86b9d828be" />
+
 
 Printing:
-
+https://youtu.be/4GXDACcXri0
 
 
 Assembly:
 
 Once printed, the enclosure was carefully slotted into the mount
 
-IMG-20250802-WA0030.jpg
+<img width="1200" height="1002" alt="image" src="https://github.com/user-attachments/assets/e8d25165-6895-4468-844c-30348152ce39" />
+
 
 Secure with M4 bolts on either side to lock it in place.The mount was then clamped or screwed onto a metal/PVC pole, completing the physical installation.
 
+https://youtu.be/G5NsqCx_GkA
 
 
 🌍 Sustainability and Edge Deployment
@@ -3152,13 +2864,13 @@ Deterrent only activates when necessary, conserving energy and minimizing distur
 📽️ Video Demonstration
 
 
-
+https://youtu.be/pJKIsCA3bDk
 
 
 Website Structure
 
 
-
+https://youtu.be/JQBXXlHDU3I
 
 
 The Eletect website serves as a pivotal platform connecting advanced hardware deployed in forests and agricultural areas with users, including community members and forest officers. It provides real-time monitoring and alerts, enabling timely detection of elephants, wild boars, and illegal activities. This immediate access allows users to take swift preventive measures, ensuring human-wildlife conflict mitigation and forest protection.
@@ -3185,6 +2897,7 @@ Role-based login form for      Community and Officer accounts.
 
 Credentials validation to      provide access to dashboards.
 
+<img width="740" height="361" alt="image" src="https://github.com/user-attachments/assets/8f2e5a7c-56f7-498a-bf32-265948d7b607" />
 
 
 Dashboard
@@ -3197,7 +2910,9 @@ Community Users: Elephant,      Boar, Bird monitoring.
 
 Officers: Illegal Activity,      Deforestation, Anti-Poaching.
 
+<img width="740" height="193" alt="image" src="https://github.com/user-attachments/assets/f3bea2cf-55ec-43bc-8c73-85aecbc139b4" />
 
+<img width="740" height="192" alt="image" src="https://github.com/user-attachments/assets/a65f18b0-7338-4901-93bc-060448d6554f" />
 
 
 
@@ -3207,9 +2922,11 @@ Shows feature-specific      information, detection logs, uploaded images, and li
 
 For Elephant detection: Map      showing detected locations (Kothamangalam, Kottapady), sample images, and      hardware integration details.
 
-image.png
+<img width="740" height="350" alt="image" src="https://github.com/user-attachments/assets/ebe4eefc-b74b-4286-9828-41bc90cc1d59" />
 
-image.png
+
+<img width="740" height="355" alt="image" src="https://github.com/user-attachments/assets/6dbe1b29-c80f-4fd6-8647-2628dd50256d" />
+
 
 AI-powered detection using      hardware nodes deployed in forests.
 
@@ -3251,15 +2968,16 @@ After completing the first version of the EleTect Signage node, we designed and 
 ✅ 1. Fully 3D-Printed Enclosure
 
 
-printing video
+[printing video](https://youtube.com/shorts/Y8RRU8p8Xps?si=zQXjvkMarSZ--831)
 
 
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/a998a3d8-1215-48d3-a0ba-1d8ca41bfe47" />
 
+![Uploading image.png…]()
 
+![Uploading image.png…]()
 
-
-
-
+![Uploading image.png…]()
 
 
 The entire signage housing was redesigned in Fusion 360 and is now 100% 3D-printed, making it:
@@ -3277,8 +2995,9 @@ The new enclosure includes proper mounting slots, structured ribs for reinforcem
 ✅ 2. Upgraded LED Panel → Custom 12V LED Strip Module
 
 
-Initial test video
+[Initial test video](https://youtube.com/shorts/t8Q6Qv7HXrM?si=4E1iOYaPRBNmvcE8)
  
+![Uploading image.png…]()
 
 
 

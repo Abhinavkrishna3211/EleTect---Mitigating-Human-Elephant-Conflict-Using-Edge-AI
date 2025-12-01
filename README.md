@@ -63,10 +63,13 @@ The positive community feedback and official validation confirm that EleTect can
 
 🏆 IEEE IAS CMD Humanitarian Award 2025
 
+<img width="1200" height="900" alt="image" src="https://github.com/user-attachments/assets/813c9770-d064-4b44-b00c-0d1f28515bc2" />
 
 
 We are proud to share that EleTect was awarded the IEEE IAS CMD Humanitarian Project Award for the year 2025, in recognition of its innovative, impactful, and humanitarian approach to addressing the growing crisis of human–elephant conflict. As lives continue to be lost in forest-border regions, our team proposed a non-lethal, intelligent, and community-centered solution that fuses traditional tribal practices—such as the use of honeybee deterrents—with modern TinyML and edge AI technologies. EleTect demonstrates how technology can honor ecological wisdom while enhancing safety and peaceful coexistence.
  
+
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/5f651c43-42ba-4ed7-853a-da46a18c6711" />
 
 
 As part of this recognition, we were invited to present EleTect at the IEEE IAS Annual Meeting 2025 in Taiwan, where we showcased the system’s design, field deployments, and real-world impact to an international audience of researchers and engineers. The smart signage module, developed under EleTect 1.5, is a functional extension of the project, aimed at solving additional dimensions of the problem—including early detection, deterrence, communication, and public awareness.
@@ -1742,7 +1745,7 @@ After the 3D printing process we finally assembled eveything and this is the fin
 
 <img width="740" height="416" alt="image" src="https://github.com/user-attachments/assets/d1f36288-0709-411a-ae1f-32d578cdfbd7" />
 
-![Uploading image.png…]()
+<img width="740" height="429" alt="image" src="https://github.com/user-attachments/assets/21668574-5804-4b26-bdc1-95ea24cd6b21" />
 
  
  
@@ -1773,12 +1776,14 @@ In conclusion, the "EleTect" project represents a significant step forward in ad
 
 💡 Inspiration
 
-WhatsApp Image 2025-08-02 at 11.08.23_dbb6f773.jpg
+<img width="740" height="523" alt="image" src="https://github.com/user-attachments/assets/a6a611f9-5fc1-4831-ab18-5f575ac05fe1" />
+
 
 In the dense forests and mountainous regions of Kerala, especially areas like Nelliampathy, wild elephants frequently traverse routes that have been part of their migratory patterns for centuries. These pathways, known locally as “Aanathaara” (elephant corridors), are deeply embedded in the landscape and ecology. However, with rapid human expansion — including roads, farmlands, and settlements — these natural trails now intersect with human activity, often with devastating consequences.
 
 While locals may instinctively understand where and when to be cautious, most visitors, tourists, and even daily commuters remain unaware of the risks.In early 2025, a tragic incident occurred in Nelliampathy, Kerala. A German tourist, unfamiliar with the terrain and unaware of a wild elephant blocking the road, ventured forward despite the locals’ warnings. Tragically, he encountered the elephant and lost his life. Traditional static signage, such as painted boards warning of elephants, often fades into the background and fails to provide real-time, actionable alerts. The result? Dangerous — and sometimes fatal — encounters that could have been avoided with better awareness.
 
+https://youtu.be/seuNstVdjqc
 
 
 That's where EleTect 1.5 comes in — combining TinyML, LoRa, solar power, and interactive signage to proactively warn and deter.
@@ -1821,92 +1826,13 @@ EleTect Node waits 10 minutes → plays deterrent bee sound.
 
 After elephants leave, detection stops → Signboard resets.
 
-🐘 What is Eletect?
-
-image.png
-
-Eletect is a technology-driven system designed to detect elephants early, deter them harmlessly, and alert nearby communities. Its goal is to protect lives, foster coexistence, and contribute to wildlife conservation.
-
-Despite their size and power, elephants have a surprising vulnerability: they are instinctively afraid of bee buzzing sounds. By carefully and harmlessly using this natural deterrent, Eletect can safely redirect elephants away from human settlements without harming them. This peaceful strategy respects both humans and elephants.
-
-⚠️ Disclaimer
-
-Before continuing with this tutorial, please make sure you have read the complete EleTect documentation.
-The first part—which covers building the Detection + Deterrence Node—is fully explained there and not repeated here to avoid making this documentation unnecessarily long.
-
-This guide should be considered as a continuation of the original EleTect documentation.
-
-👉 Click here to read the full EleTect documentation.
-
-⚙️ How it Works
-
-At the forest boundaries, multiple TinyML-powered nodes are deployed. Each node can:
-
-Detect elephants using a vision-based TinyML model on the Seeed Studio Grove Vision AI V2 module.
-
-Analyze sound using a Seeed Studio XIAO ESP32S3 Sense, running a TinyML audio model to detect elephant vocalizations.
-
-Trigger deterrents by playing honeybee buzzing sounds through an onboard speaker.
-
-Communicate via LoRa/LoRaWAN with a central master node to ensure real-time updates even in remote areas.
-
-
-
-
-
-
-
-
-
-The system is completely solar-powered, making it sustainable and ideal for deployment in remote forest region
-
-🌿 Field Survey, Official Approval & Real-World Trials
-
-To ensure EleTect was not just a lab prototype but a real-world conservation tool, our team carried out an extensive ground survey and obtained official permission for field testing from the Divisional Forest Officer (DFO) of Kothamangalam, Mr. Varun Dalia, IFS, and Forest Range Officer, Mr. Jaleel.
-
-🧭 On-Ground Survey & Study Area
-
-The field research took place in Kothamangalam and Kottapady, Kerala — regions at the edge of the Western Ghats that experience frequent elephant incursions into farmlands and villages.
-
-We conducted household-level surveys to assess the scale and nature of human–elephant conflict (HEC) in these areas. From 100 surveyed households, 85 reported direct encounters with elephants, while:
-
-66% suffered crop destruction, and
-
-38.4% experienced human injury or fatalities related to elephant incidents.
-
-Screenshot 2025-10-06 144258.png
- 
-
-This data emphasized the urgent need for early warning and deterrent systems like EleTect.
-
-🏛️ Collaboration & Forest Department Approval
-
-After the survey phase, we formally presented EleTect to the DFO Office, Kothamangalam, and Forest Range Office to discuss its technical operation, safety, and ecological compatibility.
-
-Screenshot 2025-10-06 144348.png
-
-
-
-Following evaluation, the Forest Department granted permission to conduct live field trials in designated forest-border regions.
-
-This collaboration provided both ethical validation and administrative support, ensuring that EleTect aligns with wildlife protection policies and sustainable forest management goals.
-
-🏆 IEEE IAS CMD Humanitarian Award 2025
-
-
-
-We are proud to share that EleTect was awarded the IEEE IAS CMD Humanitarian Project Award for the year 2025, in recognition of its innovative, impactful, and humanitarian approach to addressing the growing crisis of human–elephant conflict. As lives continue to be lost in forest-border regions, our team proposed a non-lethal, intelligent, and community-centered solution that fuses traditional tribal practices—such as the use of honeybee deterrents—with modern TinyML and edge AI technologies. EleTect demonstrates how technology can honor ecological wisdom while enhancing safety and peaceful coexistence.
- 
-
-
-
-As part of this recognition, we were invited to present EleTect at the IEEE IAS Annual Meeting 2025 in Taiwan, where we showcased the system’s design, field deployments, and real-world impact to an international audience of researchers and engineers. The smart signage module, developed under EleTect 1.5, is a functional extension of the project, aimed at solving additional dimensions of the problem—including early detection, deterrence, communication, and public awareness.
 
 Architecture
 
 Signages will be placed like below.
 
-image.png
+![Uploading image.png…]()
+
 
 🔗 Components Used
 
@@ -1926,9 +1852,6 @@ Custom LED panel
 
 Enclosure Using Acrylic sheet or 3D Printed
 
-
-
-DigiKey-My-list  for directly shopping from here digikey click the link
 
 
 

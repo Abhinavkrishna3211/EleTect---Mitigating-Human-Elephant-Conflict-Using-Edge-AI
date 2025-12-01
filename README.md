@@ -516,7 +516,7 @@ Click on deploy and connect your grove vision V2.
  
  
 <img width="740" height="422" alt="image" src="https://github.com/user-attachments/assets/455701d6-3bc3-47af-b77b-8a5cfa637059" />
-![Uploading image.png…]()
+<img width="740" height="555" alt="image" src="https://github.com/user-attachments/assets/8af61c78-db93-43e9-a621-4c465c4a2397" />
 
 Press Confirm and you are good to go.Now that we have done training the vision based model, now we can train the audio model also for increased accuracy
 
@@ -526,15 +526,25 @@ https://youtu.be/vQQ53FgJ9pc
 Now that we have done training the vision based model, now we can train the audio model also for increased accuracy
 Training audio based TinyML model on XIAO ESP32S3 Sense
 XIAO ESP32S3 Sense Introduction
+
+<img width="638" height="555" alt="image" src="https://github.com/user-attachments/assets/2b3910d9-9141-4f72-bbd8-f7a653a0b4be" />
+
  
 A compact yet powerful development board designed to kickstart your journey into intelligent voice and vision AI. With its integrated camera sensor, digital microphone, and SD card support, this tiny board packs a punch, offering embedded ML computing power and photography capabilities. Whether you're delving into edge computing or exploring AI applications, the XIAO ESP32S3 Sense is your go-to tool for realizing innovative projects with ease and efficiency.
+
+<img width="740" height="393" alt="image" src="https://github.com/user-attachments/assets/0e8e89c8-10bb-4ef5-8ca2-4320f5637fb1" />
+
  
 Edge Impulse Introduction
- 
+
+ <img width="740" height="383" alt="image" src="https://github.com/user-attachments/assets/c5bfddec-418f-4bd7-a254-67c6fe35465e" />
+
 Edge Impulse is a platform for developing machine learning models specifically designed for edge devices and embedded systems. It provides a comprehensive set of tools and services that enable developers to quickly create, train, and deploy machine learning models without requiring deep expertise in machine learning.
 Recording Audio with XIAO ESP32S3 Sense
 Let's use the onboard SD Card reader to save.wav audio files, we need to habilitate the XIAO PSRAM first.
- 
+
+ <img width="680" height="307" alt="image" src="https://github.com/user-attachments/assets/3ec0eec7-5327-424b-9138-ef92c3714f9a" />
+
 Insert the microSD card into the microSD card slot. Please note the direction of insertion, the side with the gold finger should face inward.
 Then compile and upload the following program to XIAO ESP32S3.
 /*
@@ -655,43 +665,82 @@ byte_rate, byte_rate >> 8, byte_rate >> 16, byte_rate >> 24, // ByteRate
 wav_size, wav_size >> 8, wav_size >> 16, wav_size >> 24, // Subchunk2Size
 };
 memcpy(wav_header, set_wav_header, sizeof(set_wav_header));
+
 }
+
+
 Now, Compile and run the code and get samples of different elephant sounds. You can also capture noise and other sounds. The Serial monitor will prompt you to receive the label to be recorded.
 Send the label (for example, Elephant). The program will wait for another command: rec. And the program will start recording new samples every time a command rec is sent. The files will be saved as elephant.1.wav, elephant.2.wav, elephant.3.wav, etc. until a new label (for example, Noice) is sent. In this case, you should send the command rec for each new sample, which will be saved as Noice1.wav, Noice.2.wav, Noice.3.wav, etc. Ultimately, we will get the saved files on the SD card.
 send the first label name first, through the serial monitor
+
+<img width="680" height="307" alt="image" src="https://github.com/user-attachments/assets/34a7cee0-4848-4ccc-8d98-9faa0b88cc7b" />
+
  
 Then send command rec and start recording the elephant sounnd using XIAO.
+
+<img width="733" height="296" alt="image" src="https://github.com/user-attachments/assets/945f69ed-fc30-4b54-b54e-68d7870111c9" />
+
  
 Collect both samples in same amount.
 Use a card reader to save all the sound samples stored inside the SD card to your computer.
+
+<img width="471" height="555" alt="image" src="https://github.com/user-attachments/assets/7e7841b9-9d41-40f6-ac35-12c64986bf82" />
+
  
 Training Exported Models with Edge Impulse
+
+<img width="438" height="555" alt="image" src="https://github.com/user-attachments/assets/8fc13781-ec23-4951-b68d-1afe92d51ee8" />
+
  
 We should initiate a new project at Edge Impulse and give it the same name “EleTect”.
 Once the project is created, select the Upload Data tool in the Data Acquisition section. Choose the files to be uploaded.
- 
- 
+
+ <img width="740" height="505" alt="image" src="https://github.com/user-attachments/assets/231139af-7de8-4c74-85fd-79f44ee63193" />
+
+ <img width="688" height="555" alt="image" src="https://github.com/user-attachments/assets/52a72509-84fb-4edd-ac2b-aa4d7730a2da" />
+
 make sure to balance between train and test set.80/20 is the best recommended ratio.
 All data on dataset have a 1s length, but the samples recorded in the previous section have 10s and must be split into 1s samples to be compatible. Click on three dots after the sample name and select Split sample.
+
+<img width="740" height="474" alt="image" src="https://github.com/user-attachments/assets/072a1b40-e1f5-424b-b637-c92ded019c83" />
+
  
 Once inside the tool, split the data into 1-second records. If necessary, add or remove segments. This procedure should be repeated for all samples.
 Goto Impulse design
 An impulse takes raw data, uses signal processing to extract features, and then uses a learning block to classify new data. First, we will take the data points with a 1-second window, augmenting the data, sliding that window each 500ms. Note that the option zero-pad data is set. This is important to fill with zeros samples smaller than 1 second (in some cases, I reduced the 1000 ms window on the split tool to avoid noises and spikes).
+
+<img width="740" height="471" alt="image" src="https://github.com/user-attachments/assets/4290492b-07e2-42c3-bf8d-d7b725c979e6" />
+
  
 The next step is to create the images to be trained in the next phase. We can keep the default parameter values or take advantage of the DSP Autotuneparameters option, which we will do.
+
+<img width="740" height="453" alt="image" src="https://github.com/user-attachments/assets/d4984ba9-4599-4920-9f32-7716cba5f67c" />
+
  
 We will use a Convolution Neural Network (CNN) model. The basic architecture is defined with two blocks of Conv1D + MaxPooling (with 8 and 16 neurons, respectively) and a 0.25 Dropout. And on the last layer, after Flattening four neurons, one for each class.
+
+<img width="517" height="555" alt="image" src="https://github.com/user-attachments/assets/29297eb8-a40c-4c73-9549-128f88be6f6f" />
+
  
 Edge Impulse will package all the needed libraries, preprocessing functions, and trained models, downloading them to your computer. You should select the option Arduino Library and at the bottom, select Quantized (Int8) and press the button Build. When the Build button is selected, a Zip file will be created and downloaded to your computer.
- 
+
+ <img width="631" height="555" alt="image" src="https://github.com/user-attachments/assets/6573b195-7b0f-465a-8730-bdc67fb09d22" />
+ <img width="740" height="387" alt="image" src="https://github.com/user-attachments/assets/9205baab-c7ab-4479-9de6-9bacac87c7b0" />
+
+
  
 Deploying models to XIAO ESP32S3 Sense
 Upload the zip file to you Arduino IDE
+
+<img width="740" height="364" alt="image" src="https://github.com/user-attachments/assets/48a935fb-b60c-4218-a9c3-d1bcf9399f25" />
+<img width="740" height="520" alt="image" src="https://github.com/user-attachments/assets/c42475f9-984f-4fa8-8b7d-93af6d8195a5" />
+
  
  
 Before we use the downloaded library, we need to enable the ESP NN Accelerator. For that, you can download a preliminary version from the project GitHub, unzip it, and replace the ESP NN folder with it under: src/edge-impulse-sdk/porting/espressif/ESP-NN, in your Arduino library folder.
 Link Address: https://github.com/Mjrovai/XIAO-ESP32S3-Sense/blob/main/ESP-NN.zip
 Then you will get the program, compile and run it.
+
 /* Edge Impulse Arduino examples
 * Copyright (c) 2022 EdgeImpulse Inc.
 *
@@ -943,12 +992,20 @@ return 0;
 #if !defined(EI_CLASSIFIER_SENSOR) || EI_CLASSIFIER_SENSOR != EI_CLASSIFIER_SENSOR_MICROPHONE
 #error "Invalid model for current sensor."
 #endif
+
+
+
 Setting up the DFMini
+
 The DFMini Player module is a small music player. It is low cost and low power and reproduces sounds stored on a memory card.
 Based on this, the module can be controlled via the standalone mode, that is, in this mode, there will only be the DFMini module, a battery to power, the speaker, buttons to control it, and the SD card with the songs.
 Another way to control it is to use an Arduino or another control device. The Arduino, for example, will send commands through serial communication with the DFMini Player Module.
+
+
  
 To control it, it is important to use the basic standalone circuit
+
+
  
 The two buttons shown in the circuit above are used to change the music tracks and control the volume of the sound.
 The button connected to pin IO1 is used to go to the previous track and reduce the volume.
@@ -1483,6 +1540,9 @@ delay(3000);
 # endif
 }
 }
+
+
+
 Setting up the Master
  
 The master will house the

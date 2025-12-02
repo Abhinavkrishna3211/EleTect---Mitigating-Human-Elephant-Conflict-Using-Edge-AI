@@ -4,6 +4,7 @@ Introduction
 
  
 Communities in Kerala that live close to forest boundaries are seriously threatened by conflicts between humans and elephants. Tragic events that result in death, wild elephants have destroyed families and uprooted livelihoods. The number of human casualties were 3930 during an eight-year period which requires immediate response. "EleTect, " our endeavor, uses technology to facilitate early detection. At the margins of forests, nodes with TinyML capabilities keep watch and swiftly notify authorities. Our inventiveness doesn't stop there, though. We use the sound elephants naturally dread, the drone of honey bees as a harmless deterrent. "EleTect" seeks to alter the narrative by encouraging safer coexistence, reducing conflicts, and supporting conservation efforts—one in which people and elephants coexist together
+
 Problem Statement
 
 <img width="740" height="430" alt="image" src="https://github.com/user-attachments/assets/6fe8af1a-7ff6-4d33-8b6a-e87cf3d75366" />
@@ -28,8 +29,11 @@ Some studies shows that elephants are afraid of bee sounds, so we decided to use
  <img width="740" height="370" alt="image" src="https://github.com/user-attachments/assets/e79a0649-fefb-4b22-8515-b6b3eb52dd75" />
 
 🌿 Field Survey, Government Approval & Real-World Testing
+
 To ensure that EleTect truly addresses on-ground challenges of human-elephant conflict (HEC), we conducted an extensive community survey and received official clearance for field testing from the Divisional Forest Officer (DFO) Kothamangalam, Mr. Varun Dalia IFS, and Forest Range Officer, Mr. Jaleel.
+
 🧭 Survey & Study Area
+
 Our field study focused on Kothamangalam and Kottapady, two regions of Kerala severely affected by elephant incursions. These locations lie at the foothills of the Western Ghats, close to dense forests — making them high-risk zones for HEC incidents.
 Using household surveys, we collected firsthand data from residents to understand the real impact of conflicts. Out of 100 houses surveyed, 85 reported direct elephant attacks on residential or agricultural areas. Major losses identified included:
 •	Crop damage: Reported by 66% of respondents
@@ -42,6 +46,7 @@ These alarming numbers reinforced the urgency of deploying a technological mitig
 
 
 🏛️ Official Approval & Collaboration
+
 We formally presented EleTect to the DFO office, Kothamangalam, and the Forest Range Office, discussing both its safety and community benefits. After technical evaluation, the forest department approved live field trials of the system within designated buffer zones around Kothamangalam and Kottapady.
 
 <img width="530" height="296" alt="image" src="https://github.com/user-attachments/assets/0ba49ed2-4612-4312-9c6e-c00d34b01178" />
@@ -56,6 +61,7 @@ Following approval, EleTect prototypes were installed along forest boundaries wh
  <img width="501" height="273" alt="image" src="https://github.com/user-attachments/assets/0aee2a8a-952d-48a5-813e-ac6e523f9f77" />
 
 Initial trials showed promising outcomes:
+
 •	Locals reported fewer night-time elephant entries after installation.
 •	Forest officers received consistent detection logs and LoRa alerts.
 •	The bee-buzz deterrent effectively turned elephants away without harm.
@@ -74,7 +80,6 @@ We are proud to share that EleTect was awarded the IEEE IAS CMD Humanitarian Pro
 
 As part of this recognition, we were invited to present EleTect at the IEEE IAS Annual Meeting 2025 in Taiwan, where we showcased the system’s design, field deployments, and real-world impact to an international audience of researchers and engineers. The smart signage module, developed under EleTect 1.5, is a functional extension of the project, aimed at solving additional dimensions of the problem—including early detection, deterrence, communication, and public awareness.
 
-<img width="450" height="150" alt="image" src="https://github.com/user-attachments/assets/f6f6ac96-17e1-4aa1-952f-4c5b75e09e24" />
 
 Setting up the Nodes
 
@@ -89,6 +94,7 @@ We will deploy Nodes like this in the areas prone to elephant attacks.The node c
 •	DFmini
 •	Speaker(Which will produce Honey bee voice as deterrent sounds)
 •	Solar panel, Solar battery charger and battery
+
 Grove Vision AI Module V2 Overview
 
  <img width="740" height="555" alt="image" src="https://github.com/user-attachments/assets/05b3b3a2-441b-4fb4-a6dc-8def95004f6c" />
@@ -100,7 +106,9 @@ The product arrives in standard Seeed Studio packaging. Inside the box, you'll f
 •	The Vision AI Module V2
 •	A connecting wire
 •	A sticker with a brief introduction to the module
+
 Specifications
+
 The module features the WiseEye2 HX6538 processor, which includes:
 •	Dual Core ARM Cortex M55:
 •	High Performance Core clocked at 400MHz

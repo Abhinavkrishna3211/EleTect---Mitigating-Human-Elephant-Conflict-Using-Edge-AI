@@ -545,6 +545,11 @@ Press Confirm and you are good to go.Now that we have done training the vision b
 Check the video:https://youtu.be/5A9LV7e6Xzg
 https://youtu.be/vQQ53FgJ9pc
 
+Add the model to Edge Impulse using BYOM Feature.
+
+<img width="1252" height="748" alt="image" src="https://github.com/user-attachments/assets/32f3ff3a-5b54-4e0d-9578-50c4c22e7191" />
+
+
 Now that we have done training the vision based model, now we can train the audio model also for increased accuracy
 Training audio based TinyML model on XIAO ESP32S3 Sense
 XIAO ESP32S3 Sense Introduction
@@ -2411,6 +2416,7 @@ In the directory above, the .tflite model files are available for XIAO ESP32S3 a
 
 After locating the model files, it's essential to promptly download them to your local computer. Google Colab might clear your storage directory if there's prolonged inactivity. With these steps completed, we now have exported model files compatible with Grove Vision AI V2. Next, let's proceed to deploy the model onto the device.
 
+
 Upload models to Grove Vision V2 via SenseCraft Model Assistant
 
 Please connect the device after selecting Grove Vision AI V2 and then select Upload Custom AI Model at the bottom of the page.
@@ -2427,6 +2433,12 @@ Then click Send Model in the bottom right corner. This may take about 3 to 5 min
 Click on deploy and connect your grove vision V2.
 
 Press Confirm and you are good to go.
+
+Add the model to Edge impulse using BYOM Feature
+
+<img width="1230" height="702" alt="image" src="https://github.com/user-attachments/assets/f437a540-819c-4d01-bac2-4a85f7d4913c" />
+
+
 
 
 📦 Camera Enclosure Design and Fabrication
@@ -3245,6 +3257,10 @@ Vehicle Sound Detection — For situational awareness at road crossings
 These Edge AI models are trained using Edge Impulse and run entirely on-device, enabling fast, cloud-free response using minimal power.
 
 <img width="424" height="555" alt="image" src="https://github.com/user-attachments/assets/cd39bd04-a614-4fbc-a73e-6b32c8c3f4c5" />
+<img width="1200" height="746" alt="image" src="https://github.com/user-attachments/assets/3b46d827-a406-40e2-8f2e-7c1632f2adeb" />
+
+
+<img width="1200" height="697" alt="image" src="https://github.com/user-attachments/assets/eed42232-37fd-4898-8598-76828c0a0058" />
 
 
 

@@ -3107,6 +3107,205 @@ Ready for scalable deployment
 This improved version is now the recommended design for future field installations.
 
 
+V2 of EleTect Detection node
+
+
+To keep the system field-ready, weatherproof, and modular, the entire enclosure was designed in Fusion 360. The design balances IP67 protection, thermal management, and easy servicing using aviation connectors.
+
+CAD Design (Fusion 360)
+
+<img width="472" height="555" alt="image" src="https://github.com/user-attachments/assets/dd6463f7-e734-4dbf-a773-52b5456d5140" />
+
+
+Fusion 360 was used for parametric enclosure modeling.
+
+Key design considerations:
+
+Drip edges and sloped tops to shed rainwater.
+
+Sun-facing panel mount with adjustable tilt (10–20°)
+
+Internal mounting bosses for Vision AI board, XIAO S3, LoRa SX1262, and amplifier.
+
+Connector panel with GX12/GX16 aviation connectors and IP67 glands.
+
+Separate battery box (external IP67 case) linked via XT30/XT60 for safety and easy replacement.
+
+RF clearance zone for LoRa SMA antenna, isolated from metal LED plate to reduce interference.
+
+
+
+Prototyping & Manufacturing
+
+3D Printing:
+
+Main enclosure shell printed in using 3D Priting.
+
+<img width="472" height="555" alt="image" src="https://github.com/user-attachments/assets/c3a52b21-e9c4-4371-9f5d-f09d0be1ae0a" />
+
+
+Internal mounts & brackets (board trays, speaker cages) printed in ABS.
+
+Custom vent plugs printed with hydrophobic membranes for condensation control.
+
+
+
+<img width="739" height="555" alt="image" src="https://github.com/user-attachments/assets/ff78bdc1-e63a-4241-a137-837a18aabc97" />
+
+<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/8c7a53aa-48e9-4207-bc66-243846bb678c" />
+
+
+
+Laser Cutting (Acrylic/Aluminum):
+
+<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/7c6a211a-a9d3-499f-a0d5-3ff298772317" />
+
+
+Acrylic faceplates (transparent IR-filter window for camera, clear slots for strobes).
+
+<img width="771" height="437" alt="image" src="https://github.com/user-attachments/assets/cf0f1b88-85d4-42b2-98df-76d9b51916d5" />
+
+
+<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/a31cdc53-b4ee-408b-9e31-908f04dc572e" />
+
+
+Assembly:
+
+Boards mounted with M3 brass heat-set inserts (.
+
+Rubber gaskets + O-rings used at lid seams and aviation connectors.
+
+Speakers mounted on vibration-isolating rubber grommets.
+
+
+<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/7a24247c-44a5-4c0d-a940-81ced77e3dde" />
+
+
+
+
+
+Cable routing handled via IP67 glands with strain relief.
+
+
+
+Why Modular?
+
+Field servicing → damaged modules (amp, LEDs, speakers, boards) can be hot-swapped.
+
+Upgrade path → e.g., swap strobes for higher-wattage LEDs or speakers with horns.
+
+Cross-project reuse → same enclosure shell works for EleTect Razor, Ember, or Link with minor internal changes.
+
+
+
+🆕 EleTect Node: Upgraded, Rugged, and Multi-Threat Aware
+
+
+<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/f307358a-8da0-4bd5-b7d5-b89e5c459f51" />
+
+
+The latest version of the EleTect Node introduces major enhancements — both in structural durability and AI functionality — transforming it into a powerful multi-threat early warning system for forest-edge safety.
+
+🛡️ Ruggedized for the Wild
+
+To withstand extreme weather and terrain:
+
+The enclosure is now fully weatherproofed, with improved thermal and structural resilience
+
+All electronics are protected with IP-rated housings for long-term, unattended outdoor operation
+
+🎯 Acoustic Intelligence — Smarter Than Ever
+
+All detection models now run on acoustic data, making the system more effective even in low-visibility or obstructed environments. This includes:
+
+Elephant Call Detection — Recognizes vocalizations and rumbling calls of elephants
+
+Gunshot Detection — Alerts forest rangers to potential poaching activity
+
+Chainsaw Detection — Identifies illegal logging and tree-cutting attempts
+
+Vehicle Sound Detection — For situational awareness at road crossings
+
+(And support for future additions like human voices or distress sounds)
+
+These Edge AI models are trained using Edge Impulse and run entirely on-device, enabling fast, cloud-free response using minimal power.
+
+<img width="424" height="555" alt="image" src="https://github.com/user-attachments/assets/cd39bd04-a614-4fbc-a73e-6b32c8c3f4c5" />
+
+
+
+Note: If you're looking to build similar acoustic models, refer to the earlier section in this documentation where we cover full steps on dataset creation and Edge Impulse model training.
+
+📷 Enhanced Vision – Wider, Sharper, Night-Ready
+
+The visual detection system has also been upgraded:
+
+The old 67° field-of-view camera has been replaced with a 160° wide-angle night-vision camera
+
+This dramatically improves coverage in dense forest terrain and during low-light conditions, making detection more reliable 24/7
+
+Power, Build & Connectors
+
+<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/76f1d5e9-40a8-4903-af2f-f37246d44d23" />
+
+
+Standard activity (MED):
+
+Energy: ~80 Wh/day
+
+Solar: 30–40 W panel (PSH 4 h, 0.7 derate)
+
+Battery (1 night + losses): 3S 10 Ah
+
+Fuses: Main 10 A; Amp 3 A; Strobes 7.5 A; Logic 1 A
+
+Wiring: Battery/LED/Amp AWG16–18; Logic AWG22–24
+
+High activity (more flashes):
+
+Energy: ~96 Wh/day
+
+Solar: 40–50 W panel
+
+Battery: 3S 12 Ah
+
+
+
+🌧️ Weatherproofing & Layout (IP67)
+
+![Uploading image.png…]()
+
+
+
+Enclosure: PETG/ASA/ABS, drip edges, overhangs, UV-resistant
+
+Glands: IP67 cable glands for every external cable (power, speakers, LED harness, RF)
+
+Power (GX12-2 or GX16-2)
+
+Speakers L/R (GX12-2 each)
+
+Strobes harness (GX16-4 or GX16-6, depending on grouping)
+
+LoRa antenna via SMA bulkhead (not aviation) with 50 Ω coax
+
+Connectors: GX12/GX16 aviation with O-rings & caps:
+
+Power (GX12-2 or GX16-2)
+
+Speakers L/R (GX12-2 each)
+
+Strobes harness (GX16-4 or GX16-6, depending on grouping)
+
+LoRa antenna via SMA bulkhead (not aviation) with 50 Ω coax
+
+Battery: in external IP67 box with XT30/XT60, main fuse, and strain relief
+
+Vent: hydrophobic ePTFE vent plug to minimize condensation
+
+
+
+
 🌏 Exhibition at Maker Faire Shenzhen 2025
 
 

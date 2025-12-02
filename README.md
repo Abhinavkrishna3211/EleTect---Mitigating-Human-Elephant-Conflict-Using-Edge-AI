@@ -1179,10 +1179,14 @@ Serial.println(F(" [< or >] forwards or backwards the track"));
 Serial.println();
 Serial.println(F("================================================================================================================================="));
 }
+
+
 The code presented above is quite simple and will help you to select the song by its number, stop, pause, control the volume and pass the tracks.
 The musical control consists of sending data from the Arduino IDE serial to our Arduino board.
 Initially, the system makes the configuration in the setup and checks if the SD Card is inserted in the module. If it is not inserted, the system presents a message to alert the user.
 In addition, the system displays messages with system configuration options.
+
+
 void setup()
 {
 //Comunicacao serial com o modulo
@@ -1290,8 +1294,10 @@ The user can send the following control characters:
 •	Send the - signal: Decrease the song volume;
 •	Send the signal <: Select the previous song;
 •	Send the signal >: Select the next song;
+
 From these signals, letters, and numbers, the Arduino will receive them via the serial and will control the music to be played.
 Each condition is presented below and internally, with its respective commands.
+
 if ((command >= '1') && (command <= '3'))
 {
 Serial.print("Music reproduction");
@@ -1779,10 +1785,10 @@ Scalability of the Project
 ● Perimeter Security: Unauthorized incursions near borders or sensitive military sites may be detected by nodes. TinyML-based acoustic monitoring systems fared well in perimeter security applications, according to a 2021 study published in Sensors.
 ● Early Warning for Explosives: By adding more sensors, the system might be able to identify the acoustic characteristic of IEDs, which would provide important early warnings. Current research in this field shows encouraging findings from a 2022 study published in the journal PLOS One.
 7) Natural Disaster Detection: Nodes with additional sensors can detect changes in air pressure, humidity, or seismic activity, providing early warnings for natural disasters like floods or landslides. A 2020 report by the World Meteorological Organization (WMO) highlights the importance of low-cost, scalable sensor networks for disaster risk reduction.
-Conclusion
-In conclusion, the "EleTect" project represents a significant step forward in addressing the pressing issue of human-elephant conflicts in Kerala, India. Through innovative use of technology, community engagement, and sustainable practices, the project aims to mitigate the severity of these conflicts, protect lives, and promote coexistence between humans and elephants. By leveraging TinyML-enabled nodes equipped with vision and sound-based detection capabilities, the project provides early warning systems and deterrent measures to prevent elephant incursions into human habitats. The integration of solar power ensures the sustainability of the system, while partnerships with local authorities, wildlife organizations, and educational institutions enhance its effectiveness and reach. With a comprehensive approach to problem-solving, "EleTect" not only offers a scalable solution for Kerala but also sets a precedent for wildlife conservation efforts globally. Through collaboration, innovation, and a commitment to sustainability, "EleTect" embodies the potential of technology to address complex environmental challenges and foster harmonious relationships between humans and wildlife.
 
-💡 Inspiration
+Further expanding on this project we made EleTect 1.5 the smart signage replacing traditional static signages.
+
+💡Where it all started
 
 <img width="740" height="523" alt="image" src="https://github.com/user-attachments/assets/a6a611f9-5fc1-4831-ab18-5f575ac05fe1" />
 

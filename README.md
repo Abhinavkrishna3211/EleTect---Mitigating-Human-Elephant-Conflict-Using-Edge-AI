@@ -2712,14 +2712,15 @@ To enable reliable visual monitoring in forest-edge and roadside environments, w
 
 The camera system is mounted on top of the smart signage unit, giving it an elevated, unobstructed view of the road ahead. Its primary role is to detect the presence of vehicles near the signage location, enabling dynamic decision-making. If an elephant is detected  and remains in the elephant corridor for a prolonged time—potentially blocking the road—the system uses camera input to verify the presence of halted vehicles. In such cases, it automatically triggers the honeybee deterrent and visual warning mechanisms, encouraging the elephant to move away and clear the path safely.
 
-<img width="567" height="555" alt="image" src="https://github.com/user-attachments/assets/2b28dc97-9df6-4273-9ff2-3646095538cc" />
 
 For field reliability and modular maintenance, the camera module connects to the signage base using aviation-grade connectors, ensuring secure power and signal transmission in harsh outdoor conditions.
  
+<img width="1200" height="1002" alt="image" src="https://github.com/user-attachments/assets/24931de3-9750-495f-ba10-b0dd563efc75" />
+
 
 Where to place the camera
 
-<img width="1200" height="1002" alt="image" src="https://github.com/user-attachments/assets/c37a8b5b-a5c3-44b8-b75a-72fb80748e9a" />
+<img width="567" height="555" alt="image" src="https://github.com/user-attachments/assets/55f026ab-72f6-474e-b00a-9a34194217b3" />
 
 
  
@@ -2728,7 +2729,8 @@ Now that we have done training the vision based model, now we can connect it to 
 
 🧠 Step 4: Connecting the Signboard to EleTect Node
 
-<img width="312" height="555" alt="image" src="https://github.com/user-attachments/assets/625f875a-5c5d-47a8-87b2-df86ad682c0b" />
+<img width="312" height="555" alt="image" src="https://github.com/user-attachments/assets/e175f7ba-c5f3-4bdb-88c7-dacae5f72d46" />
+
 
 Now that we have our physical enclosure and the custom LED warning panel ready, it's time to connect the system to the EleTect detection node using LoRa communication.
 
@@ -2768,7 +2770,7 @@ Outcome
 
 🧰 What You’ll Need:
 
-XIAO ESP32S3 – For LoRa and LED control
+ ESP3 – For LoRa and LED control
 
 LoRa-E5 Grove Module – For receiving data from EleTect node3S3P Li-ion Pack – Custom power solution for high LED current drawMOSFET (e.g., IRF540N or similar) – To drive the LED panel
 
@@ -3459,7 +3461,7 @@ Cross-project reuse → same enclosure shell works for EleTect Razor, Ember, or 
 🆕 EleTect Node: Upgraded, Rugged, and Multi-Threat Aware
 
 
-<img width="771" height="437" alt="image" src="https://github.com/user-attachments/assets/56ceb2ca-b233-498e-8ac2-0fee9f439470" />
+<img width="720" height="1280" alt="image" src="https://github.com/user-attachments/assets/12fa3ab8-8e67-4982-9ba0-a5a3f4fe560f" />
 
 
 The latest version of the EleTect Node introduces major enhancements — both in structural durability and AI functionality — transforming it into a powerful multi-threat early warning system for forest-edge safety.
@@ -3488,13 +3490,13 @@ Vehicle Sound Detection — For situational awareness at road crossings
 
 These Edge AI models are trained using Edge Impulse and run entirely on-device, enabling fast, cloud-free response using minimal power.
 
+<img width="771" height="437" alt="image" src="https://github.com/user-attachments/assets/5d4c72be-c37a-43d1-a088-d887b2da1fa6" />
 
-<img width="720" height="1280" alt="image" src="https://github.com/user-attachments/assets/c7375719-56d6-4108-9beb-ee90090cb2ef" />
+<img width="1200" height="746" alt="image" src="https://github.com/user-attachments/assets/d3f34b56-c251-4c7f-825c-afc2fce6c81b" />
 
-<img width="1200" height="746" alt="image" src="https://github.com/user-attachments/assets/d4daa035-44eb-4971-9398-d3af3ce8ef5a" />
+<img width="1200" height="697" alt="image" src="https://github.com/user-attachments/assets/88f6edb0-e4ed-4eae-a2d8-9603a3a1380d" />
 
-
-
+<img width="1200" height="621" alt="image" src="https://github.com/user-attachments/assets/c56e83ab-5c31-474d-a39b-bf9f7e36c5a2" />
 
 
 
@@ -3510,6 +3512,8 @@ The old 67° field-of-view camera has been replaced with a 160° wide-angle nigh
 This dramatically improves coverage in dense forest terrain and during low-light conditions, making detection more reliable 24/7
 
 Power, Build & Connectors
+
+<img width="424" height="555" alt="image" src="https://github.com/user-attachments/assets/445ec7b1-dfa3-4a78-b906-d5becd447e47" />
 
 
 
@@ -3537,7 +3541,9 @@ Battery: 3S 12 Ah
 
 🌧️ Weatherproofing & Layout (IP67)
 
-![Uploading image.png…]()
+
+<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/d11ce5e5-53dc-48be-8d72-91bd7e11006a" />
+
 
 
 
@@ -3573,12 +3579,13 @@ Vent: hydrophobic ePTFE vent plug to minimize condensation
 🌏 Exhibition at Maker Faire Shenzhen 2025
 
 
-<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/40417e60-4a88-450f-ac2a-be9648d6dca9" />
+<img width="1200" height="900" alt="image" src="https://github.com/user-attachments/assets/14a243e8-2f98-4dce-a065-e08959c2765e" />
 
 
 The EleTect Signage system was officially exhibited at Maker Faire Shenzhen 2025, one of Asia’s largest community-driven innovation events.
  
-![Uploading image.png…]()
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/03bdefdf-5282-4945-a2c6-0ec58d596074" />
+
 
 
 
@@ -3604,7 +3611,8 @@ Participating in Maker Faire Shenzhen 2025 helped validate the design, gather fe
 
 🌍 Future Plans
 
-![Uploading image.png…]()
+<img width="555" height="555" alt="image" src="https://github.com/user-attachments/assets/5ec76442-6f9a-4e7e-b3c5-719f3b1d3d51" />
+
 
 
 One of the most impactful upgrades we are planning for EleTect is the integration of Google Maps into the system. Currently, EleTect is capable of detecting elephant movement and triggering local deterrents or alerts. However, by incorporating Google Maps, we aim to create a real-time, centralized monitoring system that will drastically improve response times and ensure safer coexistence between humans and elephants.
@@ -3631,9 +3639,10 @@ Community Awareness – Local communities gain accessible, visual information, f
 
 While designed for mitigating human-elephant conflict, the system can also be adapted for other regions and animals, such as kangaroos, deer, or bison, with only minimal modifications required. The overall goal remains the same: to reduce accidents, save human lives, and protect wildlife.
 
-![Uploading image.png…]()
+<img width="555" height="555" alt="image" src="https://github.com/user-attachments/assets/66986e86-f728-4eb6-aec5-7425707fa129" />
 
-![Uploading image.png…]()
+<img width="555" height="555" alt="image" src="https://github.com/user-attachments/assets/7eeecd68-243e-469b-94e1-ec916540c34f" />
+
 
 
 

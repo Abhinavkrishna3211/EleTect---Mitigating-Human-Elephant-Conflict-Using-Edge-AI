@@ -1990,7 +1990,7 @@ After the 3D printing process we finally assembled eveything and this is the fin
 
 
 
- ![Uploading image.png…]()
+<img width="612" height="454" alt="image" src="https://github.com/user-attachments/assets/8849bc9d-939f-407c-b16d-ea80056059f5" />
 
 
  
@@ -2021,7 +2021,8 @@ Further expanding on this project we made EleTect 1.5 the smart signage replacin
 
 💡Where it all started
 
-<img width="740" height="523" alt="image" src="https://github.com/user-attachments/assets/a6a611f9-5fc1-4831-ab18-5f575ac05fe1" />
+
+<img width="740" height="429" alt="image" src="https://github.com/user-attachments/assets/7d9333a2-c71f-4052-8273-eb6978ee3a15" />
 
 
 In the dense forests and mountainous regions of Kerala, especially areas like Nelliampathy, wild elephants frequently traverse routes that have been part of their migratory patterns for centuries. These pathways, known locally as “Aanathaara” (elephant corridors), are deeply embedded in the landscape and ecology. However, with rapid human expansion — including roads, farmlands, and settlements — these natural trails now intersect with human activity, often with devastating consequences.
@@ -2076,7 +2077,7 @@ Architecture
 
 Signages will be placed like below.
 
-<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/418e25c9-5fa8-44cb-ba61-3f184684bed7" />
+<img width="740" height="523" alt="image" src="https://github.com/user-attachments/assets/f8b978e9-4d3f-4ec1-8cf6-a063dac2ae4c" />
 
 
 🔗 Components Used
@@ -2128,19 +2129,21 @@ Cooling film
 
 Create a Design in Fusion360 for the enclosure.
 
-<img width="740" height="529" alt="image" src="https://github.com/user-attachments/assets/843a544c-b730-464f-8542-c7d42fd8d08f" />
+
+<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/01de849f-e1ac-47cb-9daa-3944e73045f9" />
+
 
 
 Sketch the front panel dimensions based on your component layout (camera, LEDs, LoRa antenna, etc.).Ensure the box has enough depth to house the electronics.
 
-<img width="589" height="555" alt="image" src="https://github.com/user-attachments/assets/3a363351-7b09-4226-8aea-428d2f409f6b" />
+<img width="589" height="555" alt="image" src="https://github.com/user-attachments/assets/4ffff206-a99e-412e-8c39-ae27d8029bac" />
 
-<img width="740" height="469" alt="image" src="https://github.com/user-attachments/assets/078604ce-0230-49be-ac81-a2ad810068c3" />
+<img width="740" height="529" alt="image" src="https://github.com/user-attachments/assets/3a4ce40f-2076-4b9d-acd8-3ca3c6138612" />
 
 
 Export each face of the enclosure as a DXF file for laser cutting.
 
-<img width="312" height="555" alt="image" src="https://github.com/user-attachments/assets/fc2c763d-40eb-45e6-934a-5ca885266535" />
+<img width="740" height="469" alt="image" src="https://github.com/user-attachments/assets/6b568ecd-aa07-49aa-bfb1-aa01b90c8282" />
 
 
 🔥 Step 1.2: Laser Cut the Acrylic Panels
@@ -2153,7 +2156,7 @@ Carefully cut each panel and label them as you go to avoid confusion during asse
 
 👉 Safety first! Wear proper eye protection and operate the cutter in a ventilated area.
 
-<img width="740" height="555" alt="image" src="https://github.com/user-attachments/assets/e9f591d6-f2fe-42fc-87d2-6c895c079955" />
+<img width="312" height="555" alt="image" src="https://github.com/user-attachments/assets/556973e6-98c7-4061-b40a-0a3df29d1a73" />
 
 
 
@@ -2162,14 +2165,14 @@ https://youtu.be/p9OrC6K7Lsw
 
  
 
-<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/158af12c-25f5-4142-b64d-9a0ae27d2845" />
+<img width="740" height="555" alt="image" src="https://github.com/user-attachments/assets/76f0151d-658c-4a86-b1ce-6e69abd36b36" />
 
 
 🧷 Step 1.3: Assemble the Enclosure
 
 Lay out all the cut pieces on a clean surface.
 
-<img width="555" height="555" alt="image" src="https://github.com/user-attachments/assets/877961db-79a1-4ace-89a5-096d72a4d476" />
+<img width="555" height="555" alt="image" src="https://github.com/user-attachments/assets/db730c1e-359f-4e2a-a48f-d56ef1aec314" />
 
 
 Begin with the base and edges.Apply acrylic glue along the joining edges and press pieces together.Use clamps or masking tape to hold parts in place until dry.
@@ -2180,7 +2183,7 @@ https://youtu.be/pcny2LYDyHY
 
 Continue assembling all sides until the box is complete.
 
-<img width="740" height="555" alt="image" src="https://github.com/user-attachments/assets/432a9ff7-d8d1-4f58-919a-543d3c9c35b2" />
+<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/d9b83a97-a547-4c92-b698-b21f0216d019" />
 
 
 Let the entire assembly cure for several hours to ensure strong bonding.
@@ -2193,7 +2196,7 @@ https://youtu.be/9nwdK971FR8
 
 Design an elephant silhouette and the text “ELEPHANTS AHEAD” using vector software (e.g., Adobe Illustrator or Inkscape).
 
-<img width="312" height="555" alt="image" src="https://github.com/user-attachments/assets/97314987-435d-4efc-9fe1-3215ba5ddb30" />
+<img width="740" height="555" alt="image" src="https://github.com/user-attachments/assets/67550559-a189-4654-a752-6b5d595e6a61" />
 
 
 Cut the design using a vinyl cutter from reflective vinyl sheet.
@@ -2203,7 +2206,7 @@ Clean the front acrylic panel with a microfiber cloth.Carefully transfer the ref
 <img width="312" height="555" alt="image" src="https://github.com/user-attachments/assets/c3696e8b-8479-46bc-9251-31b8f18e1adf" />
 
 
-<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/a602cb34-3355-4429-929b-7224ca0f4764" />
+<img width="312" height="555" alt="image" src="https://github.com/user-attachments/assets/d18f4ff5-c588-4177-b5d2-eb6b59adff94" />
 
 
 Cover the remaining  back and side edges with matte black vinyl to block internal components and focus attention on the warning.
@@ -2216,10 +2219,10 @@ In this step, we’ll design and assemble a high-visibility LED panel in the sha
 
 🧰 Materials Required
 
-<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/8d85229b-2cbc-40c7-8836-9271187f8755" />
+<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/72078fe8-e2d5-4d6d-96d8-4268ecc9e5bc" />
 
 
-<img width="312" height="555" alt="image" src="https://github.com/user-attachments/assets/912ed693-d8ae-45c5-b725-198f60ff93ed" />
+<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/40b2d413-2a03-4a1b-8b4a-ea1ae95af290" />
 
 
 4x generic dotted PCBs (perforated board)
@@ -2246,7 +2249,7 @@ Heat shrink, glue, basic tools
 
 Take your four dotted PCBs paint them with matte black paint — this step is optional but gives a professional look and improves contrast against the red LEDs.
 
-<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/3830dfd2-b593-4113-8c22-831547e6f04f" />
+<img width="312" height="555" alt="image" src="https://github.com/user-attachments/assets/d8e207eb-9773-41e5-b8b2-5d250b0af53a" />
 
 
 Let them dry completely.
@@ -2255,14 +2258,14 @@ Let them dry completely.
 
 Measure and cut the boards to your desired dimensions.
 
-<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/7252401c-1fe9-48cc-afbe-fa4b670a977d" />
+<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/df8c22d2-c955-4319-96c5-f8704ff1c4dc" />
 
 
 Carefully align and glue the four PCBs together to create a larger panel.
 
-<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/54ed9dca-0b8a-41a7-91f6-4011187259b2" />
+<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/65a19f5e-4ab9-468e-a219-f90a3cfe70c2" />
 
-<img width="640" height="555" alt="image" src="https://github.com/user-attachments/assets/4dc32b07-0fb1-4ca6-bcbf-1b9266356099" />
+<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/f512f74a-dcc1-48c2-88f7-a7bd15d9b8bf" />
 
 
 
@@ -2272,7 +2275,7 @@ Make sure all the solder pads align properly and the board is flat.
 
 Place the vinyl elephant signage or sticker over the panel as a reference.Using a white marker or chalk, roughly trace the outline of the elephant and the text “ELEPHANTS AHEAD”.
 
-<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/7fdc8d25-e76e-491a-bfe7-25c048fde940" />
+<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/8e8ed910-d292-493a-ac63-90b97ce3fde3" />
 
 
 Plan the LED positions inside this trace to match the shape as closely as possible
@@ -2287,7 +2290,7 @@ We’ll use a simple and efficient wiring scheme:
 
 Multiple such chains are wired in parallel across the panel
 
-<img width="312" height="555" alt="image" src="https://github.com/user-attachments/assets/f785c09b-4d5e-4378-bea2-3193d9fa172a" />
+<img width="640" height="555" alt="image" src="https://github.com/user-attachments/assets/9863c2f7-09aa-4660-818a-32782ff6361b" />
 
 
 Why this config?With a 3S (11.1V) LiPo battery, 2 red LEDs (approx. 2V each) + 68Ω resistor draws safe current and provides balanced brightness.
@@ -2298,10 +2301,10 @@ First, build one LED chain on a breadboard.
 
 Power it using a bench power supply.
 
-<img width="740" height="416" alt="image" src="https://github.com/user-attachments/assets/fc1475b2-6803-4b3b-9e22-a7ca6bfee753" />
+<img width="740" height="416" alt="image" src="https://github.com/user-attachments/assets/3f21ddf2-8bf5-42ae-9333-64d4232d5442" />
 
 
-<img width="312" height="555" alt="image" src="https://github.com/user-attachments/assets/a9c58f05-14ac-474b-ab27-256f345c9483" />
+<img width="740" height="416" alt="image" src="https://github.com/user-attachments/assets/7ffa65b7-729f-4afb-83bf-a94f75e81680" />
 
 
 
@@ -2314,12 +2317,12 @@ Confirm brightness and measure current draw.Once satisfied, continue soldering t
 
 Start from the top of the board, following your traced outline.
 
-<img width="403" height="555" alt="image" src="https://github.com/user-attachments/assets/455fa115-dcb7-43c6-aff3-bf8540d8e824" />
+<img width="312" height="555" alt="image" src="https://github.com/user-attachments/assets/da4a95b6-6c07-47a8-9d8a-a1079af11cc8" />
 
 
 Insert 2 LEDs in series and connect the 68Ω resistor to complete the chain.Continue placing and soldering LED chains across the board, following your elephant outline and text.
 
-<img width="480" height="202" alt="image" src="https://github.com/user-attachments/assets/465c93c6-3c4d-4213-9640-c0c7b5526b2a" />
+<img width="312" height="555" alt="image" src="https://github.com/user-attachments/assets/db5c458d-55c1-476f-8d62-f16e34556b18" />
 
 
 Use thin wires to connect common positive and negative rails at the back.
@@ -2338,14 +2341,15 @@ Check heat levels and ensure no resistors or LEDs are overheating.
 
 Securely mount the pack inside the enclosure and wire it to the LED panel via a toggle switch or microcontroller control..Turn on the system and ensure all LEDs light up in the correct pattern.
 
-<img width="740" height="416" alt="image" src="https://github.com/user-attachments/assets/7da9a4b6-32ee-436e-93e9-be671e594a08" />
+<img width="403" height="555" alt="image" src="https://github.com/user-attachments/assets/277aa8a2-74cb-45cc-91bb-28107fc6ceab" />
 
 https://youtu.be/64pGLh4sXxg
 
 
 But unfortunately, it didn’t quite meet my expectations. During the first test, I wasn’t fully satisfied, as it didn’t look as refined or close to the vision I had in mind.
 
-<img width="498" height="498" alt="image" src="https://github.com/user-attachments/assets/0f2cbbc7-d7d6-41ca-9b5b-7c209d0fb117" />
+
+<img width="480" height="202" alt="image" src="https://github.com/user-attachments/assets/eb0b1c43-d8d6-45dd-aee4-ec3ae30675fa" />
 
 
 But then I had a small idea — if I could diffuse the LED light, it might look much cleaner and more aesthetically pleasing. To quickly test this, I placed a simple A4 sheet between the front acrylic panel and the LED panel.
@@ -2354,7 +2358,7 @@ https://youtu.be/2vTdIML7QeQ
 
 After diffusing it with an A4 sheet, the display looked even better—cleaner and clearer. There were some dead LEDs ,so i replaced them and it worked perfect.
 
-<img width="500" height="226" alt="image" src="https://github.com/user-attachments/assets/1d2bb59a-aebe-4f9e-a006-c5a799ea31c0" />
+<img width="498" height="498" alt="image" src="https://github.com/user-attachments/assets/7e9501ae-83de-4021-b3ad-0c4601bcff89" />
 
 
 Initially, my idea was to keep the elephant silhouette completely black when the sign was inactive and then illuminate it in red once activated. To match this concept, I painted the PCB black so that the LEDs would remain invisible until turned on. However, when I tried adding a simple A4 sheet as a diffuser, it disrupted the clean aesthetic I was aiming for, as the sheet made the panel look less appealing.
@@ -2364,10 +2368,12 @@ To tackle this, I thought of using smoked acrylic. This material would give the 
 The challenge, however, was that smoked acrylic was not easily available at the time, and even if sourced, it would add to the cost and overall weight of the system. To find a more practical alternative, I came up with the idea of applying car window cooling film to the back of the front panel to replicate the smoked effect. For light diffusion, I could then use a lightweight and low-cost option like a thin plastic sheet or even butter paper. This way, I could preserve both the aesthetics and the functionality without compromising on budget or weight. Firstly apply the cooling film on the back of the front acrylic panel.
 
 
+<img width="739" height="555" alt="image" src="https://github.com/user-attachments/assets/edb4bfd9-37c9-42ad-95d0-1d7e4d1645b8" />
+
 
 Then use a thin plastic sheet or butter paper to diffuse the light on top of that.
 
-<img width="739" height="555" alt="image" src="https://github.com/user-attachments/assets/2ee1c420-6ce5-450a-91b5-b965ccb637d6" />
+<img width="739" height="555" alt="image" src="https://github.com/user-attachments/assets/a17757d3-b291-402a-aba0-3533f579057b" />
 
 
 So to test it i quickly made a setup and tested it.
@@ -2376,22 +2382,25 @@ https://youtu.be/UoSKB1phJbM
 
 Finally, after several trials, I was able to achieve exactly the result I had envisioned: a signage system that remains sleek and minimal when inactive, but transforms into a striking, attention-grabbing warning when activated.
 
-<img width="740" height="555" alt="image" src="https://github.com/user-attachments/assets/314d5508-1854-48a1-b6e8-bc7f06ce1c09" />
+<img width="500" height="226" alt="image" src="https://github.com/user-attachments/assets/778ab4ad-b8b6-4f54-9c7c-305a8b8f1b98" />
 
 
 Step 3:Custom model for vehicle detection
 
 🧠 Central Controller: ESP32-C6-DevKitC-1
 ESP32-C6-DevKitC-1
-<img width="3329" height="2583" alt="esp32-c6-devkitc-1-isometric" src="https://github.com/user-attachments/assets/b31baa94-d35d-4b44-811e-ef33c85f29f2" />
+
+
+<img width="632" height="380" alt="image" src="https://github.com/user-attachments/assets/ee9f4fad-167b-4e74-b3bb-fbc053bb63cd" />
+
 
 At the heart of our smart signage system is the ESP32-C6-DevKitC-1, a powerful and flexible development board from Espressif, designed for modern IoT applications. This board is responsible for receiving elephant detection alerts from EleTect nodes, interpreting camera-based AI inferences from the Grove Vision AI module, and triggering appropriate responses—like visual signage alerts or honeybee deterrent playback.
 
 We chose this board for its cutting-edge wireless connectivity, generous memory, and support for RISC-V-based on-device processing.
 
-<img width="637" height="384" alt="image" src="https://github.com/user-attachments/assets/6d5cb87e-2ad5-4805-8bf3-e007e886b66a" />
+<img width="754" height="459" alt="image" src="https://github.com/user-attachments/assets/2785b713-f327-4c71-a724-9fbf84bd59e8" />
 
-<img width="754" height="459" alt="image" src="https://github.com/user-attachments/assets/42fb6bc1-2a7d-45ff-8db8-0b7ba5219ceb" />
+<img width="1200" height="869" alt="image" src="https://github.com/user-attachments/assets/25aa8dcf-1fc0-493d-b05f-b9715e649d9c" />
 
 
 🧩 How It Works in the EleTect Signage System
@@ -2419,18 +2428,19 @@ It drives an RED LED Panel  for visual alerts to oncoming drivers using MOSFET D
 GPIOs control any future add-ons (like floodlights ).
 
 Power & Deployment
-The board runs on 5V via USB-C or DC input and is designed for outdoor enclosure integration. It’s lightweight, low-power, and ideal for long-term signage deployment.
+The board runs on 5V via Solar and is designed for outdoor enclosure integration. It’s lightweight, low-power, and ideal for long-term signage deployment.
 
 
-<img width="1200" height="869" alt="image" src="https://github.com/user-attachments/assets/e2420c45-f833-4253-9b85-6ad60ac6dab0" />
+<img width="3329" height="2583" alt="image" src="https://github.com/user-attachments/assets/07a3261e-0ab4-4e37-9141-beeadee81324" />
 
 
-<img width="1187" height="1600" alt="image" src="https://github.com/user-attachments/assets/d457c848-7bc4-443a-8af6-f1524d6cf3c1" />
+<img width="740" height="531" alt="image" src="https://github.com/user-attachments/assets/f0692051-36a6-460d-9d46-4930f9a2f9c7" />
+
 
 
 Custom model using google collab and Roboflow for Vehicle detection
 
-<img width="740" height="531" alt="image" src="https://github.com/user-attachments/assets/2d7979bb-a2b3-4a31-bb3e-53818236653a" />
+<img width="740" height="407" alt="image" src="https://github.com/user-attachments/assets/57be44e7-75be-49b1-a17a-e8750b4e470c" />
 
 
 In this part, we'll kick off by labeling our dataset with the intuitive tools provided by Roboflow. From there, we'll advance to training our model within Google Colab's collaborative environment. Next up, we'll explore deploying our trained model using the SenseCraft Model Assistant, a process designed to smoothly bridge the gap between training and real-world applications. By the conclusion of this part, you'll have your very own custom model ready to detect vehicles, operational on Grove Vision AI V2.
@@ -2445,14 +2455,14 @@ From dataset to model deployment, our journey consists of the following key stag
 
 Step 1.Create a free Roboflow account
 
-<img width="740" height="407" alt="image" src="https://github.com/user-attachments/assets/c586fb13-1ddb-412c-bd7b-3329595667b4" />
+<img width="740" height="402" alt="image" src="https://github.com/user-attachments/assets/ae870c14-bb75-4618-aa4e-9aac4fed6674" />
 
 
 Roboflow provides everything you need to label, train, and deploy computer vision solutions. To get started, create a free Roboflow account.
 
 Step 2. Creating a New Project and Uploading images
 
-<img width="740" height="402" alt="image" src="https://github.com/user-attachments/assets/1af0e128-e486-4742-9a32-ea66f378b998" />
+<img width="1187" height="1600" alt="image" src="https://github.com/user-attachments/assets/a972a4a1-e548-473e-aed7-a96feb754cb9" />
 
 
 Once you've logged into Roboflow, Click on Create Project.\
@@ -2473,7 +2483,7 @@ After uploading, you'll need to annotate the images by labeling vehicle.
 
 Roboflow offers three different ways of labelling images: Auto Label, Roboflow Labeling and Manual Labeling.
 
-<img width="471" height="555" alt="image" src="https://github.com/user-attachments/assets/39840ba1-3f03-4e53-865c-c57aab9b2161" />
+<img width="471" height="555" alt="image" src="https://github.com/user-attachments/assets/3356cc85-b7b6-4292-b7e5-b324527b06fe" />
 
 
 Auto Label: Use a large generalized model to automatically label images.
@@ -2488,6 +2498,10 @@ Click on "Manual Labeling" button. Roboflow will load the annotation interface.
 
 Select the "Start Annotating" button. Draw bounding boxes around the vehicle in each image.
 
+
+<img width="807" height="850" alt="image" src="https://github.com/user-attachments/assets/e97d30c0-8500-4994-b524-d5460ca3ff72" />
+
+
 Label each bounding box as vehicle.
 
 Use the ">" button to move through your dataset, repeating the annotation process for each image.
@@ -2495,6 +2509,10 @@ Use the ">" button to move through your dataset, repeating the annotation proces
 Step 4: Review and Edit Annotations
 
 It's essential to ensure annotations are accurate.
+
+
+<img width="1200" height="736" alt="image" src="https://github.com/user-attachments/assets/a65c4976-91e6-4e04-9400-79b2d3e53874" />
+
 
 Review each image to make sure the bounding boxes are correctly drawn and labeled. If you find any mistakes, select the annotation to adjust the bounding box or change the label.
 
@@ -2508,18 +2526,18 @@ Click Generate in the left toolbar and click Continue in the third Preprocessing
 
 In the Augmentation in step 4, select Mosaic, which increases generalisation.
 
-<img width="569" height="555" alt="image" src="https://github.com/user-attachments/assets/a93e509e-959b-41e6-9c1d-8b38a325e581" />
+<img width="569" height="555" alt="image" src="https://github.com/user-attachments/assets/fd436c24-7293-41e5-b8ab-f70691f34f4d" />
 
 
-<img width="600" height="555" alt="image" src="https://github.com/user-attachments/assets/9f592e31-ee49-4df9-8d3e-bbda278810be" />
+
+<img width="600" height="555" alt="image" src="https://github.com/user-attachments/assets/13819c4f-fc50-479e-941f-4a2ad1073728" />
 
 
 In the final Create step, please calculate the number of images reasonably according to Roboflow's boost; in general, the more images you have, the longer it takes to train the model. However, the more pictures you have will not necessarily make the model more accurate, it mainly depends on whether the dataset is good enough or not.
 
 Click on Create to create a version of your dataset. Roboflow will process the images and annotations, creating a versioned dataset. After the dataset is generated, click Export Dataset. Choose the COCO format that matches the requirements of the model you'll be training.
 
-<img width="740" height="517" alt="image" src="https://github.com/user-attachments/assets/cfa3a661-ba5f-4c82-9cd5-45ccfcb015e8" />
-
+<img width="740" height="517" alt="image" src="https://github.com/user-attachments/assets/686feb8a-9c15-4529-a033-4725eaf59cd1" />
 
 Click on Continue and you'll then get the Raw URL for this model. Keep it, we'll use the link in the model training step a bit later.
 
@@ -2531,51 +2549,51 @@ Step 1. Access the Colab Notebook​
 
 You can find different kinds of model Google Colab code files on the SenseCraft Model Assistant's Wiki. If you don't know which code you should choose, you can choose any one of them, depending on the class of your model (object detection or image classification).
 
-<img width="740" height="405" alt="image" src="https://github.com/user-attachments/assets/f6eab48b-f1c8-43bc-a512-62ea641cafc5" />
+<img width="740" height="405" alt="image" src="https://github.com/user-attachments/assets/c9e109b1-e021-498c-83e3-899524327976" />
 
 
 If you are not already signed into your Google account, please sign in to access the full functionalities of Google Colab.
 
 Click on "Connect" to allocate resources for your Colab session.
 
-<img width="740" height="394" alt="image" src="https://github.com/user-attachments/assets/3a84845f-df18-4921-8dd9-6f27d2a81de8" />
+<img width="740" height="394" alt="image" src="https://github.com/user-attachments/assets/4d015cff-c187-4b62-976f-3ffa9daafcac" />
 
 
 select the panel showing RAM and Disk
 
-image.png
+<img width="472" height="267" alt="image" src="https://github.com/user-attachments/assets/cb7e820c-6fc9-46b3-97ce-ed105677391e" />
 
 select "Change runtime type"
 
-<img width="472" height="267" alt="image" src="https://github.com/user-attachments/assets/fa7d077d-67cb-4748-9701-23fccbd7a404" />
+<img width="508" height="422" alt="image" src="https://github.com/user-attachments/assets/b6bbc4f3-6696-436b-bf0b-32e613bf17e4" />
 
 
 Select "T4 GPU"
 
-<img width="508" height="422" alt="image" src="https://github.com/user-attachments/assets/26b71a71-755a-4b12-9f23-22b1b5c9852e" />
+<img width="625" height="555" alt="image" src="https://github.com/user-attachments/assets/c29fc657-e89f-4efa-8cda-78cd71a5e29d" />
 
 
 Now run the "Setup SSCMA"
 
-<img width="740" height="307" alt="image" src="https://github.com/user-attachments/assets/23753601-ddcd-4a8d-90c4-ae419faa62a5" />
+<img width="740" height="307" alt="image" src="https://github.com/user-attachments/assets/1b9e2fc1-27d7-47d8-8b49-4fb0234bc6f0" />
 
 
 
 you will get a warning like this click on "Run anyways"
 
-<img width="740" height="345" alt="image" src="https://github.com/user-attachments/assets/37ffebd6-3467-41f9-b8cc-755f01d691c0" />
+<img width="740" height="345" alt="image" src="https://github.com/user-attachments/assets/c6c596c1-938e-4094-aec4-b71cad75e90b" />
 
 
 Wait untill the repositary is fully clonedand installed all the dependencies.
 
-<img width="740" height="321" alt="image" src="https://github.com/user-attachments/assets/9fe83857-aaf5-4e49-a6db-b023c5a58a71" />
+<img width="740" height="321" alt="image" src="https://github.com/user-attachments/assets/bfe74639-f84d-4040-b608-738c6671c2a0" />
 
 
 now its finished
 
 Now run the "download the pretrain model weights file
 
-<img width="740" height="65" alt="image" src="https://github.com/user-attachments/assets/776c26be-7a76-4d30-977f-84c9054babc7" />
+<img width="740" height="65" alt="image" src="https://github.com/user-attachments/assets/af6ec66d-4a05-4e5c-b8bc-2a84f0b1379f" />
 
 
 Step 2. Add your Roboflow Dataset​
@@ -2589,6 +2607,8 @@ To customize this code for your own model link from Roboflow:
 2)Replace the Roboflow dataset URL (https://app.roboflow.com/ds/uQS9v4ZUkd?key=8d2CgUki6U)
 
 with the link to your exported dataset (It's the Raw URL we got in the last step in Labelled Datasets). Make sure to include the key parameter if required for access.
+
+https://app.roboflow.com/ds/uQS9v4ZUkd?key=8d2CgUki6U
 
 3)Adjust the output filename in the wget command if necessary
 
@@ -2616,7 +2636,7 @@ To customize this command for your own training, you would:
 
 7)If you have a different pre-trained model file, update the load_from path accordingly.
 
-<img width="740" height="219" alt="image" src="https://github.com/user-attachments/assets/b9042c6f-7f29-42aa-b4b5-759af0bc6992" />
+<img width="740" height="219" alt="image" src="https://github.com/user-attachments/assets/14aba398-1076-4a51-9b66-e241a662c708" />
 
 
 
@@ -2633,7 +2653,8 @@ Step 6. Download the exported model file​
 
 After the Export the model section, you will get the model files in various formats, which will be stored in the Model Assistant folder by default. Our stored directory is EleTect 1.5.
 
-<img width="518" height="459" alt="image" src="https://github.com/user-attachments/assets/9fe2b64f-071c-4339-a2e2-be9404915d27" />
+
+<img width="518" height="459" alt="image" src="https://github.com/user-attachments/assets/ba415694-e91d-4088-befc-16ba13940b6d" />
 
 
 select "ModelAssistatnt"
@@ -2647,7 +2668,7 @@ Upload models to Grove Vision V2 via SenseCraft Model Assistant
 
 Please connect the device after selecting Grove Vision AI V2 and then select Upload Custom AI Model at the bottom of the page.
 
-<img width="740" height="405" alt="image" src="https://github.com/user-attachments/assets/f76a26ca-b5ff-4f5a-adf1-517d996c4393" />
+<img width="740" height="405" alt="image" src="https://github.com/user-attachments/assets/7ad2802f-25a3-44e5-badd-207f6015680c" />
 
 
 You will then need to prepare the name of the model, the model file, and the labels. I want to highlight here how this element of the label ID is determined.
@@ -2659,6 +2680,10 @@ Then click Send Model in the bottom right corner. This may take about 3 to 5 min
 Click on deploy and connect your grove vision V2.
 
 Press Confirm and you are good to go.
+
+
+<img width="1111" height="532" alt="image" src="https://github.com/user-attachments/assets/f8d6a5db-32d9-4a4c-b903-55baa2203b0a" />
+
 
 Add the model to Edge impulse using BYOM Feature
 
@@ -2674,27 +2699,27 @@ Add the model to Edge impulse using BYOM Feature
 
 To enable reliable visual monitoring in forest-edge and roadside environments, we designed a custom enclosure for the Grove Vision AI V2 Module using Autodesk Fusion 360. This case houses the camera securely and is optimized for outdoor use, with a snug lens window, mounting slots, and environmental protection. The enclosure was 3D printed using PLA filament and tested for hardware alignment and field durability.
 
-<img width="1200" height="1067" alt="image" src="https://github.com/user-attachments/assets/c9904c16-88f1-4300-b7d1-17d2f1929832" />
 
-<img width="312" height="555" alt="image" src="https://github.com/user-attachments/assets/d24846ee-8222-4736-bd37-95231b74ce01" />
+<img width="1200" height="913" alt="image" src="https://github.com/user-attachments/assets/08f1022f-178e-4d04-9964-8873ad82a9cb" />
 
-<img width="567" height="555" alt="image" src="https://github.com/user-attachments/assets/65c20cad-28a6-479a-ae74-5d464b7695bb" />
 
+<img width="1200" height="1044" alt="image" src="https://github.com/user-attachments/assets/c939ec63-ab60-465f-92de-f6346d37ede1" />
+
+
+<img width="1200" height="1012" alt="image" src="https://github.com/user-attachments/assets/32e5cb2b-3a85-432a-a915-de5587490b1e" />
 
 
 
 The camera system is mounted on top of the smart signage unit, giving it an elevated, unobstructed view of the road ahead. Its primary role is to detect the presence of vehicles near the signage location, enabling dynamic decision-making. If an elephant is detected  and remains in the elephant corridor for a prolonged time—potentially blocking the road—the system uses camera input to verify the presence of halted vehicles. In such cases, it automatically triggers the honeybee deterrent and visual warning mechanisms, encouraging the elephant to move away and clear the path safely.
 
-<img width="544" height="429" alt="image" src="https://github.com/user-attachments/assets/9e8ded4c-453c-4e0a-870a-df06534c369a" />
-
+<img width="567" height="555" alt="image" src="https://github.com/user-attachments/assets/2b28dc97-9df6-4273-9ff2-3646095538cc" />
 
 For field reliability and modular maintenance, the camera module connects to the signage base using aviation-grade connectors, ensuring secure power and signal transmission in harsh outdoor conditions.
  
 
 Where to place the camera
 
-<img width="1200" height="1012" alt="image" src="https://github.com/user-attachments/assets/ce9f617d-e1d0-4cd5-a954-8657e8dd496b" />
-
+<img width="1200" height="1002" alt="image" src="https://github.com/user-attachments/assets/c37a8b5b-a5c3-44b8-b75a-72fb80748e9a" />
 
 
  
@@ -2703,7 +2728,7 @@ Now that we have done training the vision based model, now we can connect it to 
 
 🧠 Step 4: Connecting the Signboard to EleTect Node
 
-<img width="312" height="555" alt="image" src="https://github.com/user-attachments/assets/6e0242ae-47fc-4cd1-861d-5f6f072c1029" />
+<img width="312" height="555" alt="image" src="https://github.com/user-attachments/assets/625f875a-5c5d-47a8-87b2-df86ad682c0b" />
 
 Now that we have our physical enclosure and the custom LED warning panel ready, it's time to connect the system to the EleTect detection node using LoRa communication.
 
@@ -2757,32 +2782,35 @@ Here's a basic sketch to control the LED flashing when elephant presence data is
 
 🧾 Code for the Signboard Node (Receiver):
 
-/*
-  Signage node for XIAO ESP32S3
-  - Listens for "elephant" messages from EleTect node over LoRa
-  - When elephant reported: blink a red signage LED (MOSFET-driven) for 40s after last report
-  - Uses Grove Vision AI V2 to detect "vehicle" on road and reports vehicle events to EleTect node
-    via LoRa  ]
-  Pin & behavior configuration near top.
-*/
 
+
+/*
+  Signage node for ESP32-C6 DevKitC (adapted)
+
+  Notes / assumptions:
+  - Serial  -> USB debug (Serial.begin(115200))
+  - Serial2 -> LoRa-E5 AT UART (we call Serial2.begin(baud, SERIAL_8N1, RX, TX))
+  - visionSerial (HardwareSerial(1)) -> Grove Vision AI V2 UART
+  - Change LORA_RX_PIN / LORA_TX_PIN / VISION_RX_PIN / VISION_TX_PIN to match your wiring.
+  - SIGN_LED_PIN controls MOSFET gate (active HIGH).
+*/
 
 #include <Arduino.h>
 #include <Seeed_Arduino_SSCMA.h> // Grove Vision AI V2
 
-// ----------------- CONFIGURATION -----------------
-// Grove LoRa-E5 UART (connected to the Grove UART port)
-const int LORA_RX_PIN = 16; // XIAO RX (connect to LoRaE5 TX)
-const int LORA_TX_PIN = 17; // XIAO TX (connect to LoRaE5 RX)
-const unsigned long LORA_BAUD = 9600UL; // typical default for LoRa-E5 AT firmware - change if your module uses different baud
+// ----------------- CONFIGURATION (change to match your wiring) -----------------
+// LoRa-E5 UART pins (use whichever free GPIOs on your ESP32-C6)
+const int LORA_RX_PIN = 16; // ESP32-C6 RX (connect to LoRaE5 TX)
+const int LORA_TX_PIN = 17; // ESP32-C6 TX (connect to LoRaE5 RX)
+const unsigned long LORA_BAUD = 9600UL; // adjust to your LoRa-E5 AT firmware baud
 
-// Grove Vision AI V2 UART - use a second serial port
-#ifdef ESP32
-  #include <HardwareSerial.h>
-  HardwareSerial atSerial(0); // Grove Vision AI UART (example)
-#else
-  #define atSerial Serial1
-#endif
+// Grove Vision AI V2 UART pins (HardwareSerial instance 1)
+const int VISION_RX_PIN = 4;  // connect to Grove Vision TX
+const int VISION_TX_PIN = 5;  // connect to Grove Vision RX
+// Note: choose pins that are free on your devkit. If unsure, swap to other usable GPIOs.
+
+// Create a dedicated hardware serial for vision
+HardwareSerial visionSerial(1); // use UART1 instance
 
 Seeed_Arduino_SSCMA AI; // Grove Vision AI object
 
@@ -2821,59 +2849,44 @@ String incomingLine = "";
 // ---------- LoRa helper functions ----------
 
 // Send a payload string via LoRa-E5 using AT command.
-// NOTE: depending on your LoRa-E5 firmware you may need to change the exact AT command (AT+SEND, AT+MSG, etc.)
+// NOTE: depending on your LoRa-E5 firmware you may need to change the exact AT command
 void sendLoRaPayload(const String &payload) {
-  // A common AT-style uplink command may be: AT+SEND="payload"
-  // Some firmwares accept AT+MSG or AT+SENDB (hex). Check your LoRa-E5 AT spec if this fails.
   String cmd = String("AT+SEND=\"") + payload + String("\"\r\n");
   Serial.print(">>> LoRa AT TX: ");
   Serial.print(cmd);
   Serial2.print(cmd);
-
-  // Wait (non-blocking style: you can read responses in pollLoRaSerial())
 }
 
 // Parse incoming serial line(s) from Serial2 for elephant messages or LoRa AT responses
 void processLoRaIncomingLine(const String &line) {
-  String lower = line;
+  String l = line;
+  l.trim();
+  String lower = l;
   lower.toLowerCase();
 
-  // Debug print the raw line
   Serial.print("LoRa RX: ");
-  Serial.println(line);
+  Serial.println(l);
 
-  // Many LoRa-E5 AT firmwares report downlink like:
-  // +MSG: LEN:4, RSSI:-49, SNR:12
-  // +MSG: RX "54455854"
-  // or +RECV: PORT:8; RX:"payload"
-  // So extract the quoted payload if present, otherwise inspect the whole line as text.
   String payload = "";
-
-  // find patterns like RX "payload" or RX:"payload" or +RECV: ... "payload"
-  int firstQuote = line.indexOf('"');
-  int lastQuote = line.lastIndexOf('"');
+  int firstQuote = l.indexOf('"');
+  int lastQuote = l.lastIndexOf('"');
   if (firstQuote >= 0 && lastQuote > firstQuote) {
-    payload = line.substring(firstQuote + 1, lastQuote);
+    payload = l.substring(firstQuote + 1, lastQuote);
   } else {
-    // no quotes -> maybe the firmware prints payload directly, so fallback to the whole line
-    payload = line;
+    payload = l;
   }
-
   payload.trim();
   String payloadLower = payload;
   payloadLower.toLowerCase();
 
-  // If payload contains the word "elephant", trigger signage
   if (payloadLower.indexOf("elephant") >= 0) {
     lastElephantMs = millis();
     signageActive = true;
-    // Reset blink state so LED turns on immediately
     blinkStateOn = true;
     blinkStateChangeAt = millis();
     digitalWrite(SIGN_LED_PIN, HIGH);
     Serial.println("LoRa downlink contained 'elephant' -> signage activated (40s timeout).");
   } else {
-    // Not an elephant message: print for debugging
     Serial.print("LoRa payload (ignored): ");
     Serial.println(payload);
   }
@@ -2893,7 +2906,6 @@ void pollLoRaSerial() {
       }
     } else {
       incomingLine += c;
-      // Keep buffer bounded
       if (incomingLine.length() > 1024) {
         incomingLine = incomingLine.substring(incomingLine.length() - 512);
       }
@@ -2904,7 +2916,6 @@ void pollLoRaSerial() {
 // Non-blocking blink update; keep LED toggling while signageActive
 void updateBlinkState() {
   if (!signageActive) {
-    // ensure LED off
     if (blinkStateOn) {
       blinkStateOn = false;
       digitalWrite(SIGN_LED_PIN, LOW);
@@ -2938,6 +2949,7 @@ void updateBlinkState() {
 
 // Vision: poll Grove Vision AI V2 and send vehicle messages via LoRa if vehicles found
 void pollVisionAndReport() {
+  // AI.invoke returns 0 on success in many Seeed libs; keep original logic
   if (!AI.invoke(1, false, false)) { // single invoke, no filter, no image
     for (int i = 0; i < AI.boxes().size(); i++) {
       int score = AI.boxes()[i].score;
@@ -2949,7 +2961,6 @@ void pollVisionAndReport() {
           unsigned long now = millis();
           if (now - lastVehicleSentAt >= VEHICLE_SEND_COOLDOWN_MS) {
             lastVehicleSentAt = now;
-            // Create a compact JSON payload; adjust fields as your backend expects
             String payload = String("{\"event\":\"vehicle\",\"score\":") + String(score) + String(",\"t\":") + String(now) + String("}");
             sendLoRaPayload(payload);
             Serial.printf("Vehicle detected (score %d) -> sent LoRa uplink\n", score);
@@ -2960,42 +2971,35 @@ void pollVisionAndReport() {
       }
     }
   } else {
-    // AI.invoke returned non-zero according to earlier API — nothing or error
-    // Serial.println("Vision: no boxes or invoke returned non-zero");
+    // invoke returned non-zero or no boxes; silent to avoid spamming serial
   }
 }
 
 void setup() {
   Serial.begin(115200);
-  while (!Serial);
+  while (!Serial) { delay(1); }
 
   Serial.println();
-  Serial.println("Signage node (LoRa-E5) booting...");
+  Serial.println("Signage node (ESP32-C6) booting...");
 
   // LED pin
   pinMode(SIGN_LED_PIN, OUTPUT);
   digitalWrite(SIGN_LED_PIN, LOW);
 
-  // init LoRa-E5 serial on Serial2 (hardware serial) with provided pins
-  // Use Serial2 for XIAO ESP32S3 (change pins if you wired differently)
+  // init LoRa-E5 serial on Serial2 with provided pins
   Serial2.begin(LORA_BAUD, SERIAL_8N1, LORA_RX_PIN, LORA_TX_PIN);
   delay(50);
   Serial.println("LoRa-E5 UART (Serial2) initialized.");
 
-  // Give LoRa module a moment and query AT to see if it responds
+  // quick AT test
   delay(200);
-  Serial2.print("AT\r\n"); // send AT test
+  Serial2.print("AT\r\n");
   Serial.println("Sent 'AT' test to LoRa module - check Serial Monitor for response.");
 
-  // init vision ai - wire to hardware serial or the same Serial? Use atSerial (HardwareSerial(0)) as in examples
-  #ifdef ESP32
-    atSerial.begin(115200);
-    AI.begin(&atSerial); // Grove Vision AI using hardware serial 0
-  #else
-    atSerial.begin(115200);
-    AI.begin(&atSerial);
-  #endif
-  Serial.println("Grove Vision AI v2 UART initialized.");
+  // init vision serial (UART1) and AI lib
+  visionSerial.begin(115200, SERIAL_8N1, VISION_RX_PIN, VISION_TX_PIN); // rx, tx
+  AI.begin(&visionSerial);
+  Serial.println("Grove Vision AI v2 UART initialized on visionSerial.");
 
   lastElephantMs = 0;
   signageActive = false;
@@ -3008,23 +3012,19 @@ void setup() {
   Serial.println("Setup complete.");
 }
 
-// Main loop: poll LoRa input, update blink state, and periodically poll vision
 void loop() {
-  // 1) Handle incoming LoRa messages from other nodes (downlinks or P2P test responses)
   pollLoRaSerial();
-
-  // 2) Update blink state machine (non-blocking)
   updateBlinkState();
 
-  // 3) Poll vision at intervals and optionally report vehicles
   if (millis() - lastVisionPollAt >= VISION_POLL_MS) {
     lastVisionPollAt = millis();
     pollVisionAndReport();
   }
 
-  // small yield
   delay(10);
 }
+
+
 
 
 🔋 Powering the System:
@@ -3105,7 +3105,7 @@ CAD Modeling:
 
 Using Fusion 360 design a mounting bracket that matches the dimensions of the acrylic signboard enclosure
 
-<img width="1200" height="1044" alt="image" src="https://github.com/user-attachments/assets/11ff694e-0069-4f8e-84b6-fc86b9d828be" />
+<img width="544" height="429" alt="image" src="https://github.com/user-attachments/assets/731fa66b-c7cb-4b61-af7f-43f367e908b9" />
 
 
 Printing:
@@ -3116,7 +3116,7 @@ Assembly:
 
 Once printed, the enclosure was carefully slotted into the mount
 
-<img width="1200" height="1002" alt="image" src="https://github.com/user-attachments/assets/e8d25165-6895-4468-844c-30348152ce39" />
+<img width="312" height="555" alt="image" src="https://github.com/user-attachments/assets/005ec5b2-7e2a-4e39-9946-4a411e5bf96e" />
 
 
 Secure with M4 bolts on either side to lock it in place.The mount was then clamped or screwed onto a metal/PVC pole, completing the physical installation.
@@ -3168,7 +3168,7 @@ Role-based login form for      Community and Officer accounts.
 
 Credentials validation to      provide access to dashboards.
 
-<img width="740" height="361" alt="image" src="https://github.com/user-attachments/assets/8f2e5a7c-56f7-498a-bf32-265948d7b607" />
+<img width="740" height="361" alt="image" src="https://github.com/user-attachments/assets/290bfc39-8ff9-4cea-80c8-c8572fbd5597" />
 
 
 Dashboard
@@ -3181,9 +3181,9 @@ Community Users: Elephant,      Boar, Bird monitoring.
 
 Officers: Illegal Activity,      Deforestation, Anti-Poaching.
 
-<img width="740" height="193" alt="image" src="https://github.com/user-attachments/assets/f3bea2cf-55ec-43bc-8c73-85aecbc139b4" />
+<img width="740" height="193" alt="image" src="https://github.com/user-attachments/assets/369099a1-d4ad-4580-8ad8-73804bc15ad8" />
 
-<img width="740" height="192" alt="image" src="https://github.com/user-attachments/assets/a65f18b0-7338-4901-93bc-060448d6554f" />
+<img width="740" height="192" alt="image" src="https://github.com/user-attachments/assets/b77e0503-51d9-4feb-abbf-3dfa40f47231" />
 
 
 
@@ -3193,10 +3193,10 @@ Shows feature-specific      information, detection logs, uploaded images, and li
 
 For Elephant detection: Map      showing detected locations (Kothamangalam, Kottapady), sample images, and      hardware integration details.
 
-<img width="740" height="350" alt="image" src="https://github.com/user-attachments/assets/ebe4eefc-b74b-4286-9828-41bc90cc1d59" />
+<img width="740" height="350" alt="image" src="https://github.com/user-attachments/assets/fea9fe55-34ac-4662-868b-1408ce5a9abc" />
 
 
-<img width="740" height="355" alt="image" src="https://github.com/user-attachments/assets/6dbe1b29-c80f-4fd6-8647-2628dd50256d" />
+<img width="740" height="355" alt="image" src="https://github.com/user-attachments/assets/be1e7e4c-6ca2-4001-88dd-9210389fec57" />
 
 
 AI-powered detection using      hardware nodes deployed in forests.
@@ -3242,13 +3242,16 @@ After completing the first version of the EleTect Signage node, we designed and 
 [printing video](https://youtube.com/shorts/Y8RRU8p8Xps?si=zQXjvkMarSZ--831)
 
 
-<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/a998a3d8-1215-48d3-a0ba-1d8ca41bfe47" />
 
-<img width="1200" height="900" alt="image" src="https://github.com/user-attachments/assets/8d65bafa-9d66-44b1-974a-315e5915f416" />
+<img width="944" height="1280" alt="image" src="https://github.com/user-attachments/assets/0cde32bd-c0c2-4785-a404-286a4fd64671" />
 
-<img width="555" height="555" alt="image" src="https://github.com/user-attachments/assets/aa573d28-acbb-47fd-be4e-234aa39c78cf" />
+<img width="720" height="1280" alt="image" src="https://github.com/user-attachments/assets/6d0583db-c9c4-4ed4-a7f7-b74e0461f228" />
 
-<img width="555" height="555" alt="image" src="https://github.com/user-attachments/assets/dfb51538-81c6-469e-bc41-bcce0569a590" />
+<img width="720" height="1280" alt="image" src="https://github.com/user-attachments/assets/0bd81789-214d-4fb2-9aca-94e2dd45e7d7" />
+
+<img width="1100" height="1280" alt="image" src="https://github.com/user-attachments/assets/a67f362b-1634-4aea-b6e4-0d0b2129f68e" />
+
+
 
 
 The entire signage housing was redesigned in Fusion 360 and is now 100% 3D-printed, making it:
@@ -3268,8 +3271,8 @@ The new enclosure includes proper mounting slots, structured ribs for reinforcem
 
 [Initial test video](https://youtube.com/shorts/t8Q6Qv7HXrM?si=4E1iOYaPRBNmvcE8)
  
-<img width="555" height="555" alt="image" src="https://github.com/user-attachments/assets/ead70b69-7d91-4987-93e2-44d7400d840b" />
 
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/da4ef343-ecb4-4a11-96bd-0f479ce099ff" />
 
 
 Instead of the earlier panel, the V2 design uses a custom 12V high-brightness LED strip module, which:
@@ -3366,7 +3369,9 @@ To keep the system field-ready, weatherproof, and modular, the entire enclosure 
 
 CAD Design (Fusion 360)
 
-<img width="472" height="555" alt="image" src="https://github.com/user-attachments/assets/dd6463f7-e734-4dbf-a773-52b5456d5140" />
+
+
+<img width="472" height="555" alt="image" src="https://github.com/user-attachments/assets/24e76f0d-8844-459f-bc50-3e1b5fb4c2b3" />
 
 
 Fusion 360 was used for parametric enclosure modeling.
@@ -3402,23 +3407,25 @@ Custom vent plugs printed with hydrophobic membranes for condensation control.
 
 
 
-<img width="739" height="555" alt="image" src="https://github.com/user-attachments/assets/ff78bdc1-e63a-4241-a137-837a18aabc97" />
 
-<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/8c7a53aa-48e9-4207-bc66-243846bb678c" />
+<img width="739" height="555" alt="image" src="https://github.com/user-attachments/assets/cebb8788-ae68-40de-819d-c46bc15c2d65" />
+
+<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/805a0ad2-e39e-4708-b976-d0d3a2bdab7b" />
 
 
 
 Laser Cutting (Acrylic/Aluminum):
 
-<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/7c6a211a-a9d3-499f-a0d5-3ff298772317" />
+
+https://youtu.be/7UxaaglWzvg
 
 
 Acrylic faceplates (transparent IR-filter window for camera, clear slots for strobes).
 
-<img width="771" height="437" alt="image" src="https://github.com/user-attachments/assets/cf0f1b88-85d4-42b2-98df-76d9b51916d5" />
+<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/10ead77f-ebff-439c-8157-c64f9bf6aeb5" />
 
 
-<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/a31cdc53-b4ee-408b-9e31-908f04dc572e" />
+<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/add23561-1432-44cb-bf79-27168ed13fef" />
 
 
 Assembly:
@@ -3430,8 +3437,7 @@ Rubber gaskets + O-rings used at lid seams and aviation connectors.
 Speakers mounted on vibration-isolating rubber grommets.
 
 
-<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/7a24247c-44a5-4c0d-a940-81ced77e3dde" />
-
+<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/e1d4ac6d-50da-4f41-8630-85776ac697f5" />
 
 
 
@@ -3453,7 +3459,7 @@ Cross-project reuse → same enclosure shell works for EleTect Razor, Ember, or 
 🆕 EleTect Node: Upgraded, Rugged, and Multi-Threat Aware
 
 
-<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/f307358a-8da0-4bd5-b7d5-b89e5c459f51" />
+<img width="771" height="437" alt="image" src="https://github.com/user-attachments/assets/56ceb2ca-b233-498e-8ac2-0fee9f439470" />
 
 
 The latest version of the EleTect Node introduces major enhancements — both in structural durability and AI functionality — transforming it into a powerful multi-threat early warning system for forest-edge safety.
@@ -3482,11 +3488,14 @@ Vehicle Sound Detection — For situational awareness at road crossings
 
 These Edge AI models are trained using Edge Impulse and run entirely on-device, enabling fast, cloud-free response using minimal power.
 
-<img width="424" height="555" alt="image" src="https://github.com/user-attachments/assets/cd39bd04-a614-4fbc-a73e-6b32c8c3f4c5" />
-<img width="1200" height="746" alt="image" src="https://github.com/user-attachments/assets/3b46d827-a406-40e2-8f2e-7c1632f2adeb" />
+
+<img width="720" height="1280" alt="image" src="https://github.com/user-attachments/assets/c7375719-56d6-4108-9beb-ee90090cb2ef" />
+
+<img width="1200" height="746" alt="image" src="https://github.com/user-attachments/assets/d4daa035-44eb-4971-9398-d3af3ce8ef5a" />
 
 
-<img width="1200" height="697" alt="image" src="https://github.com/user-attachments/assets/eed42232-37fd-4898-8598-76828c0a0058" />
+
+
 
 
 
@@ -3502,7 +3511,6 @@ This dramatically improves coverage in dense forest terrain and during low-light
 
 Power, Build & Connectors
 
-<img width="416" height="555" alt="image" src="https://github.com/user-attachments/assets/76f1d5e9-40a8-4903-af2f-f37246d44d23" />
 
 
 Standard activity (MED):

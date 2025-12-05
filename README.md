@@ -538,7 +538,6 @@ Click on deploy and connect your grove vision V2.
  
  
 <img width="740" height="422" alt="image" src="https://github.com/user-attachments/assets/455701d6-3bc3-47af-b77b-8a5cfa637059" />
-<img width="740" height="555" alt="image" src="https://github.com/user-attachments/assets/8af61c78-db93-43e9-a621-4c465c4a2397" />
 
 Press Confirm and you are good to go.Now that we have done training the vision based model, now we can train the audio model also for increased accuracy
 
@@ -552,28 +551,38 @@ Add the model to Edge Impulse using BYOM Feature.
 
 Now that we have done training the vision based model, now we can train the audio model also for increased accuracy
 Training audio based TinyML model on XIAO ESP32S3 Sense
+
 XIAO ESP32S3 Sense Introduction
+
+<img width="740" height="555" alt="image" src="https://github.com/user-attachments/assets/9cd7c5cb-a51d-4083-a506-6aa4adb3ff2d" />
+
+
+
 
 <img width="638" height="555" alt="image" src="https://github.com/user-attachments/assets/2b3910d9-9141-4f72-bbd8-f7a653a0b4be" />
 
  
 A compact yet powerful development board designed to kickstart your journey into intelligent voice and vision AI. With its integrated camera sensor, digital microphone, and SD card support, this tiny board packs a punch, offering embedded ML computing power and photography capabilities. Whether you're delving into edge computing or exploring AI applications, the XIAO ESP32S3 Sense is your go-to tool for realizing innovative projects with ease and efficiency.
 
-<img width="740" height="393" alt="image" src="https://github.com/user-attachments/assets/0e8e89c8-10bb-4ef5-8ca2-4320f5637fb1" />
 
  
 Edge Impulse Introduction
 
- <img width="740" height="383" alt="image" src="https://github.com/user-attachments/assets/c5bfddec-418f-4bd7-a254-67c6fe35465e" />
+<img width="740" height="393" alt="image" src="https://github.com/user-attachments/assets/0e8e89c8-10bb-4ef5-8ca2-4320f5637fb1" />
+
 
 Edge Impulse is a platform for developing machine learning models specifically designed for edge devices and embedded systems. It provides a comprehensive set of tools and services that enable developers to quickly create, train, and deploy machine learning models without requiring deep expertise in machine learning.
 Recording Audio with XIAO ESP32S3 Sense
 Let's use the onboard SD Card reader to save.wav audio files, we need to habilitate the XIAO PSRAM first.
 
- <img width="680" height="307" alt="image" src="https://github.com/user-attachments/assets/3ec0eec7-5327-424b-9138-ef92c3714f9a" />
+<img width="740" height="383" alt="image" src="https://github.com/user-attachments/assets/e46c42cb-81a3-46f4-a357-e0a141552d32" />
+
 
 Insert the microSD card into the microSD card slot. Please note the direction of insertion, the side with the gold finger should face inward.
 Then compile and upload the following program to XIAO ESP32S3.
+
+
+
 /*
 * WAV Recorder for Seeed XIAO ESP32S3 Sense
 *
@@ -692,8 +701,8 @@ byte_rate, byte_rate >> 8, byte_rate >> 16, byte_rate >> 24, // ByteRate
 wav_size, wav_size >> 8, wav_size >> 16, wav_size >> 24, // Subchunk2Size
 };
 memcpy(wav_header, set_wav_header, sizeof(set_wav_header));
-
 }
+
 
 
 Now, Compile and run the code and get samples of different elephant sounds. You can also capture noise and other sounds. The Serial monitor will prompt you to receive the label to be recorded.
@@ -768,46 +777,8 @@ Before we use the downloaded library, we need to enable the ESP NN Accelerator. 
 Link Address: https://github.com/Mjrovai/XIAO-ESP32S3-Sense/blob/main/ESP-NN.zip
 Then you will get the program, compile and run it.
 
-/* Edge Impulse Arduino examples
-* Copyright (c) 2022 EdgeImpulse Inc.
-*
-* Permission is hereby granted, free of charge, to any person obtaining a copy
-* of this software and associated documentation files (the "Software"), to deal
-* in the Software without restriction, including without limitation the rights
-* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-* copies of the Software, and to permit persons to whom the Software is
-* furnished to do so, subject to the following conditions:
-*
-* The above copyright notice and this permission notice shall be included in
-* all copies or substantial portions of the Software.
-*
-* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-* OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-* SOFTWARE.
-*/
-// These sketches are tested with 2.0.4 ESP32 Arduino Core
-// https://github.com/espressif/arduino-esp32/releases/tag/2.0.4
-// If your target is limited in memory remove this macro to save 10K RAM
+
 #define EIDSP_QUANTIZE_FILTERBANK 0
-/*
-** NOTE: If you run into TFLite arena allocation issue.
-**
-** This may be due to may dynamic memory fragmentation.
-** Try defining "-DEI_CLASSIFIER_ALLOCATION_STATIC" in boards.local.txt (create
-** if it doesn't exist) and copy this file to
-** `<ARDUINO_CORE_INSTALL_PATH>/arduino/hardware/<mbed_core>/<core_version>/`.
-**
-** See
-** (https://support.arduino.cc/hc/en-us/articles/360012076960-Where-are-the-installed-cores-located-)
-** to find where Arduino installs cores on your machine.
-**
-** If the problem persists then there's not enough memory for this model and application.
-*/
-/* Includes ---------------------------------------------------------------- */
 #include <EleTect_inferencing.h>
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
@@ -1066,6 +1037,8 @@ You cannot leave the songs with their names, as there will be a problem when the
 
  
 After naming the files, write the following code on your Arduino.
+
+
 #include "SoftwareSerial.h"
 #include "DFRobotDFPlayerMini.h"
 //Inicia a serial por software nos pinos 10 e 11
@@ -1185,189 +1158,6 @@ Serial.println();
 Serial.println(F("================================================================================================================================="));
 }
 
-
-The code presented above is quite simple and will help you to select the song by its number, stop, pause, control the volume and pass the tracks.
-The musical control consists of sending data from the Arduino IDE serial to our Arduino board.
-Initially, the system makes the configuration in the setup and checks if the SD Card is inserted in the module. If it is not inserted, the system presents a message to alert the user.
-In addition, the system displays messages with system configuration options.
-
-
-void setup()
-{
-//Comunicacao serial com o modulo
-mySoftwareSerial.begin(9600);
-//Inicializa a serial do Arduino
-Serial.begin(115200);
-//Verifica se o modulo esta respondendo e se o
-//cartao SD foi encontrado
-Serial.println();
-Serial.println(F("DFRobot DFPlayer Mini"));
-Serial.println(F("Initializing DFPlayer module ... Wait!"));
-if (!myDFPlayer.begin(mySoftwareSerial))
-{
-Serial.println(F("Not initialized:"));
-Serial.println(F("1. Check the DFPlayer Mini connections"));
-Serial.println(F("2. Insert an SD card"));
-while (true);
-}
-Serial.println();
-Serial.println(F("DFPlayer Mini module initialized!"));
-//Definicoes iniciais
-myDFPlayer.setTimeOut(500); //Timeout serial 500ms
-myDFPlayer.volume(5); //Volume 5
-myDFPlayer.EQ(0); //Equalizacao normal
-menu_opcoes();
-}
-If the memory card is inserted, the code flow will enter the loop function.
-void loop()
-{
-//Waits for data entry via serial
-while (Serial.available() > 0)
-{
-command = Serial.read();
-if ((command >= '1') && (command <= '3'))
-{
-Serial.print("Music reproduction");
-Serial.println(command);
-command = command - 48;
-myDFPlayer.play(command);
-menu_opcoes();
-}
-//Reproduction
-//Stop
-if (command == 's')
-{
-myDFPlayer.stop();
-Serial.println("Music Stopped!");
-menu_opcoes();
-}
-//Pausa/Continua a musica
-if (command == 'p')
-{
-pausa = !pausa;
-if (pausa == 0)
-{
-Serial.println("Continue...");
-myDFPlayer.start();
-}
-if (pausa == 1)
-{
-Serial.println("Music Paused!");
-myDFPlayer.pause();
-}
-menu_opcoes();
-}
-//Increases volume
-if (command == '+')
-{
-myDFPlayer.volumeUp();
-Serial.print("Current volume:");
-Serial.println(myDFPlayer.readVolume());
-menu_opcoes();
-}
-if (command == '<')
-{
-myDFPlayer.previous();
-Serial.println("Previous:");
-Serial.print("Current track:");
-Serial.println(myDFPlayer.readCurrentFileNumber()-1);
-menu_opcoes();
-}
-if (command == '>')
-{
-myDFPlayer.next();
-Serial.println("next:");
-Serial.print("Current track:");
-Serial.println(myDFPlayer.readCurrentFileNumber()+1);
-menu_opcoes();
-}
-//Decreases volume
-if (command == '-')
-{
-myDFPlayer.volumeDown();
-Serial.print("Current Volume:");
-Serial.println(myDFPlayer.readVolume());
-menu_opcoes();
-}
-}
-}
-The user can send the following control characters:
-•	Numbers 1 to 3: Select the song to be played;
-•	Letter s: Stop the song;
-•	Letter p: Pause the song;
-•	Send the + sign: Increase the song volume;
-•	Send the - signal: Decrease the song volume;
-•	Send the signal <: Select the previous song;
-•	Send the signal >: Select the next song;
-
-From these signals, letters, and numbers, the Arduino will receive them via the serial and will control the music to be played.
-Each condition is presented below and internally, with its respective commands.
-
-if ((command >= '1') && (command <= '3'))
-{
-Serial.print("Music reproduction");
-Serial.println(command);
-command = command - 48;
-myDFPlayer.play(command);
-menu_opcoes();
-}
-//Reproduction
-//Stop
-if (command == 's')
-{
-myDFPlayer.stop();
-Serial.println("Music Stopped!");
-menu_opcoes();
-}
-//Pausa/Continua a musica
-if (command == 'p')
-{
-pausa = !pausa;
-if (pausa == 0)
-{
-Serial.println("Continue...");
-myDFPlayer.start();
-}
-if (pausa == 1)
-{
-Serial.println("Music Paused!");
-myDFPlayer.pause();
-}
-menu_opcoes();
-}
-//Increases volume
-if (command == '+')
-{
-myDFPlayer.volumeUp();
-Serial.print("Current volume:");
-Serial.println(myDFPlayer.readVolume());
-menu_opcoes();
-}
-if (command == '<')
-{
-myDFPlayer.previous();
-Serial.println("Previous:");
-Serial.print("Current track:");
-Serial.println(myDFPlayer.readCurrentFileNumber()-1);
-menu_opcoes();
-}
-if (command == '>')
-{
-myDFPlayer.next();
-Serial.println("next:");
-Serial.print("Current track:");
-Serial.println(myDFPlayer.readCurrentFileNumber()+1);
-menu_opcoes();
-}
-//Decreases volume
-if (command == '-')
-{
-myDFPlayer.volumeDown();
-Serial.print("Current Volume:");
-Serial.println(myDFPlayer.readVolume());
-menu_opcoes();
-}
-}
 
 
 LoRa communication from Nodes to Master
@@ -1593,10 +1383,427 @@ delay(3000);
 }
 
 
+The code presented above is quite simple and will help you to select the song by its number, stop, pause, control the volume and pass the tracks.
+
+The musical control consists of sending data from the Arduino IDE serial to our Arduino board.
+
+Initially, the system makes the configuration in the setup and checks if the SD Card is inserted in the module. If it is not inserted, the system presents a message to alert the user.
+
+In addition, the system displays messages with system configuration options.
+
+void setup()
+{
+//Comunicacao serial com o modulo
+mySoftwareSerial.begin(9600);
+//Inicializa a serial do Arduino
+Serial.begin(115200);
+//Verifica se o modulo esta respondendo e se o
+//cartao SD foi encontrado
+Serial.println();
+Serial.println(F("DFRobot DFPlayer Mini"));
+Serial.println(F("Initializing DFPlayer module ... Wait!"));
+if (!myDFPlayer.begin(mySoftwareSerial))
+{
+Serial.println(F("Not initialized:"));
+Serial.println(F("1. Check the DFPlayer Mini connections"));
+Serial.println(F("2. Insert an SD card"));
+while (true);
+}
+Serial.println();
+Serial.println(F("DFPlayer Mini module initialized!"));
+//Definicoes iniciais
+myDFPlayer.setTimeOut(500); //Timeout serial 500ms
+myDFPlayer.volume(5); //Volume 5
+myDFPlayer.EQ(0); //Equalizacao normal
+menu_opcoes();
+}
+
+If the memory card is inserted, the code flow will enter the loop function.
+
+void loop()
+{
+//Waits for data entry via serial
+while (Serial.available() > 0)
+{
+command = Serial.read();
+if ((command >= '1') && (command <= '3'))
+{
+Serial.print("Music reproduction");
+Serial.println(command);
+command = command - 48;
+myDFPlayer.play(command);
+menu_opcoes();
+}
+//Reproduction
+//Stop
+if (command == 's')
+{
+myDFPlayer.stop();
+Serial.println("Music Stopped!");
+menu_opcoes();
+}
+//Pausa/Continua a musica
+if (command == 'p')
+{
+pausa = !pausa;
+if (pausa == 0)
+{
+Serial.println("Continue...");
+myDFPlayer.start();
+}
+if (pausa == 1)
+{
+Serial.println("Music Paused!");
+myDFPlayer.pause();
+}
+menu_opcoes();
+}
+//Increases volume
+if (command == '+')
+{
+myDFPlayer.volumeUp();
+Serial.print("Current volume:");
+Serial.println(myDFPlayer.readVolume());
+menu_opcoes();
+}
+if (command == '<')
+{
+myDFPlayer.previous();
+Serial.println("Previous:");
+Serial.print("Current track:");
+Serial.println(myDFPlayer.readCurrentFileNumber()-1);
+menu_opcoes();
+}
+if (command == '>')
+{
+myDFPlayer.next();
+Serial.println("next:");
+Serial.print("Current track:");
+Serial.println(myDFPlayer.readCurrentFileNumber()+1);
+menu_opcoes();
+}
+//Decreases volume
+if (command == '-')
+{
+myDFPlayer.volumeDown();
+Serial.print("Current Volume:");
+Serial.println(myDFPlayer.readVolume());
+menu_opcoes();
+}
+}
+}
+
+The user can send the following control characters:
+
+Numbers 1 to 3: Select the song to be played;
+Letter s: Stop the song;
+Letter p: Pause the song;
+Send the + sign: Increase the song volume;
+Send the - signal: Decrease the song volume;
+Send the signal <: Select the previous song;
+Send the signal >: Select the next song;
+From these signals, letters, and numbers, the Arduino will receive them via the serial and will control the music to be played.
+
+Each condition is presented below and internally, with its respective commands.
+
+if ((command >= '1') && (command <= '3'))
+{
+Serial.print("Music reproduction");
+Serial.println(command);
+command = command - 48;
+myDFPlayer.play(command);
+menu_opcoes();
+}
+//Reproduction
+//Stop
+if (command == 's')
+{
+myDFPlayer.stop();
+Serial.println("Music Stopped!");
+menu_opcoes();
+}
+//Pausa/Continua a musica
+if (command == 'p')
+{
+pausa = !pausa;
+if (pausa == 0)
+{
+Serial.println("Continue...");
+myDFPlayer.start();
+}
+if (pausa == 1)
+{
+Serial.println("Music Paused!");
+myDFPlayer.pause();
+}
+menu_opcoes();
+}
+//Increases volume
+if (command == '+')
+{
+myDFPlayer.volumeUp();
+Serial.print("Current volume:");
+Serial.println(myDFPlayer.readVolume());
+menu_opcoes();
+}
+if (command == '<')
+{
+myDFPlayer.previous();
+Serial.println("Previous:");
+Serial.print("Current track:");
+Serial.println(myDFPlayer.readCurrentFileNumber()-1);
+menu_opcoes();
+}
+if (command == '>')
+{
+myDFPlayer.next();
+Serial.println("next:");
+Serial.print("Current track:");
+Serial.println(myDFPlayer.readCurrentFileNumber()+1);
+menu_opcoes();
+}
+//Decreases volume
+if (command == '-')
+{
+myDFPlayer.volumeDown();
+Serial.print("Current Volume:");
+Serial.println(myDFPlayer.readVolume());
+menu_opcoes();
+}
+}
+
+LoRa communication from Nodes to Master
+LoRa is a low-power wireless modulation technology that enables devices to communicate over long distances with minimal energy consumption.  devices can communicate directly with each other .
+
+By leveraging LoRa, IoT devices can communicate directly with each other in environments requiring long-distance communication and low power consumption.
+
+Download Library​
+
+The u8g2 library must be installed for this demo. Click to download the library and install it (How to install an Arduino Library).
+https://github.com/olikraus/U8g2_Arduino
+
+Download the example​ to test
+
+Copy the code stick on the Aruino IDE then upload it. One of them is used as a master, and the NODE_SLAVE macro definition in the code needs to be commented out, and the other is used as a slave, and the NODE_SLAVE macro definition in the code needs to be turned on.
+
+
+
+# include <Arduino.h>
+# include <U8x8lib.h>
+// #define NODE_SLAVE
+U8X8_SSD1306_128X64_NONAME_HW_I2C u8x8(/*reset=*/U8X8_PIN_NONE);
+// U8X8_SSD1306_128X64_NONAME_SW_I2C u8x8(/*clock=*/ SCL, /*data=*/ SDA, /*reset=*/ U8X8_PIN_NONE);   // OLEDs without Reset of the Display
+static char recv_buf[512];
+static bool is_exist = false;
+static int at_send_check_response(char *p_ack, int timeout_ms, char*p_cmd, ...)
+{
+int ch = 0;
+int index = 0;
+int startMillis = 0;
+va_list args;
+memset(recv_buf, 0, sizeof(recv_buf));
+va_start(args, p_cmd);
+Serial1.printf(p_cmd, args);
+Serial.printf(p_cmd, args);
+va_end(args);
+delay(200);
+startMillis = millis();
+if (p_ack == NULL)
+{
+return 0;
+}
+do
+{
+while (Serial1.available() > 0)
+{
+ch = Serial1.read();
+recv_buf[index++] = ch;
+Serial.print((char)ch);
+delay(2);
+}
+if (strstr(recv_buf, p_ack) != NULL)
+{
+return 1;
+}
+} while (millis() - startMillis < timeout_ms);
+return 0;
+}
+static int recv_prase(void)
+{
+char ch;
+int index = 0;
+memset(recv_buf, 0, sizeof(recv_buf));
+while (Serial1.available() > 0)
+{
+ch = Serial1.read();
+recv_buf[index++] = ch;
+Serial.print((char)ch);
+delay(2);
+}
+if (index)
+{
+char *p_start = NULL;
+char data[32] = {
+0,
+};
+int rssi = 0;
+int snr = 0;
+p_start = strstr(recv_buf, "+TEST: RX \"5345454544");
+if (p_start)
+{
+p_start = strstr(recv_buf, "5345454544");
+if (p_start && (1 == sscanf(p_start, "5345454544%s", data)))
+{
+data[4] = 0;
+u8x8.setCursor(0, 4);
+u8x8.print("               ");
+u8x8.setCursor(2, 4);
+u8x8.print("RX: 0x");
+u8x8.print(data);
+Serial.print(data);
+Serial.print("\r\n");
+}
+p_start = strstr(recv_buf, "RSSI:");
+if (p_start && (1 == sscanf(p_start, "RSSI:%d,", &rssi)))
+{
+u8x8.setCursor(0, 6);
+u8x8.print("                ");
+u8x8.setCursor(2, 6);
+u8x8.print("rssi:");
+u8x8.print(rssi);
+}
+p_start = strstr(recv_buf, "SNR:");
+if (p_start && (1 == sscanf(p_start, "SNR:%d", &snr)))
+{
+u8x8.setCursor(0, 7);
+u8x8.print("                ");
+u8x8.setCursor(2, 7);
+u8x8.print("snr :");
+u8x8.print(snr);
+}
+return 1;
+}
+}
+return 0;
+}
+static int node_recv(uint32_t timeout_ms)
+{
+at_send_check_response("+TEST: RXLRPKT", 1000, "AT+TEST=RXLRPKT\r\n");
+int startMillis = millis();
+do
+{
+if (recv_prase())
+{
+return 1;
+}
+} while (millis() - startMillis < timeout_ms);
+return 0;
+}
+static int node_send(void)
+{
+static uint16_t count = 0;
+int ret = 0;
+char data[32];
+char cmd[128];
+memset(data, 0, sizeof(data));
+sprintf(data, "%04X", count);
+sprintf(cmd, "AT+TEST=TXLRPKT,\"5345454544%s\"\r\n", data);
+u8x8.setCursor(0, 3);
+u8x8.print("                ");
+u8x8.setCursor(2, 3);
+u8x8.print("TX: 0x");
+u8x8.print(data);
+ret = at_send_check_response("TX DONE", 2000, cmd);
+if (ret == 1)
+{
+count++;
+Serial.print("Sent successfully!\r\n");
+}
+else
+{
+Serial.print("Send failed!\r\n");
+}
+return ret;
+}
+static void node_recv_then_send(uint32_t timeout)
+{
+int ret = 0;
+ret = node_recv(timeout);
+delay(100);
+if (!ret)
+{
+Serial.print("\r\n");
+return;
+}
+node_send();
+Serial.print("\r\n");
+}
+static void node_send_then_recv(uint32_t timeout)
+{
+int ret = 0;
+ret = node_send();
+if (!ret)
+{
+Serial.print("\r\n");
+return;
+}
+if (!node_recv(timeout))
+{
+Serial.print("recv timeout!\r\n");
+}
+Serial.print("\r\n");
+}
+void setup(void)
+{
+u8x8.begin();
+u8x8.setFlipMode(1);
+u8x8.setFont(u8x8_font_chroma48medium8_r);
+Serial.begin(115200);
+// while (!Serial);
+Serial1.begin(9600);
+Serial.print("ping pong communication!\r\n");
+u8x8.setCursor(0, 0);
+if (at_send_check_response("+AT: OK", 100, "AT\r\n"))
+{
+is_exist = true;
+at_send_check_response("+MODE: TEST", 1000, "AT+MODE=TEST\r\n");
+at_send_check_response("+TEST: RFCFG", 1000, "AT+TEST=RFCFG,866,SF12,125,12,15,14,ON,OFF,OFF\r\n");
+delay(200);
+# ifdef NODE_SLAVE
+u8x8.setCursor(5, 0);
+u8x8.print("slave");
+# else
+u8x8.setCursor(5, 0);
+u8x8.print("master");
+# endif
+}
+else
+{
+is_exist = false;
+Serial.print("No E5 module found.\r\n");
+u8x8.setCursor(0, 1);
+u8x8.print("unfound E5 !");
+}
+}
+void loop(void)
+{
+if (is_exist)
+{
+# ifdef NODE_SLAVE
+node_recv_then_send(2000);
+# else
+node_send_then_recv(2000);
+delay(3000);
+# endif
+}
+}
+
 
 Setting up the Master
 
-<img width="536" height="452" alt="image" src="https://github.com/user-attachments/assets/e698ebe4-6a6b-4de4-ab76-beab8c9c6639" />
+
+<img width="734" height="555" alt="image" src="https://github.com/user-attachments/assets/04b1d2c6-d4c3-4f35-ad4a-df58ff1ef36b" />
+
 
  
 The master will house the
@@ -1607,18 +1814,22 @@ The master will house the
 The master will collect the data from all of the deployes data and will send alert to the local people when an elephant is spotted near them and will send the data to the base station where we will be able to monitor the data from all the nodes.
 Using the SIM800L Module for Alert from Master
 
-<img width="740" height="445" alt="image" src="https://github.com/user-attachments/assets/7062e57f-9fbb-4962-9e3f-d8fda558f2d3" />
+
+<img width="514" height="433" alt="image" src="https://github.com/user-attachments/assets/68975f6a-cc88-4619-a45a-47a23089f7a6" />
+
 
  
 The SIM800L is a quad-band GPRS module that is a highly integrated module developed with a TCP/IP protocol stack. SIM800L is a small cellular module allowing GPRS communication, sending and receiving SMS, and making and receiving voice calls.
 it works on frequencies EGSM 900MHz, DCS 1800MHz, and PCS 1900MHz It supports a GPRS connection with download speeds of up to 85.6kbps. The module has an inbuilt TCP/IP stack that allows it to connect to the internet. The SIM800L also has an inbuilt RTC and can be used to send and receive text messages (SMS). making this module an excellent solution for any project that needs long-range connectivity.
 
-<img width="250" height="555" alt="image" src="https://github.com/user-attachments/assets/dc272502-da42-4c59-9120-2bfb94bdae12" />
+
+<img width="740" height="445" alt="image" src="https://github.com/user-attachments/assets/db39fde0-08f7-433f-bb86-59a9ce19c06b" />
 
  
-Now, insert the SIM card into the back of the SIM800 module. Then, attach the SIM800 TX and RX to the Arduino D8 and D7 respectively. These are the serial UART connections that allow communication between the two modules.
+Now, insert the SIM card into the back of the SIM800 module. 
 If the power to the SIM800L is enough, the onboard LED starts blinking. If there’s not enough power, the LED blinks for almost three seconds and then turns off.
 Here is the full sketch for the AT command test:
+
 #include &lt;SoftwareSerial.h&gt;
 SoftwareSerial sim800l(2,3);
 void setup() {
@@ -1634,7 +1845,10 @@ while (sim800l.available()) {
 Serial.write(sim800l.read());
 }
 }
+
 Test Code
+
+
 #include &lt;SoftwareSerial.h&gt;
 String Arsp, Grsp;
 SoftwareSerial gsm(2, 3); // RX, TX
@@ -1659,6 +1873,7 @@ gsm.println(Arsp);
 }
 
 
+
 Once you upload the code to the Arduino board, you’ll be able to send all the AT commands in order to send/receive text messages or make calls.
 The FONA library is a library for interfacing with the SIM800 module. It allows you to send and receive SMS messages, make and receive calls, and connect to the internet. The SIM800 FONA library is open source and is released under the MIT license. The SIM800 FONA library is easy to use and is well documented. I would recommend this library to anyone looking for an easy way to interface with the SIM800 module.
 The library I recommend is Adafruit’s FONA library you can go to Sketch > Include Library > Manage Libraries and type “FONA” in the search bar.
@@ -1667,7 +1882,6 @@ Download the source and click the library:
 The library comes with a number of examples. The FONA_test sketch provides us access to all the SIM800l functions! If you upload the sketch and use the same wiring diagram.
 The FONA library owns a simple send SMS() function that takes the number and message as parameters and returns true if the message was sent through the network successfully. Here’s an example code that sends one SMS:
 Now we will make code the Arduino mega to send a message to the local people near the device to warn them of elephant sightings.
-
 
 #include &lt;SoftwareSerial.h&gt;
 #include "Adafruit_FONA.h"
@@ -1695,10 +1909,13 @@ delay(1000);
 void loop() {}
 
 
-<img width="579" height="555" alt="image" src="https://github.com/user-attachments/assets/6b6a29f3-5429-40ac-8646-27c09ad24b7f" />
+<img width="250" height="555" alt="image" src="https://github.com/user-attachments/assets/8c38ba22-b387-4922-a21c-f0cc69ce7ad5" />
+
 
  
 Data monitoring and logging using NodeRed from Master
+
+
 A Master will be collecting the information from all the deployed nodes and sending the data to the base station so that the authorities can monitor elephant spotting and the data can be used to analyze the elephant sighting pattern and behaviours so that we can make the solution more efficient and bring in necessary changes and take better actions to avoid elephant-human conflicts and for a better co-existence
 Now lets setup Node-red :
 1.Install Node.js
@@ -1720,14 +1937,16 @@ Then open your comment prompt and type
 node-red
 It will show the initialization of the Node-red in the cmd
 
-<img width="740" height="336" alt="image" src="https://github.com/user-attachments/assets/744de5b9-f94c-4d22-a76c-2ed3c50c39fa" />
+
+<img width="579" height="555" alt="image" src="https://github.com/user-attachments/assets/b514e050-5539-4220-9bbc-993501032f87" />
 
  
 from there copy the http://127.0.0.1:1880/
 and paste it into chrome browser
 and this workspace will open up
 
-<img width="740" height="503" alt="image" src="https://github.com/user-attachments/assets/427bb149-61ad-46d6-b100-6dc8aaaf46a8" />
+
+<img width="740" height="336" alt="image" src="https://github.com/user-attachments/assets/7bed14ee-a16a-4354-bbda-13060bd7b4a5" />
 
  
 After that workspace has opened up we need something called the node-red-dashboard
@@ -1735,16 +1954,20 @@ inorder to install it :
 click on the three bars you see on the top right and then click on manage palette and then go to install section and paste "node-red-dashboard" there and install it
 the window will look like this :
 
-<img width="740" height="407" alt="image" src="https://github.com/user-attachments/assets/be451a78-a2b2-4a26-90c4-ae54a41d000e" />
+
+<img width="740" height="503" alt="image" src="https://github.com/user-attachments/assets/f6bcc149-5035-46b0-8452-2b585e68ab56" />
 
  
 Now we can start setting up the flow in node-red and we will show the data in a table in the dashboard where we can monitor and log the data of elephant sighting from the nodes with the date, time and location
 
-<img width="312" height="555" alt="image" src="https://github.com/user-attachments/assets/a6eed073-5c9b-422c-a0df-267556d89ac0" />
+<img width="740" height="407" alt="image" src="https://github.com/user-attachments/assets/44e7f310-eb6d-46a1-83c5-0dc29813ceeb" />
 
  
 The EleTect dashboard will look like this.
+
+
 Designing and manufacturing the Casing for Nodes and Master
+
 A casing for the Nodes and Master was designed using SolidWorks.
 
 Design of Node
@@ -1762,11 +1985,14 @@ https://youtu.be/xgO9uVvKEzs
 The entire casing was fabricated using 3D printing in our college fablab, I used PLA+ as the material.I will give you the product link.If you need it you can purchase it.I found it quite good.Click on this link to purchase it.The manufacturing was done using Prusa and Ultimaker.
 After the 3D printing process we finally assembled eveything and this is the final product.
 
-<img width="740" height="416" alt="image" src="https://github.com/user-attachments/assets/d1f36288-0709-411a-ae1f-32d578cdfbd7" />
 
-<img width="740" height="429" alt="image" src="https://github.com/user-attachments/assets/21668574-5804-4b26-bdc1-95ea24cd6b21" />
+<img width="740" height="416" alt="image" src="https://github.com/user-attachments/assets/543fd2b5-8d7b-40bc-9f39-c945f82476df" />
 
- 
+
+
+ ![Uploading image.png…]()
+
+
  
 Demonstration
 

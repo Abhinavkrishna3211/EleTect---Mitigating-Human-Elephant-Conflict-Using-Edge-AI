@@ -60,6 +60,9 @@ Following approval, EleTect prototypes were installed along forest boundaries wh
  
  <img width="501" height="273" alt="image" src="https://github.com/user-attachments/assets/0aee2a8a-952d-48a5-813e-ac6e523f9f77" />
 
+ <img width="505" height="269" alt="image" src="https://github.com/user-attachments/assets/0d52f020-86dd-4e84-a31f-97769aa31de0" />
+
+
 Initial trials showed promising outcomes:
 
 •	Locals reported fewer night-time elephant entries after installation.
@@ -3497,6 +3500,7 @@ These Edge AI models are trained using Edge Impulse and run entirely on-device, 
 <img width="1200" height="697" alt="image" src="https://github.com/user-attachments/assets/88f6edb0-e4ed-4eae-a2d8-9603a3a1380d" />
 
 <img width="1200" height="621" alt="image" src="https://github.com/user-attachments/assets/c56e83ab-5c31-474d-a39b-bf9f7e36c5a2" />
+<img width="728" height="501" alt="image" src="https://github.com/user-attachments/assets/323df2d4-5134-4aaf-93d5-f6acfd57bd2b" />
 
 
 

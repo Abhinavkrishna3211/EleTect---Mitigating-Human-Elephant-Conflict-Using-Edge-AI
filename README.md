@@ -3275,7 +3275,9 @@ The new enclosure includes proper mounting slots, structured ribs for reinforcem
 
 
 [Initial test video](https://youtube.com/shorts/t8Q6Qv7HXrM?si=4E1iOYaPRBNmvcE8)
- 
+
+ <img width="1056" height="835" alt="image" src="https://github.com/user-attachments/assets/c15db309-e077-4c44-a4bf-54243c59beac" />
+
 
 <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/da4ef343-ecb4-4a11-96bd-0f479ce099ff" />
 

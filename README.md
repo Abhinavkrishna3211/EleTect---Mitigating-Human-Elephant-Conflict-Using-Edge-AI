@@ -1,4 +1,4 @@
-Introduction
+<img width="1200" height="900" alt="image" src="https://github.com/user-attachments/assets/40d67ee0-4cc8-401e-a252-90442764fe0d" />Introduction
 
 <img width="584" height="555" alt="image" src="https://github.com/user-attachments/assets/2b3768e9-0758-4859-8eb0-c0033813d4c9" />
 
@@ -43,6 +43,26 @@ These alarming numbers reinforced the urgency of deploying a technological mitig
  <img width="710" height="516" alt="image" src="https://github.com/user-attachments/assets/eece9b90-8922-4bef-ba75-1c0a62a89f83" />
 
  <img width="530" height="361" alt="image" src="https://github.com/user-attachments/assets/e181e6d6-e318-4125-b8a9-996dd6c69441" />
+
+
+ 🧪 Real-World Dataset Collection & Model Verification
+
+<img width="1200" height="900" alt="image" src="https://github.com/user-attachments/assets/3400f217-ee16-462b-ba52-7b28d99faeb1" />
+
+
+To build a reliable and region-specific vision model, we collected live elephant imagery directly using the Grove Vision AI V2 camera module. Instead of relying solely on online datasets, we captured real photographs and short video frames of elephants in local forest areas and wildlife reserves. These images reflect true environmental conditions such as lighting changes, foliage density, partial occlusions, and natural elephant posture variations.
+
+After collection, we curated and annotated the dataset to ensure clean bounding boxes and accurate labels. This helped us build a custom dataset tailored to the Western Ghats ecosystem, improving the model’s performance in practical field deployment rather than laboratory conditions.
+
+🧭 Real-World Testing & Model Verification
+
+<img width="1200" height="900" alt="collage" src="https://github.com/user-attachments/assets/e520a31a-9e4b-4706-ac08-564d4f33cc2c" />
+
+
+
+Once the model was trained, we conducted field testing in real environments where elephants are commonly sighted. The vision model was deployed on the Grove Vision AI V2 and tested ON Eelephants. During field tests, the model showed high detection accuracy, correctly identifying elephants even against complex natural backgrounds and challenging lighting conditions.
+
+The system performed consistently and in real-time, validating that the combination of custom dataset + edge deployment works effectively in the wild. These trials confirmed that the model can be trusted for safety-critical use cases, and gave us confidence to move forward with pilot deployment in collaboration with the Forest Department.
 
 
 🏛️ Official Approval & Collaboration

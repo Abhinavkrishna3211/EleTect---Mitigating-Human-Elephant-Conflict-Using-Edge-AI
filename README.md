@@ -1,4 +1,4 @@
-<img width="1200" height="900" alt="image" src="https://github.com/user-attachments/assets/40d67ee0-4cc8-401e-a252-90442764fe0d" />Introduction
+
 
 <img width="584" height="555" alt="image" src="https://github.com/user-attachments/assets/2b3768e9-0758-4859-8eb0-c0033813d4c9" />
 
@@ -46,8 +46,10 @@ These alarming numbers reinforced the urgency of deploying a technological mitig
 
 
  🧪 Real-World Dataset Collection & Model Verification
+ 
 
 <img width="1200" height="900" alt="image" src="https://github.com/user-attachments/assets/3400f217-ee16-462b-ba52-7b28d99faeb1" />
+
 
 
 To build a reliable and region-specific vision model, we collected live elephant imagery directly using the Grove Vision AI V2 camera module. Instead of relying solely on online datasets, we captured real photographs and short video frames of elephants in local forest areas and wildlife reserves. These images reflect true environmental conditions such as lighting changes, foliage density, partial occlusions, and natural elephant posture variations.
@@ -55,6 +57,7 @@ To build a reliable and region-specific vision model, we collected live elephant
 After collection, we curated and annotated the dataset to ensure clean bounding boxes and accurate labels. This helped us build a custom dataset tailored to the Western Ghats ecosystem, improving the model’s performance in practical field deployment rather than laboratory conditions.
 
 🧭 Real-World Testing & Model Verification
+
 
 <img width="1200" height="900" alt="collage" src="https://github.com/user-attachments/assets/e520a31a-9e4b-4706-ac08-564d4f33cc2c" />
 
